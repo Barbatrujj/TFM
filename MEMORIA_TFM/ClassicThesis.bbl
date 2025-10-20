@@ -1,0 +1,399 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global/global}
+  \entry{arnela2016c}{article}{}{}
+    \name{author}{8}{}{%
+      {{hash=AM}{%
+         family={Arnela},
+         familyi={A\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Blandin},
+         familyi={B\bibinitperiod},
+         given={Romain},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dabbaghchian},
+         familyi={D\bibinitperiod},
+         given={Saba},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GO}{%
+         family={Guasch},
+         familyi={G\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=AF}{%
+         family={Alías},
+         familyi={A\bibinitperiod},
+         given={Francesc},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PX}{%
+         family={Pelorson},
+         familyi={P\bibinitperiod},
+         given={Xavier},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=VHA}{%
+         family={Van\bibnamedelima Hirtum},
+         familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={Annemie},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EO}{%
+         family={Engwall},
+         familyi={E\bibinitperiod},
+         given={Olov},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Acoustical Society of America}%
+    }
+    \strng{namehash}{AM+1}
+    \strng{fullhash}{AMBRDSGOAFPXVHAEO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{5}
+    \field{pages}{2852\bibrangedash 2859}
+    \field{title}{Influence of lips on the production of vowels based on finite
+  element simulations and experiments}
+    \field{volume}{139}
+    \field{journaltitle}{The Journal of the Acoustical Society of America}
+    \field{year}{2016}
+  \endentry
+
+  \entry{arnela2016b}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=AM}{%
+         family={Arnela},
+         familyi={A\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Dabbaghchian},
+         familyi={D\bibinitperiod},
+         given={Dabbaghchian},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Blandin},
+         familyi={B\bibinitperiod},
+         given={Blandin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GO}{%
+         family={Guasch},
+         familyi={G\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=EO}{%
+         family={Engwall},
+         familyi={E\bibinitperiod},
+         given={Olof},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=HAV}{%
+         family={Hirtum},
+         familyi={H\bibinitperiod},
+         given={Arnaud\bibnamedelima Van},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=PX}{%
+         family={Pelorson},
+         familyi={P\bibinitperiod},
+         given={Xavier},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM+1}
+    \strng{fullhash}{AMDDBBGOEOHAVPX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{3}
+    \field{pages}{1707\bibrangedash 1718}
+    \field{title}{Effects of glottal opening on the phonation using a two-mass
+  model coupled to a waveguide}
+    \field{volume}{140}
+    \field{journaltitle}{The Journal of the Acoustical Society of America}
+    \field{year}{2016}
+  \endentry
+
+  \entry{atlas_pd5vh}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Atlas Sound}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{note}{Accessed: 2024-08-28}
+    \field{title}{PD-5VH Compression Driver}
+    \verb{url}
+    \verb https://www.atlasied.com/pd-5vh
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{barjau2024}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Barjau},
+         familyi={B\bibinitperiod},
+         given={Ana},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BA1}
+    \strng{fullhash}{BA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{chapter}{12}
+    \field{note}{Archivo PDF}
+    \field{title}{Acústica y Vibraciones}
+    \field{year}{2020}
+  \endentry
+
+  \entry{image_vowel_chart}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={Davius},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{First and second formant of Spanish vowels from Bradlow}
+    \verb{url}
+    \verb https://commons.wikimedia.org/wiki/File:Spanish_Vowel_Formants_Bradlo
+    \verb w1995.png
+    \endverb
+    \field{year}{2011}
+  \endentry
+
+  \entry{python_sounddevice}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=DS}{%
+         family={Developers},
+         familyi={D\bibinitperiod},
+         given={SoundDevice},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DS1}
+    \strng{fullhash}{DS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{note}{Accessed: 2024-05-09}
+    \field{title}{Python SoundDevice Documentation}
+    \verb{url}
+    \verb https://python-sounddevice.readthedocs.io/en/0.4.7/
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{mcm-53-1211}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=EM}{%
+         family={Electronics},
+         familyi={E\bibinitperiod},
+         given={MCM},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EM1}
+    \strng{fullhash}{EM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{note}{Accessed: 2024-08-29}
+    \field{title}{53-1211 Tweeter}
+    \verb{url}
+    \verb https://MCM%20ELECTRONICS/MCM%20ELECTRONICS/53-1211?srsltid=AfmBOopTW
+    \verb kUyFe2MbfUng2pMXythf6Aox0evN0mnsYGT_W5QgUZ_ZHRk&redirect=true
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{eminence-psd2002s}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={Eminence},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E1}
+    \strng{fullhash}{E1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{note}{Accessed: 2024-08-28}
+    \field{title}{PSD 2002S}
+    \verb{url}
+    \verb https://eminence.com.mx/psd-2002s.html
+    \endverb
+  \endentry
+
+  \entry{fant1981source}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=FG}{%
+         family={Fant},
+         familyi={F\bibinitperiod},
+         given={Gunnar},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FG1}
+    \strng{fullhash}{FG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{1}
+    \field{pages}{021\bibrangedash 037}
+    \field{title}{The source filter concept in voice production}
+    \verb{url}
+    \verb https://doi.org/10.1080/14706881.1981.9693572
+    \endverb
+    \field{volume}{22}
+    \field{journaltitle}{STL-QPSR}
+    \field{year}{1981}
+  \endentry
+
+  \entry{torres:2008}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=GBT}{%
+         family={Gallardo},
+         familyi={G\bibinitperiod},
+         given={Begonya\bibnamedelima Torres},
+         giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Epistemus}%
+    }
+    \strng{namehash}{GBT1}
+    \strng{fullhash}{GBT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{chapter}{1}
+    \field{title}{Anatomía Funcional de la Voz}
+    \field{year}{2008}
+  \endentry
+
+  \entry{monacor-ku516}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=IM}{%
+         family={International},
+         familyi={I\bibinitperiod},
+         given={Monacor},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IM1}
+    \strng{fullhash}{IM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{note}{Accessed: 2024-08-28}
+    \field{title}{KU-516}
+    \verb{url}
+    \verb https://www.monacor.com/products/pa-technology/speakers-/horn-speaker
+    \verb s/low-impedance--/ku-516/
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{jones2021}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=JD}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JD1}
+    \strng{fullhash}{JD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{howpublished}{PDF Document}
+    \field{note}{Task Sheet: Linguistics D, October 24, 2021}
+    \field{title}{Daniel Jones and 18 Basic Vowels}
+    \verb{url}
+    \verb https://example.com/yamagen/ling/ling-jones-single2021.pdf
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{pyle-pds221}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=UP}{%
+         family={USA},
+         familyi={U\bibinitperiod},
+         given={Pyle},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UP1}
+    \strng{fullhash}{UP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{note}{Accessed: 2024-08-28}
+    \field{title}{PDS 221 - Midrange/Tweeter Compression Horn Driver}
+    \verb{url}
+    \verb https://pyleusa.com/products/pds221?variant=40212290535459
+    \endverb
+    \field{year}{2024}
+  \endentry
+\enddatalist
+\endinput
