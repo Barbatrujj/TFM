@@ -1,28 +1,45 @@
+# TEST_EMBEDDING.py
 import pandas as pd
 from sentence_transformers import SentenceTransformer
+import chromadb
 
-# 1) Cargar el modelo de embeddings local (no usa internet, no cobra nada)
-print("Cargando modelo local...")
-model = SentenceTransformer("all-MiniLM-L6-v2")
-
-# 2) Leer tu CSV
-print("Cargando papers.csv...")
+# Cargar CSV limpio
 df = pd.read_csv("papers_clean.csv")
+for col in ["summary", "keywords"]:
+    if col not in df.columns:
+        df[col] = ""
+df.fillna("", inplace=True)
+df["text"] = df["title"] + ". " + df["summary"] + " " + df["keywords"]
 
-# Comprobamos que la columna summary exista
-if "summary" not in df.columns:
-    raise ValueError(" ERROR: Tu CSV debe tener una columna llamada 'summary'.")
+texts = df["text"].tolist()
+metadatas = df[["title", "authors", "year", "keywords"]].to_dict(orient="records")
 
-# 3) Función para generar embeddings
-def create_embedding(text):
-    try:
-        return model.encode(str(text)).tolist()
-    except:
-        return None
+# Generar embeddings
+model = SentenceTransformer("all-MiniLM-L6-v2")
+embs = model.encode(texts, show_progress_bar=len(texts)>50, convert_to_numpy=True, batch_size=32)
 
-# 4) Crear los embeddings
-df["embedding"] = df["summary"].apply(create_embedding)
+# Crear cliente persistente (ya guarda automáticamente)
+client = chromadb.PersistentClient(path="./chroma_db")
+collection = client.get_or_create_collection(name="papers_color")
 
-# 5) Guardar resultado
-df.to_csv("papers_with_embeddings.csv", index=False, encoding="utf-8")
-print("Embeddings guardados en: papers_with_embeddings.csv")
+# Insertar documentos
+collection.add(
+    documents=texts,
+    embeddings=embs.tolist(),
+    metadatas=metadatas,
+    ids=[f"doc_{i}" for i in range(len(texts))]
+)
+
+print("Base vectorial creada en ./chroma_db")
+
+# Prueba de consulta
+query = "efecto del color azul en la actividad cerebral"
+q_emb = model.encode([query])[0].tolist()
+res = collection.query(query_embeddings=[q_emb], n_results=3, include=["documents", "metadatas"])
+
+print("\nResultados de prueba:")
+for doc, meta in zip(res["documents"][0], res["metadatas"][0]):
+    print("Título:", meta["title"])
+    print("Autores:", meta.get("authors"))
+    print("Año:", meta.get("year"))
+    print("Texto (inicio):", doc[:200], "...\n")
