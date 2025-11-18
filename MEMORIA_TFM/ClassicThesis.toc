@@ -4,8 +4,8 @@
 \contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Theory}}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}\textbf {Visual cortex}}{2}{section.2.1}%
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Conclusions}}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}\textbf {Conclusions}}{3}{section.3.1}%
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Conclusions}}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}\textbf {Conclusions}}{6}{section.3.1}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{4}{dummy.6}%
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{7}{dummy.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  12 NOV 2025 12:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  18 NOV 2025 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1649,7 +1649,12 @@ Package microtype Info: Character `029' is missing
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 31
 .
- (ClassicThesis.lof)
+ (ClassicThesis.lof
+Overfull \hbox (7.54912pt too wide) in paragraph at lines 7--7
+ [][] []\T1/pplj/m/n/13 Areas of the vi-sual cor-tex, by Leonard J. Press, 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `ClassicThesis.lof'.
 
@@ -1689,25 +1694,80 @@ chapter 2.
 LaTeX Font Warning: Font shape `T1/pplj/b/sc' undefined
 (Font)              using `T1/pplj/b/n' instead on input line 3.
 
-<gfx/AreasOfTheBrain.jpg, id=70, 1204.5pt x 1003.75pt>
+<gfx/AreasOfTheBrain.jpg, id=74, 1204.5pt x 1003.75pt>
 File: gfx/AreasOfTheBrain.jpg Graphic file (type jpg)
 <use gfx/AreasOfTheBrain.jpg>
-Package pdftex.def Info: gfx/AreasOfTheBrain.jpg  used on input line 8.
+Package pdftex.def Info: gfx/AreasOfTheBrain.jpg  used on input line 9.
 (pdftex.def)             Requested size: 184.94292pt x 154.1093pt.
-)
+
+Overfull \hbox (12.73885pt too wide) in paragraph at lines 15--16
+[]\T1/pplj/m/n/13 As it is ex-plained in the first chap-ter of the book \T1/ppl
+j/m/it/13 Neu-roanatomy,
+ []
+
+<gfx/AreasOfTheVisualCortex.png, id=77, 301.125pt x 246.9225pt>
+File: gfx/AreasOfTheVisualCortex.png Graphic file (type png)
+<use gfx/AreasOfTheVisualCortex.png>
+Package pdftex.def Info: gfx/AreasOfTheVisualCortex.png  used on input line 19.
+
+(pdftex.def)             Requested size: 184.94292pt x 151.65862pt.
+
 
 [2
 
 
 
  <./gfx/AreasOfTheBrain.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
+26.
+
+(C:\Users\hecto\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 26--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+
+ []
+
+
+
+[3 <./gfx/AreasOfTheVisualCortex.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--49
+
+ []
+
+
+
+[4]
+Overfull \hbox (1.74762pt too wide) in paragraph at lines 50--53
+\T1/pplj/m/n/13 more com-plex way than V4. It spe-cial-izes above all in achiev
+-
+ []
+
+)
+
+[5]
 \openout2 = `Chapters/Conclusions.aux'.
 
  (Chapters/Conclusions.tex
 chapter 3.
 )
 
-[3
+[6
 
 
 
@@ -1715,23 +1775,9 @@ chapter 3.
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (FrontBackmatter/Bibliography.tex)
-Overfull \hbox (11.34859pt too wide) in paragraph at lines 72--72
-[]\T1/pplj/m/n/13 Marc Ar-nela, Dab-baghchian Dab-baghchian, Blandin Blandin,
- []
-
-
-Overfull \hbox (11.0523pt too wide) in paragraph at lines 72--72
-\T1/pplj/m/n/13 Oriol Guasch, Olof En-g-wall, Ar-naud Van Hir-tum, and Xavier
- []
-
-
-Overfull \hbox (18.35461pt too wide) in paragraph at lines 72--72
-\T1/pplj/m/it/13 Jour-nal of the Acous-ti-cal So-ci-ety of Amer-ica \T1/pplj/m/
-n/13 140.3 (2016), pp. 1707^^U
- []
-
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 12
 .
+
 (C:\Users\hecto\AppData\Local\Programs\MiKTeX\tex/latex/bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
@@ -1742,44 +1788,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (21.7778pt too wide) in paragraph at lines 72--72
-[]\T1/pplj/m/n/13 Ana Bar-jau. \T1/pplj/m/it/13 Acús-tica y Vi-bra-ciones\T1/pp
-lj/m/n/13 . Archivo PDF. 2020. Chap. 12. 
+Overfull \hbox (24.11992pt too wide) in paragraph at lines 72--72
+[]\T1/pplj/m/n/13 Trevor Huff, Navid Ma-habadi, and Prasanna Tadi. \T1/pplj/m/i
+t/13 Neu-roanatomy,
  []
 
 
-Overfull \hbox (14.01755pt too wide) in paragraph at lines 72--72
-\T1/pplj/m/n/13 2024. \T1/pplj/m/sc/13 url\T1/pplj/m/n/13 : [][]$\T1/fvm/m/n/13
- https : / / MCM % 20ELECTRONICS / MCM % 20ELECTRONICS /
- []
-
-
-Overfull \hbox (68.34003pt too wide) in paragraph at lines 72--72
-\T1/fvm/m/n/13 53 -[] 1211 ? srsltid = AfmBOopTWkUyFe2MbfUng2pMXythf6Aox0evN0mn
-sYGT _
- []
-
-
-Overfull \hbox (0.5509pt too wide) in paragraph at lines 72--72
-[]\T1/pplj/m/n/13 Begonya Tor-res Gal-lardo. \T1/pplj/m/it/13 Anatomía Fun-cion
-al de la Voz\T1/pplj/m/n/13 . Epis-
- []
-
-
-Overfull \hbox (2.34554pt too wide) in paragraph at lines 72--72
-\T1/pplj/m/sc/13 url\T1/pplj/m/n/13 : [][]$\T1/fvm/m/n/13 https : / / www . mon
-acor . com / products / pa -[] technology /
+Overfull \hbox (8.40556pt too wide) in paragraph at lines 72--72
+\T1/pplj/m/it/13 Vi-sual Cor-tex\T1/pplj/m/n/13 . Stat-Pearls [In-ter-net]. Sta
+t-Pearls Pub-lish-ing, 2015.
  []
 
 
 
-[4
+[7
 
 
 
-]
-
-[5] (ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
+] (ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
 (FrontBackmatter/Abstract.aux) (FrontBackmatter/Acknowledgments.aux)
 (FrontBackmatter/Contents.aux) (Chapters/Introduction.aux) (Chapters/Theory.aux
 ) (Chapters/Conclusions.aux) (FrontBackmatter/Bibliography.aux))
@@ -1969,6 +1995,8 @@ FrontBackmatter/Contents.tex
 Chapters/Introduction.tex
 Chapters/Theory.tex
 gfx/AreasOfTheBrain.jpg
+gfx/AreasOfTheVisualCortex.png
+ ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
 Chapters/Conclusions.tex
 FrontBackmatter/Bibliography.tex
    t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
@@ -1984,24 +2012,24 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32412 strings out of 473903
- 627387 string characters out of 5726579
- 1942908 words of memory out of 5000000
- 54667 multiletter control sequences out of 15000+600000
- 630309 words of font info for 119 fonts, out of 8000000 for 9000
+ 32488 strings out of 473903
+ 627849 string characters out of 5726579
+ 1939908 words of memory out of 5000000
+ 54727 multiletter control sequences out of 15000+600000
+ 646707 words of font info for 144 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,112p,10938b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,22n,131p,10938b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/eul
 er/eurb10.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-fpl/fplrc8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/fpl/fplrij8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/be
-ra/fvmr8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pal
-atino/uplb8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
-palatino/uplr8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/u
-rw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (11 pages, 296072 bytes).
+fpl/fplbj8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/fpl/fplrc8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/ber
+a/fvmr8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pala
+tino/uplb8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/p
+alatino/uplr8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/ur
+w/palatino/uplri8a.pfb>
+Output written on ClassicThesis.pdf (13 pages, 398000 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 16486 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 25707 words of extra memory for PDF output out of 29859 (max. 10000000)
 

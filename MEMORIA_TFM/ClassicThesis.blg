@@ -8,8 +8,6 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
-Reallocating 'name_of_file' (item size: 1) to 31 items.
-A level-1 auxiliary file: FrontBackmatter/Dedication.aux
 Reallocating 'name_of_file' (item size: 1) to 29 items.
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 36 items.
@@ -18,20 +16,10 @@ Reallocating 'name_of_file' (item size: 1) to 29 items.
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: Chapters/Introduction.aux
-White space in argument---line 90 of file ClassicThesis.aux
- : \@input{Chapters/Glottal
- :                          excitation system.aux}
-I'm skipping whatever remains of this command
-White space in argument---line 121 of file ClassicThesis.aux
- : \@input{Chapters/Interactive
- :                              interface.aux}
-I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: Chapters/Theory.aux
 Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: Chapters/Conclusions.aux
-White space in argument---line 135 of file ClassicThesis.aux
- : \@input{Chapters/Codes
- :                        Used for the project.aux}
-I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 33 items.
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
@@ -55,45 +43,44 @@ Database file #3: AMiede_Publications.bib
 Biblatex version: 3.20
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 14 entries,
+You've used 2 entries,
             6402 wiz_defined-function locations,
-            1283 strings with 11239 characters,
-and the built_in function-call counts, 83697 in all, are:
-= -- 6161
-> -- 1393
-< -- 404
-+ -- 2271
-- -- 536
-* -- 5931
-:= -- 9160
+            1220 strings with 9452 characters,
+and the built_in function-call counts, 10365 in all, are:
+= -- 775
+> -- 235
+< -- 57
++ -- 344
+- -- 94
+* -- 631
+:= -- 1353
 add.period$ -- 0
-call.type$ -- 14
-change.case$ -- 13
+call.type$ -- 2
+change.case$ -- 1
 chr.to.int$ -- 44
-cite$ -- 26
-duplicate$ -- 9120
-empty$ -- 7437
-format.name$ -- 808
-if$ -- 17126
+cite$ -- 2
+duplicate$ -- 1009
+empty$ -- 799
+format.name$ -- 88
+if$ -- 2112
 int.to.chr$ -- 0
-int.to.str$ -- 29
+int.to.str$ -- 3
 missing$ -- 0
-newline$ -- 397
-num.names$ -- 580
-pop$ -- 4608
+newline$ -- 58
+num.names$ -- 65
+pop$ -- 420
 preamble$ -- 1
-purify$ -- 211
+purify$ -- 39
 quote$ -- 0
-skip$ -- 2549
+skip$ -- 368
 stack$ -- 0
-substring$ -- 10619
-swap$ -- 1826
-text.length$ -- 398
-text.prefix$ -- 13
+substring$ -- 1318
+swap$ -- 184
+text.length$ -- 57
+text.prefix$ -- 1
 top$ -- 1
-type$ -- 464
+type$ -- 56
 warning$ -- 0
-while$ -- 1173
+while$ -- 191
 width$ -- 0
-write$ -- 384
-(There were 3 error messages)
+write$ -- 57
