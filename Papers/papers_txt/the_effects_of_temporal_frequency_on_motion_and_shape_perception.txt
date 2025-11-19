@@ -1,0 +1,5 @@
+the effects of temporal frequency on motion and shape perception
+
+this study investigates how the temporal frequency of visual stimuli affects the perception of motion and shape. the authors show that higher frequencies facilitate motion detection, while lower frequencies improve shape perception. these findings suggest that the brain adjusts visual processing according to the temporal dynamics of the stimulus, implying differentiated mechanisms for shape and motion analysis
+
+Keywords: temporal frequency, motion perception, shape perception, visual processing, visual stimuli, differentiated mechanisms, visual analysis, temporal dynamics

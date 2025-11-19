@@ -1,0 +1,5 @@
+toward a unified theory of visual area v4
+
+this paper proposes a unified theory on the function of the v4 visual area, integrating findings on color, shape, and attention. the authors review neurophysiological and neuroimaging evidence indicating that v4 is not only specialized in color processing, but also participates in the encoding of shape, texture, and spatial organization of visual stimuli. it is proposed that v4 acts as an integrative center that combines chromatic and geometric information, facilitating the coherent perception of objects
+
+Keywords: v4 area, unified theory, color processing, shape coding, texture, spatial organization, information integration, object perception, neurophysiology, neuroimaging

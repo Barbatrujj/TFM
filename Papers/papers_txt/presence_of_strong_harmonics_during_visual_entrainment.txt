@@ -1,0 +1,5 @@
+presence of strong harmonics during visual entrainment
+
+this study investigates the generation of strong harmonics in the visual cortex during rhythmic visual entrainment. using meg, the authors show that periodic visual stimulation produces not only fundamental responses but also multiple harmonics, reflecting complex neural dynamics and the interaction between different cortical networks. the findings help to understand how the frequency and pattern of stimuli modulate neural synchronization and visual perception
+
+Keywords: visual entrainment, harmonics, meg, visual cortex, neural dynamics, cortical networks, neural synchronization, visual perception

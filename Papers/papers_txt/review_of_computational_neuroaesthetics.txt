@@ -1,0 +1,5 @@
+review of computational neuroaesthetics
+
+this review analyzes the emerging field of computational neuroaesthetics, which combines neuroscience, psychology, and computational modeling to understand how the brain responds to aesthetically meaningful stimuli. methods for quantifying neural responses to visual properties such as color, shape, symmetry, and complexity are discussed, as well as machine learning techniques for predicting aesthetic preferences. the work highlights the importance of integrating empirical data with computational models to explore aesthetic perception in a systematic way
+
+Keywords: computational neuroaesthetics, neuroscience, psychology, computational modeling, neural responses, visual properties, machine learning, aesthetic preferences, aesthetic perception, data integration

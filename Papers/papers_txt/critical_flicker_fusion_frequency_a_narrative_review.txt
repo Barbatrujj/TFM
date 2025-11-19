@@ -1,0 +1,5 @@
+critical flicker fusion frequency: a narrative review
+
+this narrative review analyzes the critical flicker fusion frequency (cff), which is the speed at which an intermittent stimulus is perceived as constant. the authors discuss how factors such as luminance, color, age, and fatigue affect cff, as well as its implications for visual perception, display design, and ssvep studies. the paper also synthesizes findings on individual variability and the neural mechanisms that determine the temporal perception of visual stimuli
+
+Keywords: critical flicker fusion frequency, cff, visual perception, luminance, color, age, fatigue, screen design, ssvep, neural mechanisms

@@ -1,0 +1,5 @@
+distributed neural systems for shape perception
+
+this study investigates how the brain perceives shapes using a distributed neural network that includes ventral and dorsal areas of the visual cortex. using fmri, the authors show that different regions encode different levels of shape information, from local features to global representations of objects. the integration of these signals enables efficient and robust shape recognition across variations in size, orientation, and texture, highlighting hierarchical and collaborative processing in visual perception
+
+Keywords: shape perception, distributed neural network, ventral visual cortex, dorsal visual cortex, fmri, shape coding, object recognition, hierarchical processing, signal integration

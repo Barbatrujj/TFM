@@ -1,0 +1,5 @@
+the architecture of the colour centre in the human visual cortex
+
+this study analyzes the functional organization of area v4, considered the color center in the human visual cortex. using fmri, the authors show that v4 is not a single region, but a distributed set of subregions that respond selectively to different aspects of color, such as saturation, contrast, and color constancy. the results support the idea of a distributed cortical network dedicated to color processing, rather than a single module.
+
+Keywords: v4 area, color center, visual cortex, fmri, color processing, functional organization, subregions, saturation, contrast, color constancy

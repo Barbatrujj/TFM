@@ -1,0 +1,5 @@
+human v4 activity patterns predict behavioral performance
+
+this study shows that neural activity in the v4 area of the human brain predicts performance on color-related perceptual tasks. using fmri and multivoxel analysis, the authors demonstrated that activation patterns in v4 contain sufficient information to distinguish perceived colors, even when physical differences in stimuli are small. this suggests that v4 not only passively encodes color, but also reflects the perceptual experience and behavioral performance associated with color
+
+Keywords: v4 area, perceptual performance, fmri, multivoxel analysis, color encoding, perceptual experience, behavioral performance, neural activation

@@ -1,0 +1,5 @@
+ssveps reveal crossmodal pitchvision associations
+
+this study explores crossmodal associations between sound (pitch) and visual perception using steady-state visual evoked potentials (ssveps). the authors show that certain visual frequencies synchronize with specific tones, revealing multisensory integration in the visual and auditory cortex. the findings suggest that the brain integrates information from different sensory modalities to create coherent perceptual experiences, with implications for neuroaesthetics and the design of multisensory stimuli
+
+Keywords: ssveps, crossmodal associations, visual perception, auditory perception, multisensory integration, visual cortex, auditory cortex, perceptual experiences, neuroaesthetics, multisensory design

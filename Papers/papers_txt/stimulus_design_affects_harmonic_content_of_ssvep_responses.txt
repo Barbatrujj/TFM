@@ -1,0 +1,5 @@
+stimulus design affects harmonic content of ssvep responses
+
+this study investigates how the design of visual stimuli influences the harmonic content of ssvep responses. the authors show that variations in frequency, shape, contrast, and color of the stimulus generate different patterns of harmonics in the visual cortex, indicating that the neural response is sensitive to the properties of the stimulus. these findings are relevant for optimizing visual stimulation paradigms and understanding how stimulus structure modulates neural synchronization
+
+Keywords: stimulus design, harmonic content, ssvep, visual cortex, stimulus frequency, stimulus shape, contrast, color, neural synchronization, visual stimulation paradigms

@@ -1,0 +1,5 @@
+the contribution of area v4 to human color vision
+
+this study analyzes the role of the v4 area in color perception in humans. using fmri and lesion studies, the authors show that v4 is crucial for color discrimination and color constancy. activation in v4 allows colors to be perceived stably despite changes in lighting, indicating that this region integrates color information and visual contexts to generate a coherent perceptual experience
+
+Keywords: v4 area, color perception, fmri, color discrimination, color constancy, color integration, perceptual experience, visual context

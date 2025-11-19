@@ -1,0 +1,5 @@
+the processing of color preference in the brain
+
+this study investigates how the brain processes color preferences and which neural areas are involved. using fmri, the authors identified greater activation in regions of the visual cortex (v4) and areas associated with the reward system, such as the ventral striatum, when participants viewed colors they reported as preferred. the results suggest that color preference integrates both visual perception and affective processes, connecting visual aesthetics with motivation and pleasure
+
+Keywords: color preference, fmri, visual cortex, v4 area, reward system, ventral striatum, visual perception, affective processes, visual aesthetics, motivation

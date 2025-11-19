@@ -1,0 +1,5 @@
+functional architecture for disparity and shape in macaque v4
+
+this study investigates how the v4 area of macaques processes disparity and shape information. using neural recordings, the authors show that v4 contains specialized functional maps that encode depth (disparity) and shape features in an integrated manner. these findings suggest that v4 combines spatial and shape information to support three-dimensional perception and representation of complex objects, providing a model of hierarchical and distributed visual architecture
+
+Keywords: v4 area, disparity, shape, macaques, neural recordings, functional maps, three-dimensional perception, object representation, visual architecture, integrated processing

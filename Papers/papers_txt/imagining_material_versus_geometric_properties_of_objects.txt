@@ -1,0 +1,5 @@
+imagining material versus geometric properties of objects
+
+this study examines how the brain differentiates between imagining the material properties (such as texture or brightness) and geometric properties (such as shape or contour) of objects. using fmri, the authors found that imagining material properties activates regions related to ventral tactile and visual perception, while geometric properties involve more dorsal areas associated with spatial analysis. this evidence points to a functional separation in the mental representation of objects based on the type of attribute perceived or imagined
+
+Keywords: imagination of objects, material properties, geometric properties, fmri, ventral visual cortex, dorsal visual cortex, mental representation, tactile perception, spatial analysis

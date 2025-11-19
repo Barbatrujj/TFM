@@ -1,0 +1,5 @@
+the large-scale organization of shape processing in visual cortex
+
+this study explores the large-scale organization of shape processing in the human visual cortex. using fmri and functional connectivity analysis, the authors show that shape processing is not limited to a single region (such as the loc), but involves a distributed network that includes ventral and dorsal areas. functional gradients representing different levels of form abstraction, from local features to global representations of objects, are identified. this suggests a highly integrated and hierarchical visual architecture
+
+Keywords: shape processing, visual cortex, fmri, functional connectivity, distributed network, ventral areas, dorsal areas, functional gradients, shape abstraction, visual architecture

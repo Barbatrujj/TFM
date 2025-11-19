@@ -1,0 +1,5 @@
+specificity of flicker adaptation
+
+this study examines specific neural adaptation to visual flicker. the results show that repeated exposure to intermittent stimuli reduces cortical response, but selectively depending on the frequency and characteristics of the flicker. this indicates that the visual cortex adapts its sensitivity to specific rhythmic stimuli, which has implications for understanding adaptation mechanisms, temporal perception, and the design of visual stimuli in neurophysiological research
+
+Keywords: adaptation to flicker, flicker, cortical response, visual cortex, neuronal sensitivity, temporal perception, adaptation mechanisms, rhythmic stimuli, neurophysiological research

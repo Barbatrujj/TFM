@@ -1,0 +1,5 @@
+the steady-state visual evoked potential in vision research
+
+this review analyzes the use of steady-state visual evoked potentials (ssveps) in vision research. the authors discuss how different visual stimulus frequencies produce specific cortical responses and how these can be used to study perception, attention, and sensory integration. practical applications in studies of cognition, development, and visual pathologies are also reviewed, highlighting the robustness and accuracy of ssveps for mapping neural activity related to rhythmic stimuli
+
+Keywords: steady-state evoked potentials, ssveps, vision research, perception, attention, sensory integration, cognition, visual development, visual pathologies, neural activity

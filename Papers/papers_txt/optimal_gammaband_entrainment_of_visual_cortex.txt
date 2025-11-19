@@ -1,0 +1,5 @@
+optimal gamma-band entrainment of visual cortex
+
+this study explores how the human visual cortex responds to entrainment in the gamma band (~30100 hz) using neuroimaging techniques. the authors show that there is an optimal range of gamma frequencies that maximizes neural synchronization and improves the encoding of visual stimuli. furthermore, they observe that this synchronization facilitates the integration of color, shape, and movement, suggesting applications for the design of visual stimuli that optimize perception and attention
+
+Keywords: visual entrainment, gamma band, visual cortex, neural synchronization, neuroimaging, stimulus encoding, sensory integration, visual perception, attention

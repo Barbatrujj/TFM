@@ -1,0 +1,5 @@
+neuroelectrical brain imaging on perception and appreciation of pictures
+
+this study uses electrical neuroimaging (eeg) techniques to investigate how the brain processes and appreciates visual images. the authors show that the perception of aesthetically pleasing images activates both the visual cortex and regions associated with reward, highlighting the interaction between sensory processing and emotional evaluation. the relationship between visual characteristics of images (color, shape, composition) and neural response is emphasized, offering relevant information for neuroaesthetics and visual design
+
+Keywords: electrical neuroimaging, eeg, visual perception, aesthetic appreciation, visual cortex, reward areas, sensory processing, emotional evaluation, visual characteristics, visual design

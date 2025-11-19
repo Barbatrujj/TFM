@@ -1,0 +1,5 @@
+visual stimulation under 4 hz, not 10 hz, generates distinct responses
+
+this study analyzes how different frequencies of visual stimulation affect cortical response as measured by eeg. the authors show that stimuli at 4 hz generate distinctive responses compared to 10 hz, highlighting that low frequency produces greater synchronization in certain visual areas. these findings suggest that the choice of stimulation frequency is crucial for manipulating cortical activity and designing optimized visual stimuli for perception and neuroaesthetics experiments
+
+Keywords: visual stimulation, low frequencies, eeg, cortical synchronization, visual perception, neuroaesthetics, stimulus design, cortical response

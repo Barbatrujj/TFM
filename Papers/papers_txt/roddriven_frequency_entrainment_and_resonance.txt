@@ -1,0 +1,5 @@
+rod-driven frequency entrainment and resonance
+
+this study analyzes how rods (low-light-sensitive photoreceptors) contribute to cortical entrainment and resonance in response to periodic visual stimuli. using eeg, the authors show that stimulation frequency modulates neuronal response depending on the rod-dominant pathway, highlighting differences between perception in low-light and high-light conditions. the findings provide key information for designing effective visual stimuli in environments with variable lighting and for understanding the contribution of the rod pathway to cortical synchronization
+
+Keywords: visual entrainment, rods, cortical resonance, eeg, rod-dominant pathway, visual perception, variable illumination, cortical synchronization

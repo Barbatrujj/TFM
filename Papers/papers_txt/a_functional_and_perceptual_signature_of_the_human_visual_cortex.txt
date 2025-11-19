@@ -1,0 +1,5 @@
+a functional and perceptual signature of the human visual cortex
+
+this study analyzes the functional and perceptual characteristics of the human visual cortex using fmri techniques and multivoxel analysis. the authors show that different visual areas encode specific attributes such as color, shape, and texture, and that these activation patterns are closely related to the conscious perception of stimuli. the results highlight the existence of a functional signature that reflects how the visual cortex organizes and represents sensory information to generate coherent perceptual experiences
+
+Keywords: visual cortex, fmri, multivoxel analysis, attribute coding, conscious perception, sensory representation, perceptual experience, cortical organization

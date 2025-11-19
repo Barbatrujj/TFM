@@ -1,0 +1,5 @@
+color vision
+
+this paper reviews the neural mechanisms underlying color perception in humans. it describes how the retina encodes color information using three types of cones (s, m, l) sensitive to different wavelengths. in the lateral geniculate nucleus (lgn) and visual cortex, signals are combined in opponent channels (red-green, blue-yellow, luminance) that construct color perception. it emphasizes that color perception is a distributed process, dependent on integration with shape, motion, and luminance.
+
+Keywords: color, perception, retina, lgn, opponent channels, visual cortex, hues, luminance, visual processing, shape-color integration

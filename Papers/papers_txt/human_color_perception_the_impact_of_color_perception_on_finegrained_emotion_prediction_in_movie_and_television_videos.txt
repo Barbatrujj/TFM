@@ -1,0 +1,5 @@
+human color perception: the impact of color perception on fine-grained emotion prediction in movie and television videos
+
+this study explores how color perception in audiovisual content influences automatic emotion prediction. it uses computational models to demonstrate that certain color nuances are associated with specific emotions, improving the accuracy of emotion recognition systems.
+
+Keywords: color perception, emotion prediction, computational aesthetics, affective computing, visual media

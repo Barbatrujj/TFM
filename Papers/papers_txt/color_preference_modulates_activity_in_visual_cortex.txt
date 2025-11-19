@@ -1,0 +1,5 @@
+color preference modulates activity in visual cortex
+
+this study investigates how individuals' color preferences influence visual cortex activity. using fmri, the authors show that preferred colors generate greater activation in visual areas such as v4, and involvement of reward-related regions is also observed. these findings suggest that the aesthetic perception of color is modulated by subjective factors and emotions, integrating visual and affective processing
+
+Keywords: color preference, visual cortex, fmri, v4 area, visual processing, emotions, aesthetic perception, affective integration, cortical activation

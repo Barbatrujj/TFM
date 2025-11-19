@@ -1,0 +1,5 @@
+the processing of color and form: an overview
+
+this review provides an overview of how the brain processes color and shape. the authors discuss findings from neuroimaging, patient studies, and perception experiments, showing that color and shape are processed in partially separate pathways within the visual cortex but are integrated at higher stages for coherent object perception. functional aspects of areas such as v1, v2, and v4 are highlighted, as well as how the interaction between pathways contributes to visual perception and attention
+
+Keywords: color processing, shape processing, visual cortex, neuroimaging, visual perception, pathway integration, visual areas, visual attention

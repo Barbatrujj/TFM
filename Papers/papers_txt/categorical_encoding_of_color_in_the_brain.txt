@@ -1,0 +1,5 @@
+categorical encoding of color in the brain
+
+this study investigates how the brain encodes colors into perceptual categories. using fmri, the authors found that regions of the occipital and temporal cortex respond differently to colors belonging to different linguistic categories, even when the physical differences are minimal. this suggests that color encoding depends not only on sensory perception, but also on cognitive and linguistic factors, demonstrating an interaction between visual perception and conceptual representation
+
+Keywords: color encoding, perceptual categories, fmri, occipital cortex, temporal cortex, sensory perception, cognitive factors, language, perception-concept interaction

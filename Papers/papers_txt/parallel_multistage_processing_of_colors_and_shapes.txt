@@ -1,0 +1,5 @@
+parallel, multi-stage processing of colors and shapes
+
+this study analyzes how the brain processes colors and shapes in parallel and in multiple stages. using fmri, the authors show that different areas of the ventral visual cortex simultaneously process chromatic and geometric attributes, with subsequent integration at higher hierarchical levels. this suggests a model of distributed and specialized visual processing, where object perception depends on the combination of parallel pathways that handle color and shape in a coordinated manner
+
+Keywords: parallel processing, colors, shapes, ventral visual cortex, fmri, hierarchical integration, object perception, parallel pathways, distributed visual processing, specialized processing

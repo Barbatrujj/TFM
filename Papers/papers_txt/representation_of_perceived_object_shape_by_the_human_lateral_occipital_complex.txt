@@ -1,0 +1,5 @@
+representation of perceived object shape by the human lateral occipital complex
+
+this study demonstrates that the lateral occipital complex (loc) of the human brain represents the perceived shape of objects, rather than their simple physical characteristics. using fmri, the authors observed that activity in the loc remains stable even when visual aspects such as texture, color, or lighting change, as long as the perceived shape of the object remains the same. this suggests that the loc plays a crucial role in the abstraction and recognition of shapes, independent of superficial sensory information
+
+Keywords: lateral occipital complex, loc, perceived shape, fmri, object recognition, shape abstraction, sensory independence, visual perception

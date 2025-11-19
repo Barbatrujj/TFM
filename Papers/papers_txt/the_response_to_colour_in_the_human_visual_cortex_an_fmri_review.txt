@@ -1,0 +1,5 @@
+the response to colour in the human visual cortex: an fmri review
+
+this review analyzes fmri studies on how different areas of the human visual cortex respond to color stimuli. it confirms that areas v1, v2, and v4 show specific responses to color information, with v4 playing a central role in conscious color perception. the article also highlights the interaction between color, luminance, and attention, and how these variables modulate cortical activation. mullen proposes a hierarchical model where color perception emerges from a distributed network that integrates spatial and chromatic information
+
+Keywords: fmri, visual cortex, areas v1, v2, v4, color perception, luminance, attention, cortical activation, hierarchical model, distributed network

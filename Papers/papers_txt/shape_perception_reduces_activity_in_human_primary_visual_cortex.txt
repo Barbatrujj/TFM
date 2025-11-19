@@ -1,0 +1,5 @@
+shape perception reduces activity in human primary visual cortex
+
+this study reveals that coherent perception of form reduces activity in the primary visual cortex (v1). using fmri, the authors demonstrated that when observers perceive an organized figure from ambiguous visual stimuli, activity in v1 decreases, while it increases in higher regions such as the lateral occipital complex (loc). these results suggest that shape perception involves hierarchical processing with feedback from higher areas, which optimizes the efficiency of visual processing
+
+Keywords: shape perception, primary visual cortex, v1, fmri, lateral occipital complex, loc, hierarchical processing, feedback, visual efficiency

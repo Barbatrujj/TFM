@@ -1,0 +1,5 @@
+the lateral occipital complex and its role in object recognition
+
+this study delves into the role of the lateral occipital complex (loc) in object recognition. using fmri, it was observed that the loc responds strongly to the perception of complete objects compared to their fragmented parts or stimuli without a coherent shape. furthermore, its activation is associated with conscious identification of objects rather than simple visual detection. these results consolidate the loc as a key region in the visual hierarchy for shape and object recognition
+
+Keywords: lateral occipital complex, loc, object recognition, fmri, visual perception, conscious identification, visual hierarchy, coherent forms

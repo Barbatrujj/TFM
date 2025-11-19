@@ -1,0 +1,5 @@
+ssveps combined with behavioural tasks in perception research
+
+this study combines steady-state visual evoked potentials (ssveps) with behavioral tasks to investigate visual perception. the authors show that ssveps reflect not only cortical response to rhythmic stimuli, but also attention and performance in cognitive tasks. these findings underscore the usefulness of ssveps as a tool for linking neural activity to perceptual behavior and for designing experiments that explore the interaction between visual stimulus and behavioral response
+
+Keywords: ssveps, behavioral tasks, visual perception, attention, cognitive performance, neural activity, perceptual behavior, experimental design

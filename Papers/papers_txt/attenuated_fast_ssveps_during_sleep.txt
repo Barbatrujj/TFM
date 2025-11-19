@@ -1,0 +1,5 @@
+attenuated fast ssveps during sleep
+
+this study investigates how steady-state visual evoked potentials (ssveps) are affected during sleep. using eeg, the authors show that rapid responses to periodic visual stimuli are significantly attenuated compared to wakefulness, indicating a decrease in neural synchronization and cortical sensitivity during different sleep stages. these results help to understand how visual processing and cortical attention change in altered states of consciousness
+
+Keywords: ssveps, sleep, eeg, neural synchronization, cortical sensitivity, visual processing, cortical attention, altered states of consciousness

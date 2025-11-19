@@ -1,0 +1,5 @@
+temporal impulse response functions for luminance and color
+
+this study analyzes how the visual cortex responds to temporal changes in luminance and color using temporal impulse response functions. the authors show that luminance and color perception follow different temporal profiles, indicating that there are separate mechanisms for processing brightness and chromatic information. these findings provide key insights into the temporal processing of visual stimuli and the neural encoding of essential visual attributes
+
+Keywords: response to temporal drive, luminance, color, visual cortex, temporal processing, separate mechanisms, visual perception, neural coding, visual attributes

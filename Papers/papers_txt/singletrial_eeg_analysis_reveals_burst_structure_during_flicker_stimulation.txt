@@ -1,0 +1,5 @@
+single-trial eeg analysis reveals burst structure during flicker stimulation
+
+this study uses eeg analysis in individual trials to examine the structure of neural bursts during intermittent visual stimulation (flicker). the authors show that the cortical response is not continuous, but rather organized into patterns of synchronized bursts that vary according to the frequency of the stimulus. these findings provide insight into the temporal dynamics of the visual cortex and how rhythmic stimuli modulate neural activity in single trials
+
+Keywords: eeg, single trial analysis, neural bursts, intermittent visual stimulation, flicker, temporal dynamics, visual cortex, neural modulation, synchronized patterns

@@ -1,0 +1,5 @@
+a narrative scoping review of neuroaesthetics and visual perception
+
+this narrative review addresses neuroaesthetics and visual perception, exploring how different visual properties (color, shape, light) affect aesthetic experience and brain activity. it highlights neuroimaging studies that show the involvement of the visual cortex, reward-related areas, and frontal regions in aesthetic appreciation. the article also discusses methodological approaches and applications in visual design, art, and interactive environments
+
+Keywords: neuroaesthetics, visual perception, visual properties, aesthetic experience, brain activity, neuroimaging, visual cortex, reward areas, visual design, art

@@ -1,0 +1,5 @@
+a direct demonstration of functional specialization in human visual cortex
+
+this study demonstrates that the human visual cortex is organized into functionally specialized areas for processing different visual attributes, such as color, shape, and motion. using neuroimaging techniques, zeki shows that area v4 is primarily involved in color processing, while area v5 (mt) responds selectively to motion. these findings support the idea that visual perception emerges from the coordinated integration of multiple specialized modules.
+
+Keywords: visual cortex, functional specialization, v4 area, v5 area, color processing, motion processing, neuroimaging, visual perception, specialized modules

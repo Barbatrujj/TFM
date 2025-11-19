@@ -1,0 +1,5 @@
+cortical mechanisms of color vision
+
+this article reviews the cortical mechanisms responsible for color perception. it analyzes the role of visual areas such as v1, v2, and v4 in encoding chromatic information, color constancy, and hue discrimination. it also discusses theoretical models of how the cortex integrates signals from different types of cones and how the interaction between parallel pathways enables stable and accurate color perception
+
+Keywords: cortical mechanisms, color perception, visual cortex, areas v1, v2, v4, color coding, color constancy, hue discrimination, signal integration, parallel pathways

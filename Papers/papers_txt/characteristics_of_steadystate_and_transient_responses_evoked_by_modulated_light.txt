@@ -1,0 +1,5 @@
+characteristics of steady-state and transient responses evoked by modulated light
+
+this classic study analyzes the brain's visual responses to modulated light stimuli, differentiating between transient and steady-state responses. regan shows that ssvep responses are highly dependent on stimulus frequency and that the amplitude and phase of the eeg signal vary according to light modulation. these findings provide the basis for understanding how the visual system encodes temporal information and how visual stimuli can be optimized to generate predictable cortical responses
+
+Keywords: evoked visual potentials, transient responses, steady-state responses, ssvep, light modulation, stimulus frequency, temporal coding, visual system, eeg

@@ -1,0 +1,5 @@
+three cortical stages of colour processing in the human brain
+
+this paper describes three cortical stages in color processing in the human brain. the first occurs in area v1, where neurons respond to simple color contrasts. the second stage, in area v2, integrates signals of different wavelengths. finally, the third stage, in area v4, represents stable and conscious color perception, independent of illumination. the work demonstrates that the experience of color is the result of a hierarchy of progressive processing through the visual cortex.
+
+Keywords: color processing, visual cortex, area v1, area v2, area v4, color perception, cortical hierarchy, color integration, visual experience

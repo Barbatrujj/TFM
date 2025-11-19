@@ -1,0 +1,5 @@
+decoding color and luminance from responses in human visual cortex
+
+this study investigates how the human visual cortex encodes color and luminance information using fmri and multivoxel analysis. the authors show that activation patterns in visual areas, especially v1 and v4, allow for accurate decoding of perceived color and luminance levels. the findings highlight that visual perception does not depend solely on physical stimuli, but on distributed neural representations that integrate color and brightness information
+
+Keywords: visual cortex, color coding, luminance, fmri, multivoxel analysis, visual areas, visual perception, neural representations, color integration, brightness

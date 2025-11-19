@@ -1,0 +1,5 @@
+spatial frequency and flicker interactions in steady-state responses
+
+this study analyzes how spatial frequency and flicker interact to generate steady-state visual evoked potentials (ssveps). the authors show that the amplitude and phase of the responses depend on the combination of spatial and temporal frequency of the stimulus, indicating that the visual cortex processes these properties in an integrated manner. the findings are fundamental to understanding the neural encoding of complex stimuli and optimizing experimental paradigms in visual neurophysiology
+
+Keywords: spatial frequency, flicker, ssveps, visual cortex, neural coding, complex stimuli, visual neurophysiology, property integration, experimental paradigms

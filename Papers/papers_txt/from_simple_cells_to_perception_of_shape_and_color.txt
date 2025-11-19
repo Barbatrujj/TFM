@@ -1,0 +1,5 @@
+from simple cells to perception of shape and color
+
+this study reviews how visual information is transformed from simple cells in the primary cortex into complex perceptions of shape and color. it discusses neural integration mechanisms that allow for the combination of information about contours, orientation, and chromaticity, as well as the interaction between ventral and dorsal pathways. the findings provide a framework for understanding how the brain constructs rich perceptual representations from basic sensory signals
+
+Keywords: simple cells, shape perception, color perception, primary cortex, neural integration, ventral and dorsal pathways, perceptual representations, sensory signals

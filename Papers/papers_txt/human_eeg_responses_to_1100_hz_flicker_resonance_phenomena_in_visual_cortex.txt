@@ -1,0 +1,5 @@
+human eeg responses to 1100 hz flicker: resonance phenomena in visual cortex
+
+this study examines how the human brain responds to intermittent visual stimuli (flicker) in a range from 1 to 100 hz, using eeg. resonance phenomena are identified in the visual cortex, where certain frequencies generate amplified responses, indicating that the brain has optimal frequency bands for visual processing. these findings are fundamental to understanding neural synchronization, temporal stimulus processing, and the design of visual stimuli for research and neurotechnology applications
+
+Keywords: evoked visual potentials, eeg, flicker, cortical resonance, visual cortex, neural synchronization, temporal processing, neurotechnology, stimulus design
