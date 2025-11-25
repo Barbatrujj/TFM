@@ -1,0 +1,5 @@
+emotional connotations of musical instrument timbres
+
+shows that different timbres induce distinct emotional profiles (e.g., oboe=melancholy, trumpet=energetic), essential for audio-emotion mapping.
+
+Keywords: timbre, music emotion, affective response

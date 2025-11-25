@@ -1,0 +1,5 @@
+automatic color palette generation from musical features
+
+machine-learning model converts rhythm, spectral centroid, and timbre into multi-hue palettes aligned with emotional descriptors.
+
+Keywords: color palette, music features, ml, audio-visual mapping

@@ -1,0 +1,5 @@
+emotional responses to music: the need to consider underlying mechanisms
+
+explains six psychological mechanisms by which music induces emotion (brainstem reflexes, contagion, imagery, episodic memory, etc.), forming a basis for audio-emotion modelling.
+
+Keywords: music emotion, mechanisms, affective response, perception

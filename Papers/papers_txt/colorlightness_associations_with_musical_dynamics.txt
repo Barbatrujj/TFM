@@ -1,0 +1,5 @@
+color-lightness associations with musical dynamics
+
+finds that loud musical passages correlate with bright/light colors, while soft passages map to darker tones, based on arousal regulation.
+
+Keywords: dynamics, brightness, emotion, audio-visual mapping

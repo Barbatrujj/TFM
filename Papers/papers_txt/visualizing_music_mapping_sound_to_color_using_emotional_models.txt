@@ -1,0 +1,5 @@
+visualizing music: mapping sound to color using emotional models
+
+proposes computational model that converts music features into color palettes through emotional descriptors (valence-arousal).
+
+Keywords: music visualization, color mapping, valence arousal, computational model

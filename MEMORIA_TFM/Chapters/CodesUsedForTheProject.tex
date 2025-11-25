@@ -1,0 +1,38 @@
+\chapter{Codes used for the project}
+\label{ch:codes_project}
+
+\section{Papers\_clean.py}
+\label{sec: Clean_papers}
+	\begin{lstlisting}[language=Python, caption={Python code to clean problematic characters}]
+		
+	import pandas as pd
+	import re
+	
+	df = pd.read_csv("Papers_Sumary.csv")
+	
+	def clean_text(text):
+	if pd.isna(text):
+	return ""
+	
+	# Remove references like [number] or (year)
+	text = re.sub(r'\[\d+\]|\(\d{4}\)', '', text)
+	
+	# Replace multiple spaces with one
+	text = re.sub(r'\s+', ' ', text)
+	
+	# Remove special characters (ASCII-safe)
+	text = re.sub(r'["\'\-\.]', '', text)
+	
+	# Trim and convert to lowercase
+	text = text.strip().lower()
+	return text
+	
+	df["title"] = df["title"].apply(clean_text)
+	df["summary"] = df["summary"].apply(clean_text)
+	df["keywords"] = df["keywords"].apply(clean_text)
+	
+	df.to_csv("papers_clean.csv", index=False)
+	print("Clean CSV saved as papers_clean.csv")	
+		
+		
+	\end{lstlisting}

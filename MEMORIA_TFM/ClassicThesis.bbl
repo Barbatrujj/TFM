@@ -17,7 +17,29 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global/global}
-  \entry{HuffMahabadiTadi2023}{book}{}{}
+  \entry{hanhardt1986paik}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=HJG}{%
+         family={Hanhardt},
+         familyi={H\bibinitperiod},
+         given={John\bibnamedelima G.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Whitney Museum of American Art}%
+    }
+    \strng{namehash}{HJG1}
+    \strng{fullhash}{HJG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Nam June Paik}
+    \field{year}{1986}
+  \endentry
+
+  \entry{Huff2023}{book}{}{}
     \name{author}{3}{}{%
       {{hash=HT}{%
          family={Huff},
@@ -47,12 +69,82 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{H}
     \field{sortinithash}{H}
-    \field{note}{StatPearls [Internet]}
-    \field{title}{Neuroanatomy, Visual Cortex}
+    \field{title}{Neuroanatomy, visual cortex}
     \verb{url}
     \verb https://www.ncbi.nlm.nih.gov/books/NBK482504/
     \endverb
-    \field{year}{2015}
+    \field{year}{2023}
+  \endentry
+
+  \entry{portapak_mvc}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Maison de la Vidéo \& du Cinéma}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Découvre les caméras — Portapak}
+    \verb{url}
+    \verb https://mvc-acc.dpt.media/decouvre-les-cameras/portapak/
+    \endverb
+    \field{year}{2024}
+    \field{urlday}{15}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{rush2007video}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=RM}{%
+         family={Rush},
+         familyi={R\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Thames \& Hudson}%
+    }
+    \strng{namehash}{RM1}
+    \strng{fullhash}{RM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Video Art}
+    \field{year}{2007}
+  \endentry
+
+  \entry{vasulka1992dialogue}{misc}{}{}
+    \name{author}{2}{}{%
+      {{hash=VS}{%
+         family={Vasulka},
+         familyi={V\bibinitperiod},
+         given={Steina},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VW}{%
+         family={Vasulka},
+         familyi={V\bibinitperiod},
+         given={Woody},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VSVW1}
+    \strng{fullhash}{VSVW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{howpublished}{Electronic Arts Intermix}
+    \field{title}{Dialogue with Steina and Woody Vasulka}
+    \field{year}{1992}
   \endentry
 \enddatalist
 \endinput

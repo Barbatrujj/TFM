@@ -1,0 +1,24 @@
+\chapter{Tips and Guides for the Setup}
+\label{ch:tips_guides_setup}
+
+\section{How to connect an agent with memory}
+	
+	To interact with an agent, you typically use the addMessage operator, which sends a message to the agent and receives a response as seen in Figure \ref{fig: Agent1}. This works well for single exchanges: you ask something, the agent replies, and the interaction ends there. However, addMessage does not support memory, so it cannot maintain an ongoing conversation. Each new message is treated as an isolated request.
+	
+	If you want to create a continuous dialogue with an agent, one in which the agent remembers previous messages, you should use the agentSession operator instead. As shown in Figure \ref{fig: Agent3}, this operator allows you to establish a session that preserves conversational context. To use it, open the operator, go to the Agent Session section, and attach the agent you want to interact with. Once connected, the agent will be able to maintain memory throughout the session. 
+	
+	Additionally, you can enhance the experience by connecting a chatViewer element to the agentSession. This provides a more intuitive, user-friendly interface for viewing and conducting the conversation.	
+
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.8\linewidth]{gfx/Agent1.jpeg}
+		\caption{Connection between the operator addMessage and an Agent in Touch Designer} 
+		\label{fig: Agent1}
+	\end{figure}
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.8\linewidth]{gfx/Agent3.jpeg}
+		\caption{Connection between the operator agentSession and an Agent in Touch Designer} 
+		\label{fig: Agent3}
+	\end{figure}

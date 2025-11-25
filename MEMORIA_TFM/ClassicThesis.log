@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  18 NOV 2025 16:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  24 NOV 2025 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1359,7 +1359,9 @@ File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 (ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
 (FrontBackmatter/Abstract.aux) (FrontBackmatter/Acknowledgments.aux)
 (FrontBackmatter/Contents.aux) (Chapters/Introduction.aux) (Chapters/Theory.aux
-) (Chapters/Conclusions.aux) (FrontBackmatter/Bibliography.aux))
+) (Chapters/Practical part.aux) (Chapters/Conclusions.aux)
+(Chapters/TipsAndGuidesForTheSetup.aux) (Chapters/CodesUsedForTheProject.aux)
+(FrontBackmatter/Bibliography.aux))
 \openout1 = `ClassicThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -1610,6 +1612,10 @@ LaTeX Font Info:    Calculating math sizes for size <13> on input line 6.
 \openout2 = `FrontBackmatter/Acknowledgments.aux'.
 
  (FrontBackmatter/Acknowledgments.tex
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/13'.
+(microtype)             Ignoring protrusion settings for this character.
+
 Overfull \hbox (8.30763pt too wide) in paragraph at lines 25--26
 []\T1/pplj/m/n/13 Mariona, sabíem que aquest repte se-ria com-pli-cat, però l'h
 em
@@ -1627,11 +1633,7 @@ em
  (FrontBackmatter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
- (ClassicThesis.toc
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/pplj/m/sc/13'.
-(microtype)             Ignoring protrusion settings for this character.
-)
+ (ClassicThesis.toc)
 \tf@toc=\write5
 \openout5 = `ClassicThesis.toc'.
 
@@ -1650,7 +1652,13 @@ Package microtype Info: Character `029' is missing
 Package tocbasic Info: character protrusion at lof deactivated on input line 31
 .
  (ClassicThesis.lof
-Overfull \hbox (7.54912pt too wide) in paragraph at lines 7--7
+Overfull \hbox (18.2259pt too wide) in paragraph at lines 6--6
+ [][] []\T1/pplj/m/n/13 Sony Por-ta-pak cam-era (im-age source: [[][]3[][]]) []
+  
+ []
+
+
+Overfull \hbox (7.54912pt too wide) in paragraph at lines 8--8
  [][] []\T1/pplj/m/n/13 Areas of the vi-sual cor-tex, by Leonard J. Press, 
  []
 
@@ -1666,7 +1674,9 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 42
 
 Package tocbasic Info: character protrusion at lol deactivated on input line 54
 .
- (ClassicThesis.lol)
+ (ClassicThesis.lol
+Package tocbasic Info: Using my definition of `\numberline' on input line 10.
+)
 \tf@lol=\write8
 \openout8 = `ClassicThesis.lol'.
 
@@ -1690,84 +1700,193 @@ chapter 1.
 
  (Chapters/Theory.tex
 chapter 2.
-
-LaTeX Font Warning: Font shape `T1/pplj/b/sc' undefined
-(Font)              using `T1/pplj/b/n' instead on input line 3.
-
-<gfx/AreasOfTheBrain.jpg, id=74, 1204.5pt x 1003.75pt>
-File: gfx/AreasOfTheBrain.jpg Graphic file (type jpg)
-<use gfx/AreasOfTheBrain.jpg>
-Package pdftex.def Info: gfx/AreasOfTheBrain.jpg  used on input line 9.
-(pdftex.def)             Requested size: 184.94292pt x 154.1093pt.
-
-Overfull \hbox (12.73885pt too wide) in paragraph at lines 15--16
-[]\T1/pplj/m/n/13 As it is ex-plained in the first chap-ter of the book \T1/ppl
-j/m/it/13 Neu-roanatomy,
- []
-
-<gfx/AreasOfTheVisualCortex.png, id=77, 301.125pt x 246.9225pt>
-File: gfx/AreasOfTheVisualCortex.png Graphic file (type png)
-<use gfx/AreasOfTheVisualCortex.png>
-Package pdftex.def Info: gfx/AreasOfTheVisualCortex.png  used on input line 19.
-
-(pdftex.def)             Requested size: 184.94292pt x 151.65862pt.
+<gfx/Portapack.jpg, id=109, 293.898pt x 293.898pt>
+File: gfx/Portapack.jpg Graphic file (type jpg)
+<use gfx/Portapack.jpg>
+Package pdftex.def Info: gfx/Portapack.jpg  used on input line 10.
+(pdftex.def)             Requested size: 184.94292pt x 184.94594pt.
 
 
 [2
 
 
 
- <./gfx/AreasOfTheBrain.jpg>]
+]
+<gfx/AreasOfTheBrain.jpg, id=120, 1204.5pt x 1003.75pt>
+File: gfx/AreasOfTheBrain.jpg Graphic file (type jpg)
+<use gfx/AreasOfTheBrain.jpg>
+Package pdftex.def Info: gfx/AreasOfTheBrain.jpg  used on input line 22.
+(pdftex.def)             Requested size: 184.94292pt x 154.1093pt.
+
+Overfull \hbox (12.73885pt too wide) in paragraph at lines 28--29
+[]\T1/pplj/m/n/13 As it is ex-plained in the first chap-ter of the book \T1/ppl
+j/m/it/13 Neu-roanatomy,
+ []
+
+
+
+[3 <./gfx/Portapack.jpg> <./gfx/AreasOfTheBrain.jpg>]
+<gfx/AreasOfTheVisualCortex.png, id=127, 301.125pt x 246.9225pt>
+File: gfx/AreasOfTheVisualCortex.png Graphic file (type png)
+<use gfx/AreasOfTheVisualCortex.png>
+Package pdftex.def Info: gfx/AreasOfTheVisualCortex.png  used on input line 32.
+
+(pdftex.def)             Requested size: 184.94292pt x 151.65862pt.
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-26.
+39.
 
 (C:\Users\hecto\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 26--32
+Underfull \hbox (badness 10000) in paragraph at lines 39--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
-
- []
-
-
-
-[3 <./gfx/AreasOfTheVisualCortex.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
 
  []
 
 
 
-[4]
-Overfull \hbox (1.74762pt too wide) in paragraph at lines 50--53
+[4 <./gfx/AreasOfTheVisualCortex.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--58
+
+ []
+
+
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
+
+ []
+
+
+Overfull \hbox (1.74762pt too wide) in paragraph at lines 63--66
 \T1/pplj/m/n/13 more com-plex way than V4. It spe-cial-izes above all in achiev
 -
  []
 
 )
 
-[5]
+[6]
+\openout2 = `"Chapters/Practical part.aux"'.
+
+ (Chapters/Practical part.tex
+chapter 3.
+
+
+[7
+
+
+
+]
+Overfull \hbox (5.51836pt too wide) in paragraph at lines 22--24
+\T1/pplj/m/n/13 pro-vided by the user. When em-bed-dings are gen-er-ated, these
+
+ []
+
+<gfx/ExampleOfCSV.png, id=150, 1032.85875pt x 567.3195pt>
+File: gfx/ExampleOfCSV.png Graphic file (type png)
+<use gfx/ExampleOfCSV.png>
+Package pdftex.def Info: gfx/ExampleOfCSV.png  used on input line 32.
+(pdftex.def)             Requested size: 369.88583pt x 203.16144pt.
+
+Overfull \hbox (4.04172pt too wide) in paragraph at lines 37--38
+[]\T1/pplj/m/n/13 The next step in-volved pro-cess-ing the in-for-ma-tion con-t
+ained
+ []
+
+
+
+[8 <./gfx/ExampleOfCSV.png>]
+Overfull \hbox (1.67245pt too wide) in paragraph at lines 39--40
+\T1/pplj/m/n/13 stan-dard-ized and com-pat-i-ble with the agent's re-quire-ment
+s. This
+ []
+
+)
+
+[9]
 \openout2 = `Chapters/Conclusions.aux'.
 
  (Chapters/Conclusions.tex
-chapter 3.
+chapter 4.
+
+LaTeX Font Warning: Font shape `T1/pplj/b/sc' undefined
+(Font)              using `T1/pplj/b/n' instead on input line 2.
+
 )
 
-[6
+[10
+
+
+
+]
+\openout2 = `Chapters/TipsAndGuidesForTheSetup.aux'.
+
+ (Chapters/TipsAndGuidesForTheSetup.tex
+chapter A.
+
+Overfull \hbox (7.53093pt too wide) in paragraph at lines 8--9
+\T1/pplj/m/n/13 one in which the agent re-mem-bers pre-vi-ous mes-sages, you sh
+ould
+ []
+
+<gfx/Agent1.jpeg, id=167, 456.95718pt x 326.72063pt>
+File: gfx/Agent1.jpeg Graphic file (type jpg)
+<use gfx/Agent1.jpeg>
+Package pdftex.def Info: gfx/Agent1.jpeg  used on input line 14.
+(pdftex.def)             Requested size: 295.90979pt x 211.5782pt.
+
+
+[11
+
+
+
+]
+<gfx/Agent3.jpeg, id=172, 1204.5pt x 600.74437pt>
+File: gfx/Agent3.jpeg Graphic file (type jpg)
+<use gfx/Agent3.jpeg>
+Package pdftex.def Info: gfx/Agent3.jpeg  used on input line 21.
+(pdftex.def)             Requested size: 295.90979pt x 147.5824pt.
+
+Underfull \hbox (badness 1199) in paragraph at lines 22--22
+[][]|\T1/pplj/m/n/12 Con-nec-tion be-tween the op-er-a-tor agentSes-sion and an
+
+ []
+
+)
+
+[12 <./gfx/Agent1.jpeg> <./gfx/Agent3.jpeg>]
+\openout2 = `Chapters/CodesUsedForTheProject.aux'.
+
+
+(Chapters/CodesUsedForTheProject.tex
+chapter B.
+(C:\Users\hecto\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 6.
+
+
+(C:\Users\hecto\AppData\Local\Programs\MiKTeX\tex/latex/bera\t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 10.20007pt on input line 6.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+
+[13
 
 
 
@@ -1775,40 +1894,31 @@ chapter 3.
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (FrontBackmatter/Bibliography.tex)
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 12
-.
+Overfull \hbox (4.01074pt too wide) in paragraph at lines 75--75
+[]\T1/pplj/m/n/13 John G. Han-hardt. \T1/pplj/m/it/13 Nam June Paik\T1/pplj/m/n
+/13 . Whit-ney Mu-seum of Amer-
+ []
 
-(C:\Users\hecto\AppData\Local\Programs\MiKTeX\tex/latex/bera\t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 11.05008pt on input line 12.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `fvm' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
-Overfull \hbox (24.11992pt too wide) in paragraph at lines 72--72
+Overfull \hbox (24.11992pt too wide) in paragraph at lines 75--75
 []\T1/pplj/m/n/13 Trevor Huff, Navid Ma-habadi, and Prasanna Tadi. \T1/pplj/m/i
 t/13 Neu-roanatomy,
  []
 
 
-Overfull \hbox (8.40556pt too wide) in paragraph at lines 72--72
-\T1/pplj/m/it/13 Vi-sual Cor-tex\T1/pplj/m/n/13 . Stat-Pearls [In-ter-net]. Sta
-t-Pearls Pub-lish-ing, 2015.
- []
 
-
-
-[7
+[14
 
 
 
 ] (ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
 (FrontBackmatter/Abstract.aux) (FrontBackmatter/Acknowledgments.aux)
 (FrontBackmatter/Contents.aux) (Chapters/Introduction.aux) (Chapters/Theory.aux
-) (Chapters/Conclusions.aux) (FrontBackmatter/Bibliography.aux))
+) (Chapters/Practical part.aux) (Chapters/Conclusions.aux)
+(Chapters/TipsAndGuidesForTheSetup.aux) (Chapters/CodesUsedForTheProject.aux)
+(FrontBackmatter/Bibliography.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1994,31 +2104,45 @@ FrontBackmatter/Acknowledgments.tex
 FrontBackmatter/Contents.tex
 Chapters/Introduction.tex
 Chapters/Theory.tex
+gfx/Portapack.jpg
 gfx/AreasOfTheBrain.jpg
 gfx/AreasOfTheVisualCortex.png
  ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
+Chapters/Practical part.tex
+gfx/ExampleOfCSV.png
 Chapters/Conclusions.tex
-FrontBackmatter/Bibliography.tex
+Chapters/TipsAndGuidesForTheSetup.tex
+gfx/Agent1.jpeg
+gfx/Agent3.jpeg
+Chapters/CodesUsedForTheProject.tex
+lstlang1.sty    2024/05/25 1.10b listings language file
    t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
+FrontBackmatter/Bibliography.tex
  ***********
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please rerun LaTeX.
+
 Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 \openout1 = `ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32488 strings out of 473903
- 627849 string characters out of 5726579
- 1939908 words of memory out of 5000000
- 54727 multiletter control sequences out of 15000+600000
- 646707 words of font info for 144 fonts, out of 8000000 for 9000
+ 33135 strings out of 473903
+ 638339 string characters out of 5726579
+ 2070908 words of memory out of 5000000
+ 55300 multiletter control sequences out of 15000+600000
+ 641777 words of font info for 141 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,131p,10938b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,22n,131p,10938b,3305s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/eul
 er/eurb10.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 fpl/fplbj8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/publi
@@ -2027,9 +2151,9 @@ a/fvmr8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pala
 tino/uplb8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/p
 alatino/uplr8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (13 pages, 398000 bytes).
+Output written on ClassicThesis.pdf (20 pages, 968209 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 25707 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 25807 words of extra memory for PDF output out of 29859 (max. 10000000)
 

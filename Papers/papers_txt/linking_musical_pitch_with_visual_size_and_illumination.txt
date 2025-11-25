@@ -1,0 +1,5 @@
+linking musical pitch with visual size and illumination
+
+establishes that high pitch correlates with small bright objects and low pitch with larger darker ones, forming audiovisual primitives useful for visual design.
+
+Keywords: pitch, size, brightness, audiovisual mapping

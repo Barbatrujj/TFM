@@ -1,0 +1,5 @@
+predicting emotional responses to music using acoustic features
+
+creates a model mapping acoustic features (tempo, timbre, mode) to emotional categories (sad, joyful, tense), foundational for audio→emotion systems.
+
+Keywords: music emotion, acoustic features, prediction

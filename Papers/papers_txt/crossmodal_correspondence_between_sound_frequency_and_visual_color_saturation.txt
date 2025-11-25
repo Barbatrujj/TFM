@@ -1,0 +1,5 @@
+crossmodal correspondence between sound frequency and visual color saturation
+
+finds that rising sound frequency increases chosen color saturation, suggesting arousal modulation effects.
+
+Keywords: frequency, saturation, arousal, crossmodal

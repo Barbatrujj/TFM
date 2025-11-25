@@ -24,4 +24,4 @@ for idx, row in df.iterrows():
     with open(filename, "w", encoding="utf-8") as f:
         f.write(text_content)
 
-print(f"✅ Archivos .txt generados en la carpeta '{output_dir}'")
+print(f"Archivos .txt generados en la carpeta '{output_dir}'")

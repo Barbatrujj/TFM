@@ -1,0 +1,5 @@
+crossmodal correspondences between auditory pitch and visual lightness
+
+shows that high-pitched sounds are consistently associated with lighter colors and low-pitched sounds with darker colors, supporting stable audio-visual perceptual mappings.
+
+Keywords: crossmodal, pitch, lightness, sound-color, perception
