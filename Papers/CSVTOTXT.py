@@ -5,7 +5,7 @@ import os
 df = pd.read_csv("papers_clean.csv")
 
 # Crear carpeta para los txt si no existe
-output_dir = "papers_txt"
+output_dir = "papers_colours"
 os.makedirs(output_dir, exist_ok=True)
 
 for idx, row in df.iterrows():
