@@ -121,6 +121,57 @@
     \field{year}{2007}
   \endentry
 
+  \entry{spinrad2005vjbook}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=SP}{%
+         family={Spinrad},
+         familyi={S\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Feral House}%
+    }
+    \strng{namehash}{SP1}
+    \strng{fullhash}{SP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{The VJ Book: Inspirations and Practical Advice for Live
+  Visuals Performance}
+    \field{year}{2005}
+  \endentry
+
+  \entry{tribe2006newmedia}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=TM}{%
+         family={Tribe},
+         familyi={T\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jana},
+         familyi={J\bibinitperiod},
+         given={Reena},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taschen}%
+    }
+    \strng{namehash}{TMJR1}
+    \strng{fullhash}{TMJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{New Media Art}
+    \field{year}{2006}
+  \endentry
+
   \entry{vasulka1992dialogue}{misc}{}{}
     \name{author}{2}{}{%
       {{hash=VS}{%
@@ -145,6 +196,28 @@
     \field{howpublished}{Electronic Arts Intermix}
     \field{title}{Dialogue with Steina and Woody Vasulka}
     \field{year}{1992}
+  \endentry
+
+  \entry{viola1995reasons}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=VB}{%
+         family={Viola},
+         familyi={V\bibinitperiod},
+         given={Bill},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{VB1}
+    \strng{fullhash}{VB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{Reasons for Knocking at an Empty House: Writings 1973--1994}
+    \field{year}{1995}
   \endentry
 \enddatalist
 \endinput

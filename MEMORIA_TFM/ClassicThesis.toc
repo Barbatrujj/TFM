@@ -3,6 +3,8 @@
 \babel@toc {american}{}\relax 
 \contentsline {section}{\numberline {0.1}Hèctor}{iv}{section.0.1}%
 \contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation and research problem}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Hypotesis}{1}{section.1.2}%
 \contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Theory}}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Visual panoram}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Brain functions}{3}{section.2.2}%
