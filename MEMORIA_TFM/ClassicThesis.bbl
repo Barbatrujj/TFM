@@ -17,6 +17,109 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global/global}
+  \entry{bouchard2020interactive}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=BG}{%
+         family={Bouchard},
+         familyi={B\bibinitperiod},
+         given={Guillaume},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Lalonde},
+         familyi={L\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BGLP1}
+    \strng{fullhash}{BGLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Proceedings of the International Symposium on Electronic
+  Art}
+    \field{title}{Interactive audiovisual systems using TouchDesigner}
+    \field{year}{2020}
+  \endentry
+
+  \entry{cox2019performance}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=CG}{%
+         family={Cox},
+         familyi={C\bibinitperiod},
+         given={Geoff},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Patterson},
+         familyi={P\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CGPA1}
+    \strng{fullhash}{CGPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{1}
+    \field{pages}{45\bibrangedash 60}
+    \field{title}{Performance, algorithms, and immediacy in live media}
+    \field{volume}{15}
+    \field{journaltitle}{International Journal of Performance Arts and Digital
+  Media}
+    \field{year}{2019}
+  \endentry
+
+  \entry{cycling2020max}{manual}{}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{Cycling '74}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Cycling '74}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Max/MSP/Jitter Documentation}
+    \verb{url}
+    \verb https://cycling74.com
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{derivativeND}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Derivative}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{TouchDesigner Documentation}
+    \verb{url}
+    \verb https://derivative.ca
+    \endverb
+    \field{year}{n.d.}
+    \field{urlday}{15}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{hanhardt1986paik}{book}{}{}
     \name{author}{1}{}{%
       {{hash=HJG}{%
@@ -37,6 +140,29 @@
     \field{sortinithash}{H}
     \field{title}{Nam June Paik}
     \field{year}{1986}
+  \endentry
+
+  \entry{harrington2016designing}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=HS}{%
+         family={Harrington},
+         familyi={H\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {O'Reilly Media}%
+    }
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Designing for Emerging Technologies: UX for Genomics,
+  Robotics, and the Internet of Things}
+    \field{year}{2016}
   \endentry
 
   \entry{Huff2023}{book}{}{}
@@ -76,6 +202,29 @@
     \field{year}{2023}
   \endentry
 
+  \entry{kawaguchi2021touchdesigner}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=KT}{%
+         family={Kawaguchi},
+         familyi={K\bibinitperiod},
+         given={Tomoya},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KT1}
+    \strng{fullhash}{KT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{howpublished}{Online Lecture Series}
+    \field{title}{TouchDesigner Workflow and Operator Structure}
+    \verb{url}
+    \verb https://touchdesigner.jp
+    \endverb
+    \field{year}{2021}
+  \endentry
+
   \entry{portapak_mvc}{online}{}{}
     \name{author}{1}{}{%
       {{hash=M}{%
@@ -99,6 +248,108 @@
     \field{urlyear}{2025}
   \endentry
 
+  \entry{mclean2010livecoding}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=MA}{%
+         family={McLean},
+         familyi={M\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Wiggins},
+         familyi={W\bibinitperiod},
+         given={Geraint},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MAWG1}
+    \strng{fullhash}{MAWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{Proceedings of the International Computer Music
+  Conference}
+    \field{title}{Tidal--Pattern Language for Live Coding of Music}
+    \field{year}{2010}
+  \endentry
+
+  \entry{paul2015digital}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=PC}{%
+         family={Paul},
+         familyi={P\bibinitperiod},
+         given={Christiane},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Thames \& Hudson}%
+    }
+    \strng{namehash}{PC1}
+    \strng{fullhash}{PC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{edition}{3}
+    \field{title}{Digital Art}
+    \field{year}{2015}
+  \endentry
+
+  \entry{pearson2011generative}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=PM}{%
+         family={Pearson},
+         familyi={P\bibinitperiod},
+         given={Matt},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Manning}%
+    }
+    \strng{namehash}{PM1}
+    \strng{fullhash}{PM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Generative Art: A Practical Guide Using Processing}
+    \field{year}{2011}
+  \endentry
+
+  \entry{reas2014processing}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=RC}{%
+         family={Reas},
+         familyi={R\bibinitperiod},
+         given={Casey},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FB}{%
+         family={Fry},
+         familyi={F\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{RCFB1}
+    \strng{fullhash}{RCFB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{edition}{2}
+    \field{title}{Processing: A Programming Handbook for Visual Designers and
+  Artists}
+    \field{year}{2014}
+  \endentry
+
   \entry{rush2007video}{book}{}{}
     \name{author}{1}{}{%
       {{hash=RM}{%
@@ -119,6 +370,29 @@
     \field{sortinithash}{R}
     \field{title}{Video Art}
     \field{year}{2007}
+  \endentry
+
+  \entry{serrano2018python}{manual}{}{}
+    \name{author}{1}{}{%
+      {{hash=SL}{%
+         family={Serrano},
+         familyi={S\bibinitperiod},
+         given={Luis},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Derivative}%
+    }
+    \strng{namehash}{SL1}
+    \strng{fullhash}{SL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{Technical Guide}
+    \field{title}{Python Scripting for TouchDesigner}
+    \field{year}{2018}
   \endentry
 
   \entry{spinrad2005vjbook}{book}{}{}

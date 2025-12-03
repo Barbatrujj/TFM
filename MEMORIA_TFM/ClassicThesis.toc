@@ -4,20 +4,21 @@
 \contentsline {section}{\numberline {0.1}Hèctor}{iv}{section.0.1}%
 \contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation and research problem}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Hypotesis}{1}{section.1.2}%
-\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Theory}}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Visual panoram}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Brain functions}{3}{section.2.2}%
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Practical Part}}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Papers}{7}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Introduction}{7}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Research}{7}{subsection.3.1.2}%
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Conclusions}}{10}{chapter.4}%
-\contentsline {section}{\numberline {4.1}\textbf {Conclusions}}{10}{section.4.1}%
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Tips and Guides for the Setup}}{11}{appendix.A}%
-\contentsline {section}{\numberline {A.1}How to connect an agent with memory}{11}{section.A.1}%
-\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Codes used for the project}}{13}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Papers\_clean.py}{13}{section.B.1}%
+\contentsline {section}{\numberline {1.2}Hypotesis and objectives}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Theory}}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Visual history}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Brain functions}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Touch Designer}{10}{section.2.3}%
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Practical Part}}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Papers}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Introduction}{12}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Research}{12}{subsection.3.1.2}%
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Conclusions}}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}\textbf {Conclusions}}{15}{section.4.1}%
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Tips and Guides for the Setup}}{16}{appendix.A}%
+\contentsline {section}{\numberline {A.1}How to connect an agent with memory}{16}{section.A.1}%
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Codes used for the project}}{18}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Papers\_clean.py}{18}{section.B.1}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{14}{dummy.6}%
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{19}{dummy.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -18,7 +18,7 @@ Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: Chapters/Introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: Chapters/Theory.aux
-White space in argument---line 66 of file ClassicThesis.aux
+White space in argument---line 102 of file ClassicThesis.aux
  : \@input{Chapters/Practical
  :                            part.aux}
 I'm skipping whatever remains of this command
@@ -55,45 +55,45 @@ Database file #3: AMiede_Publications.bib
 Biblatex version: 3.20
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 9 entries,
+You've used 20 entries,
             6402 wiz_defined-function locations,
-            1257 strings with 10175 characters,
-and the built_in function-call counts, 48080 in all, are:
-= -- 3330
-> -- 1187
-< -- 328
-+ -- 1437
-- -- 535
-* -- 2971
-:= -- 5050
+            1315 strings with 11496 characters,
+and the built_in function-call counts, 104225 in all, are:
+= -- 7031
+> -- 2506
+< -- 689
++ -- 3026
+- -- 1114
+* -- 6560
+:= -- 10614
 add.period$ -- 0
-call.type$ -- 9
-change.case$ -- 8
-chr.to.int$ -- 68
-cite$ -- 16
-duplicate$ -- 5142
-empty$ -- 4208
-format.name$ -- 461
-if$ -- 9904
+call.type$ -- 20
+change.case$ -- 19
+chr.to.int$ -- 92
+cite$ -- 38
+duplicate$ -- 11592
+empty$ -- 9320
+format.name$ -- 1062
+if$ -- 21467
 int.to.chr$ -- 0
-int.to.str$ -- 22
+int.to.str$ -- 50
 missing$ -- 0
-newline$ -- 222
-num.names$ -- 438
-pop$ -- 2803
+newline$ -- 491
+num.names$ -- 970
+pop$ -- 6542
 preamble$ -- 1
-purify$ -- 198
+purify$ -- 401
 quote$ -- 0
-skip$ -- 1880
+skip$ -- 4063
 stack$ -- 0
-substring$ -- 5350
-swap$ -- 1108
-text.length$ -- 254
-text.prefix$ -- 8
+substring$ -- 10956
+swap$ -- 2548
+text.length$ -- 551
+text.prefix$ -- 19
 top$ -- 1
-type$ -- 294
+type$ -- 668
 warning$ -- 0
-while$ -- 633
+while$ -- 1342
 width$ -- 0
-write$ -- 214
+write$ -- 472
 (There were 2 error messages)
