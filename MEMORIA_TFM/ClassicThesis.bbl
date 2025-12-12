@@ -350,6 +350,30 @@
     \field{year}{2014}
   \endentry
 
+  \entry{porterArtworkReddit}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{Reddit Users}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Porter Robinson Worlds Artwork}
+    \verb{url}
+    \verb https://www.reddit.com/r/porterrobinson/comments/5qoc09/porter_robins
+    \verb on_worlds_artwork/
+    \endverb
+    \field{year}{2017}
+    \field{urlday}{07}
+    \field{urlmonth}{12}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{rush2007video}{book}{}{}
     \name{author}{1}{}{%
       {{hash=RM}{%

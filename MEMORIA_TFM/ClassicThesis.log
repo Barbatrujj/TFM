@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  3 DEC 2025 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  11 DEC 2025 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1633,7 +1633,13 @@ em
  (FrontBackmatter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
- (ClassicThesis.toc)
+ (ClassicThesis.toc
+Overfull \hbox (42.11183pt too wide) in paragraph at lines 21--21
+ [][] []\T1/pplj/m/n/13 How to in-tro-duce your in-for-ma-tion docs to the agen
+t []  
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `ClassicThesis.toc'.
 
@@ -1656,6 +1662,11 @@ Overfull \hbox (7.54912pt too wide) in paragraph at lines 8--8
  [][] []\T1/pplj/m/n/13 Areas of the vi-sual cor-tex, by Leonard J. Press, 
  []
 
+
+Overfull \hbox (2.72519pt too wide) in paragraph at lines 16--16
+ [][] []\T1/pplj/m/n/13 Workflow for the con-nec-tion of per-sonal doc- 
+ []
+
 )
 \tf@lof=\write6
 \openout6 = `ClassicThesis.lof'.
@@ -1666,6 +1677,11 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 42
 \tf@lot=\write7
 \openout7 = `ClassicThesis.lot'.
 
+
+
+[6
+
+]
 Package tocbasic Info: character protrusion at lol deactivated on input line 54
 .
  (ClassicThesis.lol
@@ -1676,9 +1692,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 10.
 
 )
 
-[6
-
-]
+[7]
 \openout2 = `Chapters/Introduction.aux'.
 
  (Chapters/Introduction.tex
@@ -1709,7 +1723,7 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 
  (Chapters/Theory.tex
 chapter 2.
-<gfx/Portapack.jpg, id=124, 293.898pt x 293.898pt>
+<gfx/Portapack.jpg, id=150, 293.898pt x 293.898pt>
 File: gfx/Portapack.jpg Graphic file (type jpg)
 <use gfx/Portapack.jpg>
 Package pdftex.def Info: gfx/Portapack.jpg  used on input line 10.
@@ -1749,7 +1763,7 @@ Overfull \hbox (6.50937pt too wide) in paragraph at lines 27--28
 
 
 [6]
-<gfx/AreasOfTheBrain.jpg, id=155, 1204.5pt x 1003.75pt>
+<gfx/AreasOfTheBrain.jpg, id=182, 1204.5pt x 1003.75pt>
 File: gfx/AreasOfTheBrain.jpg Graphic file (type jpg)
 <use gfx/AreasOfTheBrain.jpg>
 Package pdftex.def Info: gfx/AreasOfTheBrain.jpg  used on input line 37.
@@ -1760,7 +1774,7 @@ Overfull \hbox (12.73885pt too wide) in paragraph at lines 43--44
 j/m/it/13 Neu-roanatomy,
  []
 
-<gfx/AreasOfTheVisualCortex.png, id=158, 301.125pt x 246.9225pt>
+<gfx/AreasOfTheVisualCortex.png, id=185, 301.125pt x 246.9225pt>
 File: gfx/AreasOfTheVisualCortex.png Graphic file (type png)
 <use gfx/AreasOfTheVisualCortex.png>
 Package pdftex.def Info: gfx/AreasOfTheVisualCortex.png  used on input line 47.
@@ -1812,6 +1826,11 @@ Overfull \hbox (1.74762pt too wide) in paragraph at lines 78--81
 
  (Chapters/Practical part.tex
 chapter 3.
+<gfx/PorterVisualsExemple.jpeg, id=225, 1927.2pt x 1204.5pt>
+File: gfx/PorterVisualsExemple.jpeg Graphic file (type jpg)
+<use gfx/PorterVisualsExemple.jpeg>
+Package pdftex.def Info: gfx/PorterVisualsExemple.jpeg  used on input line 10.
+(pdftex.def)             Requested size: 369.88583pt x 231.17316pt.
 
 
 [12
@@ -1819,33 +1838,44 @@ chapter 3.
 
 
 ]
-Overfull \hbox (5.51836pt too wide) in paragraph at lines 22--24
+Overfull \hbox (5.72931pt too wide) in paragraph at lines 19--20
+\T1/pplj/m/n/13 search pro-cess. Within the TouchDe-signer project, mul-ti-ple 
+agents
+ []
+
+
+
+[13 <./gfx/PorterVisualsExemple.jpeg>]
+Overfull \hbox (5.51836pt too wide) in paragraph at lines 41--43
 \T1/pplj/m/n/13 pro-vided by the user. When em-bed-dings are gen-er-ated, these
 
  []
 
-<gfx/ExampleOfCSV.png, id=204, 1032.85875pt x 567.3195pt>
+
+
+[14]
+<gfx/ExampleOfCSV.png, id=242, 1032.85875pt x 567.3195pt>
 File: gfx/ExampleOfCSV.png Graphic file (type png)
 <use gfx/ExampleOfCSV.png>
-Package pdftex.def Info: gfx/ExampleOfCSV.png  used on input line 32.
+Package pdftex.def Info: gfx/ExampleOfCSV.png  used on input line 51.
 (pdftex.def)             Requested size: 369.88583pt x 203.16144pt.
 
-Overfull \hbox (4.04172pt too wide) in paragraph at lines 37--38
+Overfull \hbox (4.04172pt too wide) in paragraph at lines 56--57
 []\T1/pplj/m/n/13 The next step in-volved pro-cess-ing the in-for-ma-tion con-t
 ained
  []
 
 
-
-[13 <./gfx/ExampleOfCSV.png>]
-Overfull \hbox (1.67245pt too wide) in paragraph at lines 39--40
+Overfull \hbox (1.67245pt too wide) in paragraph at lines 58--59
 \T1/pplj/m/n/13 stan-dard-ized and com-pat-i-ble with the agent's re-quire-ment
 s. This
  []
 
-)
 
-[14]
+
+[15 <./gfx/ExampleOfCSV.png>])
+
+[16]
 \openout2 = `Chapters/Conclusions.aux'.
 
  (Chapters/Conclusions.tex
@@ -1856,7 +1886,7 @@ LaTeX Font Warning: Font shape `T1/pplj/b/sc' undefined
 
 )
 
-[15
+[17
 
 
 
@@ -1871,36 +1901,103 @@ Overfull \hbox (7.53093pt too wide) in paragraph at lines 8--9
 ould
  []
 
-<gfx/Agent1.jpeg, id=222, 456.95718pt x 326.72063pt>
+<gfx/Agent1.jpeg, id=261, 456.95718pt x 326.72063pt>
 File: gfx/Agent1.jpeg Graphic file (type jpg)
 <use gfx/Agent1.jpeg>
 Package pdftex.def Info: gfx/Agent1.jpeg  used on input line 14.
-(pdftex.def)             Requested size: 295.90979pt x 211.5782pt.
+(pdftex.def)             Requested size: 369.88583pt x 264.47275pt.
 
 
-[16
+[18
 
 
 
 ]
-<gfx/Agent3.jpeg, id=227, 1204.5pt x 600.74437pt>
+<gfx/Agent3.jpeg, id=267, 1204.5pt x 600.74437pt>
 File: gfx/Agent3.jpeg Graphic file (type jpg)
 <use gfx/Agent3.jpeg>
 Package pdftex.def Info: gfx/Agent3.jpeg  used on input line 21.
-(pdftex.def)             Requested size: 295.90979pt x 147.5824pt.
+(pdftex.def)             Requested size: 369.88583pt x 184.478pt.
 
 Underfull \hbox (badness 1199) in paragraph at lines 22--22
 [][]|\T1/pplj/m/n/12 Con-nec-tion be-tween the op-er-a-tor agentSes-sion and an
 
  []
 
+
+Overfull \hbox (0.36632pt too wide) in paragraph at lines 26--26
+|[]\T1/pplj/m/sc/13/80ls how to in-tro-duce your in-for-ma-tion docs to the
+ []
+
+
+
+[19 <./gfx/Agent1.jpeg> <./gfx/Agent3.jpeg>]
+<gfx/SourceDocs.jpeg, id=273, 1204.5pt x 520.19344pt>
+File: gfx/SourceDocs.jpeg Graphic file (type jpg)
+<use gfx/SourceDocs.jpeg>
+Package pdftex.def Info: gfx/SourceDocs.jpeg  used on input line 33.
+(pdftex.def)             Requested size: 369.88583pt x 159.74223pt.
+
+Overfull \hbox (2.82204pt too wide) in paragraph at lines 43--44
+\T1/pplj/m/n/13 bed-dings for each chunk, and con-struct-ing a vec-tor database
+.
+ []
+
+
+
+[20 <./gfx/SourceDocs.jpeg>]
+Overfull \hbox (0.50575pt too wide) in paragraph at lines 49--50
+[]\T1/pplj/m/n/13 This work-flow en-sures that the agent can use cus-tom knowl-
+
+ []
+
+<gfx/ConnectionsOfTheAgent.jpeg, id=279, 1204.5pt x 676.77844pt>
+File: gfx/ConnectionsOfTheAgent.jpeg Graphic file (type jpg)
+<use gfx/ConnectionsOfTheAgent.jpeg>
+Package pdftex.def Info: gfx/ConnectionsOfTheAgent.jpeg  used on input line 53.
+
+(pdftex.def)             Requested size: 369.88583pt x 207.82672pt.
+<gfx/RagIndexsetup.png, id=283, 819.66225pt x 447.47176pt>
+File: gfx/RagIndexsetup.png Graphic file (type png)
+<use gfx/RagIndexsetup.png>
+Package pdftex.def Info: gfx/RagIndexsetup.png  used on input line 63.
+(pdftex.def)             Requested size: 369.88583pt x 201.92714pt.
+
+
+[21 <./gfx/ConnectionsOfTheAgent.jpeg>]
+<gfx/EmbeddingError1.jpeg, id=288, 1606.0pt x 903.375pt>
+File: gfx/EmbeddingError1.jpeg Graphic file (type jpg)
+<use gfx/EmbeddingError1.jpeg>
+Package pdftex.def Info: gfx/EmbeddingError1.jpeg  used on input line 71.
+(pdftex.def)             Requested size: 369.88583pt x 208.06136pt.
+
+
+[22 <./gfx/RagIndexsetup.png> <./gfx/EmbeddingError1.jpeg>]
+Overfull \hbox (9.50223pt too wide) in paragraph at lines 86--87
+[]\T1/pplj/b/n/13 Modify the In-dex-Cre-atorEXT op-er-a-tor in-side the Rag_ind
+ex
+ []
+
+<gfx/StructureIndexCreatorTEX.png, id=295, 672.71326pt x 501.072pt>
+File: gfx/StructureIndexCreatorTEX.png Graphic file (type png)
+<use gfx/StructureIndexCreatorTEX.png>
+Package pdftex.def Info: gfx/StructureIndexCreatorTEX.png  used on input line 9
+0.
+(pdftex.def)             Requested size: 369.88583pt x 275.51399pt.
+
+
+[23 <./gfx/StructureIndexCreatorTEX.png>]
+<gfx/CodeIndexCreator.png, id=302, 829.29825pt x 305.34074pt>
+File: gfx/CodeIndexCreator.png Graphic file (type png)
+<use gfx/CodeIndexCreator.png>
+Package pdftex.def Info: gfx/CodeIndexCreator.png  used on input line 110.
+(pdftex.def)             Requested size: 369.88583pt x 136.19069pt.
 )
 
-[17 <./gfx/Agent1.jpeg> <./gfx/Agent3.jpeg>]
+[24 <./gfx/CodeIndexCreator.png>]
 \openout2 = `Chapters/CodesUsedForTheProject.aux'.
 
-
-(Chapters/CodesUsedForTheProject.tex
+ (Chapters/CodesUsedForTheProject.tex
 chapter B.
 (C:\Users\hecto\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/05/25 1.10b listings language file
@@ -1919,7 +2016,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 )
 
-[18
+[25
 
 
 
@@ -1950,13 +2047,13 @@ is-ited on 02/15/2025).
 
 
 
-[19
+[26
 
 
 
 ]
 
-[20] (ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
+[27] (ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
 (FrontBackmatter/Abstract.aux) (FrontBackmatter/Acknowledgments.aux)
 (FrontBackmatter/Contents.aux) (Chapters/Introduction.aux) (Chapters/Theory.aux
 ) (Chapters/Practical part.aux) (Chapters/Conclusions.aux)
@@ -2152,11 +2249,18 @@ gfx/Portapack.jpg
 gfx/AreasOfTheBrain.jpg
 gfx/AreasOfTheVisualCortex.png
 Chapters/Practical part.tex
+gfx/PorterVisualsExemple.jpeg
 gfx/ExampleOfCSV.png
 Chapters/Conclusions.tex
 Chapters/TipsAndGuidesForTheSetup.tex
 gfx/Agent1.jpeg
 gfx/Agent3.jpeg
+gfx/SourceDocs.jpeg
+gfx/ConnectionsOfTheAgent.jpeg
+gfx/RagIndexsetup.png
+gfx/EmbeddingError1.jpeg
+gfx/StructureIndexCreatorTEX.png
+gfx/CodeIndexCreator.png
 Chapters/CodesUsedForTheProject.tex
 lstlang1.sty    2024/05/25 1.10b listings language file
    t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
@@ -2173,13 +2277,13 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33230 strings out of 473903
- 641817 string characters out of 5726579
+ 33338 strings out of 473903
+ 644593 string characters out of 5726579
  2070908 words of memory out of 5000000
- 55369 multiletter control sequences out of 15000+600000
+ 55457 multiletter control sequences out of 15000+600000
  643233 words of font info for 144 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,131p,10938b,3305s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,23n,131p,10938b,3307s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/eul
 er/eurb10.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 fpl/fplbj8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/publi
@@ -2189,9 +2293,9 @@ bera/fvmr8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/urw/p
 alatino/uplb8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/ur
 w/palatino/uplr8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (26 pages, 1009902 bytes).
+Output written on ClassicThesis.pdf (34 pages, 1909444 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
- 25831 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 516 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 25898 words of extra memory for PDF output out of 29859 (max. 10000000)
 

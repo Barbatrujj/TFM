@@ -1,40 +1,73 @@
 \chapter{Practical Part}\label{ch:Practical}
-\section{Papers}
-	\subsection{Introduction}
-		This project aims to provide users with an agent that operates entirely offline, without performing any searches or retrieving information from the internet. The core objective is to ensure that every response the agent generates is grounded in trustworthy, scientifically validated knowledge. To achieve this, the project focuses on building a carefully curated database composed solely of verified scientific information.
+
+	\section{Introduction}
+		For the practical part of the project, the focus will be on creating the tool itself. The final tool is intended to be customizable. This will allow each artist to adapt and modify it according to their own creative needs. The development process will center on a single case study. We selected Porter Weston Robinson, an American electronic music producer, singer, and songwriter known for his emotional, genre-blending style. He first gained recognition in the early 2010s with high-energy electro-house tracks, but later shifted toward a more introspective and artistic sound. His debut album Worlds (2014) earned critical acclaim for its unique blend of electronic, indie, and Japanese-inspired aesthetics. 
 		
-		The most reliable way to guarantee the accuracy and credibility of the agent’s knowledge base is to manually compile and review scientific articles. By selecting only high-quality studies and extracting the essential findings, the project ensures that the agent embeds information that has already been thoroughly vetted. This approach prevents the introduction of unverified, misleading, or low-quality data and allows the agent to operate with a high degree of scientific integrity. As a result, users can interact with the system confidently, knowing that its responses are based solely on pre-approved, evidence-based sources.
-	
-	\subsection{Research}
-		 The goal is to provide users with guidance supported by solid research. To do it an extensive review was conducted focusing on studies related to color, visual and auditory frequencies, and their effects on the human brain. After several hours of analysis, approximately 60–70 papers were selected for each topic, prioritizing those that offered the most reliable and impactful insights for the tool’s development. 
-		\\
-		Once the papers had been selected, the next step was to construct the database. To organize the information systematically, a CSV file was created to store and classify the key details from each article. The following structure, shown in Fidure \ref{fig:ExampleOfCSV} was chosen:
-		\begin{itemize}
-			\item \textbf{Title \textsubscript}
-			
-			\item \textbf{Author \textsubscript}
-			
-			\item \textbf{Year \textsubscript}
-			
-			\item \textbf{Sumary: \textsubscript}
-				This section contains a condensed version of the paper’s abstract. Because abstracts are typically accessible for free, they provide enough information for the system to understand the essence of each study without requiring full-text access.
-			
-			\item \textbf{Keywords: \textsubscript}
-			Keywords were included to enable the system to retrieve the most relevant papers based on the prompts provided by the user. When embeddings are generated, these keywords help the system match user queries with the scientific articles that best fit the topic, ensuring accurate and efficient information retrieval.
-			
-		\end{itemize}
+		As seen in Figure , Porter Robinson's visuals tend to convey nostalgia and fantasy with touches of digital surrealism. He often works with pastel colors, anime imagery, and a mix of natural elements such as forests, flowers, and skies. He also uses glitch effects or hand-drawn textures to achieve a more emotional effect and convey a human essence.
 		
-		
-		This structured approach ensures that the agent can navigate the database effectively and rely on well-organized, high-quality scientific data.
-		
-		\begin{figure} [H]
+		\begin{figure}[H]
 			\centering
-			\includegraphics[width=1\linewidth]{gfx/ExampleOfCSV.png}
-			\caption{Example of a CSV with the Structure of the project}
-			\label{fig:ExampleOfCSV}
+			\includegraphics[width=1\linewidth]{gfx/PorterVisualsExemple.jpeg}
+			\caption{Example of Porter Robinson visuals (source: \cite{porterArtworkReddit})}
+			\label{fig:PorterVisuals}
 		\end{figure}
 		
-		The next step involved processing the information contained in the CSV file. To ensure that the agent could generate embeddings effectively, it was necessary to remove any characters that might interfere with processing, such as accents, apostrophes, and other special symbols. These characters can cause inconsistencies or errors during embedding generation, so cleaning the data was essential.
+		This material will serve as the foundation for training our system. By grounding the tool in the specific characteristics of his music, we aim to create a version of the project that reflects his artistic identity and demonstrates how the system can be tailored to other artists.
+	
+	\section{Research}
+	
+		In order to properly train the system, information on several different topics will be collected to carry out the entire research process. Within the TouchDesigner project, multiple agents based on LLM models will be created, each designed to perform a specific function. These agents will be supported by a collection of .txt files that have been compiled from a variety of scientific papers, research articles, experiments, and other reliable sources. Each .txt file will be assigned to a dedicated TouchDesigner container. The containers will then be linked to the corresponding agent.
 		
-		To accomplish this, a script was created to automatically convert and sanitize the CSV files, ensuring that all entries were standardized and compatible with the agent’s requirements. This script, titled Papers\_clean.py, performs the necessary preprocessing steps and prepares the dataset for seamless integration. The full code for this script is included in the appendix \ref{sec: Clean_papers}.
+		The methodology will follow a structured approach. First, information on a given topic will be gathered from a wide range of credible sources. This material will be used to create a consolidated document. The document will be as accurate and comprehensive as possible. The agent associated with that topic will then be trained using this curated document, ensuring that the system learns from rich, verified, and relevant content.
+		
+		Through this process, each agent will receive a focused, high-quality knowledge base, enabling the overall tool to perform reliably and provide artists with meaningful assistance during the creative process.
+		
+		\subsection{Colours}
+			The first area the project wanted to focus on was color. This area is not too specific to any particular artist, as the aim is for the system to have general information about how colors work. As color is one of the main elements of visuals, the aim was to create a document that covered all the fundamentals of color.
+			The goal is to provide users with guidance supported by solid research. To do it an extensive review was conducted focusing on studies related to color, visual and auditory frequencies, and their effects on the human brain. After several hours of analysis, approximately 60–70 papers were selected for each topic, prioritizing those that offered the most reliable and impactful insights for the tool’s development. 
+			\\
+			Once the papers had been selected, the next step was to construct the database. To organize the information systematically, a CSV file was created to store and classify the key details from each article. The following structure, shown in Figure \ref{fig:ExampleOfCSV} was chosen:
+		
+			\begin{itemize}
+				\item \textbf{Title \textsubscript}
+			
+				\item \textbf{Author \textsubscript}
+			
+				\item \textbf{Year \textsubscript}
+			
+				\item \textbf{Sumary: \textsubscript}
+					This section contains a condensed version of the paper’s abstract. Because abstracts are typically accessible for free, they provide enough information for the system to understand the essence of each study without requiring full-text access.
+			
+				\item \textbf{Keywords: \textsubscript}
+					Keywords were included to enable the system to retrieve the most relevant papers based on the prompts provided by the user. When embeddings are generated, these keywords help the system match user queries with the scientific articles that best fit the topic, ensuring accurate and efficient information retrieval.
+			
+			\end{itemize}
+		
+		
+			This structured approach ensures that the agent can navigate the database effectively and rely on well-organized, high-quality scientific data.
+		
+			\begin{figure} [H]
+				\centering
+				\includegraphics[width=1\linewidth]{gfx/ExampleOfCSV.png}
+				\caption{Example of a CSV with the 	Structure of the project}
+				\label{fig:ExampleOfCSV}
+			\end{figure}
+		
+			The next step involved processing the information contained in the CSV file. To ensure that the agent could generate embeddings effectively, it was necessary to remove any characters that might interfere with processing, such as accents, apostrophes, and other special symbols. These characters can cause inconsistencies or errors during embedding generation, so cleaning the data was essential.
+		
+			To accomplish this, a script was created to automatically convert and sanitize the CSV files, ensuring that all entries were standardized and compatible with the agent’s requirements. This script, titled Papers\_clean.py, performs the necessary preprocessing steps and prepares the dataset for seamless integration. The full code for this script is included in the appendix \ref{sec: Clean_papers}.
+		
+			Once this file was created, we asked Gemini to 	create a .txt file containing all the information gathered from the files. This enabled us to create a 10-page file on how each color affects human beings, based on frequencies, intensities, and emotions. 
+		
+			After having test differents configurations in LOPS, we discovert that the best way to make those source documents to work, was converting the .txt files into an html file. 
+		
+		\subsection{TouchDesigner}
+			The second file that needed to be created was an explanation of how TouchDesigner works for the agent. The goal is to build the tool within this software. An AI model trained from scratch has no inherent knowledge of the program's structure. It also has no knowledge of the program's components. And it has no knowledge of the program's workflows. Therefore, it was essential to give the agent a solid understanding of TouchDesigner’s fundamentals.
+			
+			To create this file, we employed a different methodology. Rather than compiling academic articles, we relied directly on TouchDesigner’s official documentation \cite{derivativeND}. Since Derivative developed the software, their website provides detailed descriptions of every operator, parameter, and functionality. This made it the most reliable and comprehensive source of information. Finally, we create the html file.
+			
+			It is essential that the AI has a comprehensive grasp of TouchDesigner, as the system must be able to navigate and manipulate the software's features in response to the user's instructions. Without this foundational knowledge, the agent would be unable to execute tasks or provide effective assistance within the visual creation environment.
+			
+			
+		\subsection{Shaders Expert}
 	

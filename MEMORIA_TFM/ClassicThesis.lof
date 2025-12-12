@@ -7,10 +7,17 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Areas of the brain, by CogniFit Blog. \textit {Three main parts of the human brain}, 2015}}{7}{figure.caption.10}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Areas of the visual cortex, by Leonard J. Press, O.D., FAAO, FCOVD. \textit {The Visual Centers of the Brain}, 2018}}{7}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4}{\ignorespaces Example of a CSV with the Structure of the project}}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Example of Porter Robinson visuals (source: \blx@tocontentsinit {0}\cite {porterArtworkReddit})}}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Example of a CSV with the Structure of the project}}{15}{figure.caption.13}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5}{\ignorespaces Connection between the operator addMessage and an Agent in Touch Designer}}{17}{figure.caption.13}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Connection between the operator agentSession and an Agent in Touch Designer}}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Connection between the operator addMessage and an Agent in Touch Designer}}{19}{figure.caption.14}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Connection between the operator agentSession and an Agent in Touch Designer}}{19}{figure.caption.15}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Workflow for the connection of personal documentation to make the agent learn based in the LLM}}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {9}{\ignorespaces External tools connected to an agent}}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Parameters of the rag\_index operator}}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Error creating index in rag\_index}}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Structure inside of the Rag\_index.}}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Lines added to fix the error.}}{24}{figure.caption.21}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

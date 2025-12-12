@@ -55,45 +55,45 @@ Database file #3: AMiede_Publications.bib
 Biblatex version: 3.20
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 20 entries,
+You've used 21 entries,
             6402 wiz_defined-function locations,
-            1315 strings with 11496 characters,
-and the built_in function-call counts, 104225 in all, are:
-= -- 7031
-> -- 2506
-< -- 689
-+ -- 3026
-- -- 1114
-* -- 6560
-:= -- 10614
+            1322 strings with 11679 characters,
+and the built_in function-call counts, 109312 in all, are:
+= -- 7243
+> -- 2852
+< -- 728
++ -- 3320
+- -- 1375
+* -- 6831
+:= -- 11178
 add.period$ -- 0
-call.type$ -- 20
-change.case$ -- 19
-chr.to.int$ -- 92
-cite$ -- 38
-duplicate$ -- 11592
-empty$ -- 9320
-format.name$ -- 1062
-if$ -- 21467
+call.type$ -- 21
+change.case$ -- 20
+chr.to.int$ -- 116
+cite$ -- 40
+duplicate$ -- 12074
+empty$ -- 9750
+format.name$ -- 1108
+if$ -- 22356
 int.to.chr$ -- 0
-int.to.str$ -- 50
+int.to.str$ -- 52
 missing$ -- 0
-newline$ -- 491
-num.names$ -- 970
-pop$ -- 6542
+newline$ -- 515
+num.names$ -- 1011
+pop$ -- 6867
 preamble$ -- 1
-purify$ -- 401
+purify$ -- 412
 quote$ -- 0
-skip$ -- 4063
+skip$ -- 4248
 stack$ -- 0
-substring$ -- 10956
-swap$ -- 2548
-text.length$ -- 551
-text.prefix$ -- 19
+substring$ -- 11305
+swap$ -- 2691
+text.length$ -- 585
+text.prefix$ -- 20
 top$ -- 1
-type$ -- 668
+type$ -- 702
 warning$ -- 0
-while$ -- 1342
+while$ -- 1395
 width$ -- 0
-write$ -- 472
+write$ -- 495
 (There were 2 error messages)
