@@ -1,31 +1,57 @@
-\chapter{Practical Part}\label{ch:Practical}
+\chapter{Research}\label{ch:Research}
 
 	\section{Introduction}
-		For the practical part of the project, the focus will be on creating the tool itself. The final tool is intended to be customizable. This will allow each artist to adapt and modify it according to their own creative needs. The development process will center on a single case study. We selected Porter Weston Robinson, an American electronic music producer, singer, and songwriter known for his emotional, genre-blending style. He first gained recognition in the early 2010s with high-energy electro-house tracks, but later shifted toward a more introspective and artistic sound. His debut album Worlds (2014) earned critical acclaim for its unique blend of electronic, indie, and Japanese-inspired aesthetics. 
+		For the practical part of the project, the focus will be on acomplishing all the objectives. The proposed approach is to first investigate and define an effective method for training the model, and only then proceed with the development of the tool itself. Since the project is intended for use by artists, a reference artist with a well-defined visual identity, particularly in terms of color palette and formal language, was selected. This choice makes it possible to clearly demonstrate how the system generates visuals that are informed by and aligned with the artistic characteristics of the chosen individual. This will allow each artist to adapt and modify it according to their own creative needs. The development process will center on a single case study. To simulate an artistic profile, the decision was made to use the color palettes of Antoni Gaudí. 
 		
-		As seen in Figure , Porter Robinson's visuals tend to convey nostalgia and fantasy with touches of digital surrealism. He often works with pastel colors, anime imagery, and a mix of natural elements such as forests, flowers, and skies. He also uses glitch effects or hand-drawn textures to achieve a more emotional effect and convey a human essence.
+		\vspace{0.5cm}
 		
-		\begin{figure}[H]
+		Gaudí was a renowned Catalan architect whose work is characterized by organic, curved forms that evoke elements of religion and nature. His architectural language combined structural innovation with strong symbolic and aesthetic intent.
+		
+		One of the most distinctive techniques associated with Gaudí is trencadís, a modernist method that involves covering surfaces with fragments of broken ceramic tiles. As seen in figure \ref{fig:GaudiArquitecture}, this technique allowed for the creation of vibrant, textured surfaces and complex color compositions, which have become a defining feature of his work. The use of Gaudí’s color palettes and formal principles provides a clear and recognizable visual reference, making it well suited for simulating an artist-driven visual system within the project.
+		
+		\begin{figure}[h]
 			\centering
-			\includegraphics[width=1\linewidth]{gfx/PorterVisualsExemple.jpeg}
-			\caption{Example of Porter Robinson visuals (source: \cite{porterArtworkReddit})}
-			\label{fig:PorterVisuals}
+			
+			% Primera fila
+			\subfloat[Casa Batlló\label{fig:CasaBatlló}]{
+				\includegraphics[width=0.48\textwidth,height=0.30\textwidth]{gfx/Gaudi1.jpg}
+			}
+			\subfloat[Casa Batlló rooftop\label{fig:psd_2002s_driver}]{
+				\includegraphics[width=0.48\textwidth,height=0.30\textwidth]{gfx/Gaudi2.jpg}
+			}
+			
+			\vspace{0.2cm} % Espacio entre filas
+			
+			% Segunda fila
+			\subfloat[Parc Güell\label{fig:atlas_sound_driver}]{
+				\includegraphics[width=0.48\textwidth,height=0.27\textwidth]{gfx/Gaudi3.jpg}
+			}
+			\subfloat[Inside of casa Batlló\label{fig:pds_221_driver}]{
+				\includegraphics[width=0.48\textwidth]{gfx/Gaudi4.jpg}
+			}
+			
+			\caption{Images of Gaudi's Architecture}
+			\label{fig:GaudiArquitecture}
 		\end{figure}
+		
+		\vspace{2cm}
 		
 		This material will serve as the foundation for training our system. By grounding the tool in the specific characteristics of his music, we aim to create a version of the project that reflects his artistic identity and demonstrates how the system can be tailored to other artists.
 	
-	\section{Research}
+	\section{Training of the LLM}
+	\label{sec:TrainingLLM}
 	
-		In order to properly train the system, information on several different topics will be collected to carry out the entire research process. Within the TouchDesigner project, multiple agents based on LLM models will be created, each designed to perform a specific function. These agents will be supported by a collection of .txt files that have been compiled from a variety of scientific papers, research articles, experiments, and other reliable sources. Each .txt file will be assigned to a dedicated TouchDesigner container. The containers will then be linked to the corresponding agent.
+		In order to properly train the system, information on several different topics will be collected to carry out the entire research process.Several approaches were explored in order to train the LLM models. While the objective was clearly defined, to integrate a trained model into TouchDesigner and enable interaction directly within the application, the specific method for achieving this integration was not initially known. As a result, different strategies were investigated and evaluated to determine the most effective way to train the model and connect it to the TouchDesigner environment.
 		
-		The methodology will follow a structured approach. First, information on a given topic will be gathered from a wide range of credible sources. This material will be used to create a consolidated document. The document will be as accurate and comprehensive as possible. The agent associated with that topic will then be trained using this curated document, ensuring that the system learns from rich, verified, and relevant content.
+		\subsection{First approach}
+		\label{sub:First_aproach}
 		
-		Through this process, each agent will receive a focused, high-quality knowledge base, enabling the overall tool to perform reliably and provide artists with meaningful assistance during the creative process.
-		
-		\subsection{Colours}
-			The first area the project wanted to focus on was color. This area is not too specific to any particular artist, as the aim is for the system to have general information about how colors work. As color is one of the main elements of visuals, the aim was to create a document that covered all the fundamentals of color.
-			The goal is to provide users with guidance supported by solid research. To do it an extensive review was conducted focusing on studies related to color, visual and auditory frequencies, and their effects on the human brain. After several hours of analysis, approximately 60–70 papers were selected for each topic, prioritizing those that offered the most reliable and impactful insights for the tool’s development. 
-			\\
+			The first approach involved manually creating all the information required for the LLM models. As explained in the REFERENCE section, for a model to acquire and use information, it must pass through several distinct stages. First, a document containing the relevant and curated information must be created. Next, this data must be embedded so that the model can process and analyze it effectively. Finally, the model must be connected to the processed data, enabling it to retrieve and use the appropriate information in response to user queries.
+			
+			The first thing was to recollect all the information that the model has to learn. To start researching, as one of the aspects that the project wants to cover was the colour, a research of academic papers based on colour started. After several hours of analysis, approximately 60–70  papers were selected for each topic, prioritizing those that offered the most reliable and impactful insights for the tool’s development.
+			 
+			\vspace{0.5cm}
+			
 			Once the papers had been selected, the next step was to construct the database. To organize the information systematically, a CSV file was created to store and classify the key details from each article. The following structure, shown in Figure \ref{fig:ExampleOfCSV} was chosen:
 		
 			\begin{itemize}
@@ -56,18 +82,82 @@
 			The next step involved processing the information contained in the CSV file. To ensure that the agent could generate embeddings effectively, it was necessary to remove any characters that might interfere with processing, such as accents, apostrophes, and other special symbols. These characters can cause inconsistencies or errors during embedding generation, so cleaning the data was essential.
 		
 			To accomplish this, a script was created to automatically convert and sanitize the CSV files, ensuring that all entries were standardized and compatible with the agent’s requirements. This script, titled Papers\_clean.py, performs the necessary preprocessing steps and prepares the dataset for seamless integration. The full code for this script is included in the appendix \ref{sec: Clean_papers}.
+			
+			The next step was to create the embeddings. To do this, as we had some knowledge of Python but not of how to create embeddings, we used Cursor. Cursor is paid software similar to Microsoft Copilot, which allows you to program in an environment that has implemented artificial intelligence that allows you to read and analyze everything you are doing, as well as suggest possible improvements.
+			 
+			Basically, this code builds and tests a semantic search system for academic papers.
+			It loads a cleaned CSV file containing paper data and ensures required text fields exist.
+			Each paper's title, summary, and keywords are merged into a single text string.
+			A pretrained SentenceTransformer model converts these texts into numerical embeddings.
+			The embeddings, original texts, and metadata are stored in a persistent ChromaDB vector database.
+			Each document is assigned a unique ID and saved to disk for reuse.
+			A test query in natural language is also converted into an embedding.
+			The database is searched for the most semantically similar papers to that query.
+			The top matching documents are retrieved based on meaning, not keywords.
+			Finally, the script prints the titles, metadata, and text snippets of the best results. For watching the full code, go to the annex \ref{sec:PapersEmbedding}
 		
-			Once this file was created, we asked Gemini to 	create a .txt file containing all the information gathered from the files. This enabled us to create a 10-page file on how each color affects human beings, based on frequencies, intensities, and emotions. 
+
+			The subsequent step was to integrate the generated embeddings into TouchDesigner. However, during one of the meetings with Sabio, the possibility of working with LOPs was discussed. LOPs is a TouchDesigner-based system developed by DotSimulate that enables the integration of LLM-powered agents directly within the software.
+			After conducting further research, it became evident that LOPs significantly simplified the workflow. Unlike the initial approach, it was no longer necessary to manually perform all preliminary processing steps. Instead, by providing a folder containing HTML, HTM, or TXT files, it was possible to interact with an agent that had direct access to the knowledge supplied by the user. This discovery marked a turning point in the project, as it allowed the focus to shift from low-level implementation details to the design and behavior of the AI-driven system within TouchDesigner.
+		 
+		\subsection{LOPS}
 		
-			After having test differents configurations in LOPS, we discovert that the best way to make those source documents to work, was converting the .txt files into an html file. 
-		
-		\subsection{TouchDesigner}
-			The second file that needed to be created was an explanation of how TouchDesigner works for the agent. The goal is to build the tool within this software. An AI model trained from scratch has no inherent knowledge of the program's structure. It also has no knowledge of the program's components. And it has no knowledge of the program's workflows. Therefore, it was essential to give the agent a solid understanding of TouchDesigner’s fundamentals.
+			When we started working with LOPS, it quickly became clear that it wouldn't be plain sailing. Due to incompatible versions of other software, such as Python, it took two weeks of errors just to install the tool within Touch Designer. Nevertheless, thanks to DotSimulate's helpful tutorials and his willingness to answer our questions, we managed to start working with the software.
+			Once LOPS had been correctly installed, the research began and a much simpler way of training the model was discovered than that described in the \ref{sub:First_aproach} subsection. Training the LLM model involves fewer steps, and LOPS automates the process much more efficiently. However, before starting, two Gemini 2.0 API keys had to be acquired, one for each team member. Ollama, an LLM model designed for local use, also had to be installed. This model enables the creation of embeddings. Below, we will explain how to train an LLM model and connect it to an agent, enabling you to access information based on a prompt.
 			
-			To create this file, we employed a different methodology. Rather than compiling academic articles, we relied directly on TouchDesigner’s official documentation \cite{derivativeND}. Since Derivative developed the software, their website provides detailed descriptions of every operator, parameter, and functionality. This made it the most reliable and comprehensive source of information. Finally, we create the html file.
+			\begin{itemize}
+				\item{\textbf{Source Docs: }} The first step is to incorporate all user-provided information into TouchDesigner. This is achieved using an operator called Source Docs. This operator enables users to reference a folder on their local computer and automatically read all documents stored in supported formats, such as .htm, .html and .py. These files collectively form the knowledge base that the agent will later use.
+				
+				When the operator is opened in TouchDesigner, the configuration interface becomes visible, as seen in Figure \ref{fig:SourceDocsDocumentFolder} . From here, users can define the folder path and manage how documents are ingested into the system. This ensures that all relevant information is correctly loaded and made available for further processing.
+				
+				\begin{figure} [H]
+					\centering
+					\includegraphics[width=0.7\linewidth]{gfx/SourceDocs1.png}
+					\caption{Place to select the Folder with all the documents to be embedded by the LLM}
+					\label{fig:SourceDocsDocumentFolder}
+				\end{figure}
 			
-			It is essential that the AI has a comprehensive grasp of TouchDesigner, as the system must be able to navigate and manipulate the software's features in response to the user's instructions. Without this foundational knowledge, the agent would be unable to execute tasks or provide effective assistance within the visual creation environment.
 			
+				Once the folder has been selected, the documents must be parsed so that the system can correctly process their contents. The operator interface provides three main options for this, as shown in Figure \ref{fig:SourceDocsDocumentFolder2}.
 			
-		\subsection{Shaders Expert}
+				The first option, 'Parse All Documents' (slow), processes all the documents in the selected folder in one operation. This method is useful when working with a complete dataset, although it may take longer depending on the number and size of the files. The second option, 'Parse Single File', processes each document individually, offering greater control when testing or updating specific files. Finally, the 'Clear Table' function removes all previously parsed data. This option is necessary when a document in the folder has been modified, as the existing data must be cleared and re-parsed to accurately reflect the changes.
+			
+				\begin{figure} [H]
+					\centering
+					\includegraphics[width=0.7\linewidth]{gfx/SourceDocs2.png}
+					\caption{Options Parse All Documents, Parse Single File and Clear Tables}
+					\label{fig:SourceDocsDocumentFolder2}
+				\end{figure}
+				
+				\item {\textbf{RAG index: }} When all the documents in the folder that the user wants have been parsed, the next step, as shown in Figure , is to connect the ‘RAG index’. 
+				
+				\begin{figure} [H]
+					\centering
+					\includegraphics[width=0.7\linewidth]{gfx/RagIndex1.png}
+					\caption{Connection between Source Docs and RAG index}
+					\label{fig:RagIndex1}
+				\end{figure}
+				
+				This operator is responsible for processing all the documents provided by the Source Docs operator and generating the corresponding embeddings. As with the previous operator, the RAG Index includes a drop-down menu that provides access to its configuration options. One of its key functions is allowing the user to select the LLM model that will be used for embedding generation and retrieval.
+				
+				In this project, a local instance of the Llama 3 model was used, running through Ollama. Once the model is selected, the operator processes the ingested documents, creates embeddings from the parsed content, and builds the corresponding indexes that enable efficient information retrieval. These functionalities and configuration options are illustrated in Figure \ref{fig:RagIndex2}. Depending on each person's computer, this step is prone to errors. If you encounter an error at this stage, please refer to the appendix \ref{sec:problemwithRagIndexChunks}.
+				
+				\begin{figure} [H]
+					\centering
+					\includegraphics[width=0.7\linewidth]{gfx/RagIndex2.png}
+					\caption{Options of the Rag index}
+					\label{fig:RagIndex2}
+				\end{figure}
+				
+				Once the index is created, to verify everything is correct, an image like the Figure \ref{fig:RagIndex3} should appear.
+				
+				\begin{figure} [H]
+					\centering
+					\includegraphics[width=0.7\linewidth]{gfx/RagIndex3.png}
+					\caption{Index created}
+					\label{fig:RagIndex3}
+				\end{figure}
+				
+				\item {\textbf{RAG Retriever: }}
+			\end{itemize}
 	

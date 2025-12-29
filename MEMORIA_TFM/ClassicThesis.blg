@@ -22,6 +22,10 @@ White space in argument---line 102 of file ClassicThesis.aux
  : \@input{Chapters/Practical
  :                            part.aux}
 I'm skipping whatever remains of this command
+White space in argument---line 112 of file ClassicThesis.aux
+ : \@input{Chapters/Project
+ :                          planning and management.aux}
+I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: Chapters/Conclusions.aux
 Reallocating 'name_of_file' (item size: 1) to 38 items.
@@ -55,45 +59,45 @@ Database file #3: AMiede_Publications.bib
 Biblatex version: 3.20
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 21 entries,
+You've used 20 entries,
             6402 wiz_defined-function locations,
-            1322 strings with 11679 characters,
-and the built_in function-call counts, 109312 in all, are:
-= -- 7243
-> -- 2852
-< -- 728
-+ -- 3320
-- -- 1375
-* -- 6831
-:= -- 11178
+            1314 strings with 11415 characters,
+and the built_in function-call counts, 100498 in all, are:
+= -- 6535
+> -- 2701
+< -- 673
++ -- 3032
+- -- 1311
+* -- 6226
+:= -- 10200
 add.period$ -- 0
-call.type$ -- 21
-change.case$ -- 20
+call.type$ -- 20
+change.case$ -- 19
 chr.to.int$ -- 116
-cite$ -- 40
-duplicate$ -- 12074
-empty$ -- 9750
-format.name$ -- 1108
-if$ -- 22356
+cite$ -- 38
+duplicate$ -- 11085
+empty$ -- 9047
+format.name$ -- 1026
+if$ -- 20575
 int.to.chr$ -- 0
-int.to.str$ -- 52
+int.to.str$ -- 51
 missing$ -- 0
-newline$ -- 515
-num.names$ -- 1011
-pop$ -- 6867
+newline$ -- 477
+num.names$ -- 952
+pop$ -- 6494
 preamble$ -- 1
-purify$ -- 412
+purify$ -- 373
 quote$ -- 0
-skip$ -- 4248
+skip$ -- 3968
 stack$ -- 0
-substring$ -- 11305
-swap$ -- 2691
-text.length$ -- 585
-text.prefix$ -- 20
+substring$ -- 10098
+swap$ -- 2514
+text.length$ -- 549
+text.prefix$ -- 19
 top$ -- 1
-type$ -- 702
+type$ -- 668
 warning$ -- 0
-while$ -- 1395
+while$ -- 1271
 width$ -- 0
-write$ -- 495
-(There were 2 error messages)
+write$ -- 458
+(There were 3 error messages)

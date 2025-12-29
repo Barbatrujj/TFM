@@ -33,6 +33,56 @@
 	
 	df.to_csv("papers_clean.csv", index=False)
 	print("Clean CSV saved as papers_clean.csv")	
+			
+	\end{lstlisting}
+	
+\section{PapersEmbedding.py}
+\label{sec:PapersEmbedding}
+
+	\begin{lstlisting}[language=Python, caption={Python code to do the embeddings}]
+		
+		import pandas as pd
+		from sentence_transformers import SentenceTransformer
+		import chromadb
+		
+		df = pd.read_csv("papers_clean.csv")
+		for col in ["summary", "keywords"]:
+		if col not in df.columns:
+		df[col] = ""
+		df.fillna("", inplace=True)
+		df["text"] = df["title"] + ". " + df["summary"] + " " + df["keywords"]
+		
+		texts = df["text"].tolist()
+		metadatas = df[["title", "authors", "year", "keywords"]].to_dict(orient="records")
+		
+		# Generate embeddings
+		model = SentenceTransformer("all-MiniLM-L6-v2")
+		embs = model.encode(texts, show_progress_bar=len(texts)>50, convert_to_numpy=True, batch_size=32)
+		
+		# Create clients
+		client = chromadb.PersistentClient(path="./chroma_db")
+		collection = client.get_or_create_collection(name="papers_color")
+		
+		# Insert documents of the files
+		collection.add(
+		documents=texts,
+		embeddings=embs.tolist(),
+		metadatas=metadatas,
+		ids=[f"doc_{i}" for i in range(len(texts))]
+		)
+		
+		print("Vectorial base created in ./chroma_db")
+		
+		q_emb = model.encode([query])[0].tolist()
+		res = collection.query(query_embeddings=[q_emb], n_results=3, include=["documents", "metadatas"])
+		
+		print("\nResults:")
+		for doc, meta in zip(res["documents"][0], res["metadata"][0]):
+		print("Title:", meta["title"])
+		print("Authors:", meta.get("authors"))
+		print("Year:", meta.get("year"))
+		print("Text (start):", doc[:200], "...\n")
 		
 		
 	\end{lstlisting}
+

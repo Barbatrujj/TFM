@@ -4,20 +4,29 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1}{\ignorespaces Sony Portapak camera (Maison de la Vidéo \& du Cinéma: \blx@tocontentsinit {0}\cite {portapak_mvc})}}{5}{figure.caption.9}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Areas of the brain, by CogniFit Blog. \textit {Three main parts of the human brain}, 2015}}{7}{figure.caption.10}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Areas of the visual cortex, by Leonard J. Press, O.D., FAAO, FCOVD. \textit {The Visual Centers of the Brain}, 2018}}{7}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4}{\ignorespaces Example of Porter Robinson visuals (source: \blx@tocontentsinit {0}\cite {porterArtworkReddit})}}{13}{figure.caption.12}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Example of a CSV with the Structure of the project}}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Images of Gaudi's Architecture}}{14}{figure.caption.10}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Casa Batlló}}}{14}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Casa Batlló rooftop}}}{14}{subfigure.2.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Parc Güell}}}{14}{subfigure.2.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Inside of casa Batlló}}}{14}{subfigure.2.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Example of a CSV with the Structure of the project}}{16}{figure.caption.11}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Place to select the Folder with all the documents to be embedded by the LLM}}{19}{figure.caption.12}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Options Parse All Documents, Parse Single File and Clear Tables}}{20}{figure.caption.13}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Connection between Source Docs and RAG index}}{20}{figure.caption.14}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Options of the Rag index}}{21}{figure.caption.15}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Index created}}{22}{figure.caption.16}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9}{\ignorespaces Graphic of the amount of money spent on the project.}}{25}{figure.caption.17}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6}{\ignorespaces Connection between the operator addMessage and an Agent in Touch Designer}}{19}{figure.caption.14}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Connection between the operator agentSession and an Agent in Touch Designer}}{19}{figure.caption.15}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Workflow for the connection of personal documentation to make the agent learn based in the LLM}}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {9}{\ignorespaces External tools connected to an agent}}{21}{figure.caption.17}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Parameters of the rag\_index operator}}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Error creating index in rag\_index}}{22}{figure.caption.19}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Structure inside of the Rag\_index.}}{23}{figure.caption.20}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Lines added to fix the error.}}{24}{figure.caption.21}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Connection between the operator addMessage and an Agent in Touch Designer}}{29}{figure.caption.18}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Connection between the operator agentSession and an Agent in Touch Designer}}{29}{figure.caption.19}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Workflow for the connection of personal documentation to make the agent learn based in the LLM}}{30}{figure.caption.20}%
+\contentsline {figure}{\numberline {13}{\ignorespaces External tools connected to an agent}}{31}{figure.caption.21}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Parameters of the rag\_index operator}}{32}{figure.caption.22}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Error creating index in rag\_index}}{32}{figure.caption.23}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Structure inside of the Rag\_index.}}{33}{figure.caption.24}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Lines added to fix the error.}}{34}{figure.caption.25}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -120,6 +120,29 @@
     \field{urlyear}{2025}
   \endentry
 
+  \entry{dotdocs2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Dotdocs}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D2}
+    \strng{fullhash}{D2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Dotdocs Documentation}
+    \verb{url}
+    \verb https://dotdocs.netlify.app/
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{07}
+    \field{urlmonth}{12}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{hanhardt1986paik}{book}{}{}
     \name{author}{1}{}{%
       {{hash=HJG}{%
@@ -163,43 +186,6 @@
     \field{title}{Designing for Emerging Technologies: UX for Genomics,
   Robotics, and the Internet of Things}
     \field{year}{2016}
-  \endentry
-
-  \entry{Huff2023}{book}{}{}
-    \name{author}{3}{}{%
-      {{hash=HT}{%
-         family={Huff},
-         familyi={H\bibinitperiod},
-         given={Trevor},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=MN}{%
-         family={Mahabadi},
-         familyi={M\bibinitperiod},
-         given={Navid},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=TP}{%
-         family={Tadi},
-         familyi={T\bibinitperiod},
-         given={Prasanna},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {StatPearls Publishing}%
-    }
-    \strng{namehash}{HTMNTP1}
-    \strng{fullhash}{HTMNTP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{title}{Neuroanatomy, visual cortex}
-    \verb{url}
-    \verb https://www.ncbi.nlm.nih.gov/books/NBK482504/
-    \endverb
-    \field{year}{2023}
   \endentry
 
   \entry{kawaguchi2021touchdesigner}{misc}{}{}
@@ -348,30 +334,6 @@
     \field{title}{Processing: A Programming Handbook for Visual Designers and
   Artists}
     \field{year}{2014}
-  \endentry
-
-  \entry{porterArtworkReddit}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=R}{%
-         family={{Reddit Users}},
-         familyi={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{title}{Porter Robinson Worlds Artwork}
-    \verb{url}
-    \verb https://www.reddit.com/r/porterrobinson/comments/5qoc09/porter_robins
-    \verb on_worlds_artwork/
-    \endverb
-    \field{year}{2017}
-    \field{urlday}{07}
-    \field{urlmonth}{12}
-    \field{urlyear}{2025}
   \endentry
 
   \entry{rush2007video}{book}{}{}

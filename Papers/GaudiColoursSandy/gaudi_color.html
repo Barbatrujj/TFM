@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Antoni Gaudí and the Architecture of Color</title>
+  <meta name="description" content="Chromatic logic, materiality, symbolism, and computational formalization of Antoni Gaudí’s use of color." />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      max-width: 1100px;
+      color: #222;
+    }
+    h1, h2, h3 {
+      color: #1f3c88;
+    }
+    h1 {
+      border-bottom: 3px solid #1f3c88;
+      padding-bottom: 10px;
+    }
+    h2 {
+      margin-top: 40px;
+      border-left: 6px solid #1f3c88;
+      padding-left: 12px;
+    }
+    h3 {
+      margin-top: 25px;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    table th {
+      background: #f0f3f9;
+    }
+    .palette {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin: 25px 0;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    .hex {
+      font-family: monospace;
+      font-size: 0.95em;
+    }
+    footer {
+      margin-top: 60px;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Antoni Gaudí and the Architecture of Color</h1>
+<h3>Chromatic Logic, Materiality, Symbolism, and Computational Formalization</h3>
+
+<section>
+  <h2>Abstract</h2>
+  <p>
+    Antoni Gaudí (1852–1926) developed a chromatic system in which color was not decorative
+    but structural, perceptual, symbolic, and temporal. His architecture integrates color
+    as a function of material truth, natural reference, and light interaction. This document
+    analyzes Gaudí’s dominant color palettes, provides quantified palette systems with
+    hexadecimal color codes, and formalizes his chromatic logic for the purpose of developing
+    an AI-based Color Expert Agent specialized in Gaudí’s work.
+  </p>
+</section>
+
+<section>
+  <h2>1. Gaudí’s Philosophy of Color</h2>
+  <p>
+    Gaudí understood color as a living phenomenon, inseparable from nature, material origin,
+    light behavior, and emotional or spiritual perception. Color in his work emerges from
+    material and reacts dynamically to light rather than remaining static or ornamental.
+  </p>
+</section>
+
+<section>
+  <h2>2. General Chromatic Principles</h2>
+  <ul>
+    <li>Nature-derived palettes</li>
+    <li>Material-first color selection</li>
+    <li>Fragmentation instead of flat color</li>
+    <li>Light-reactive surfaces</li>
+    <li>Symbolic but non-literal meanings</li>
+    <li>Controlled irregularity</li>
+    <li>Emotional and spiritual intent</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. Quantified Chromatic Palette System</h2>
+
+  <div class="palette">
+    <h3>Palette #1 — Mediterranean Blue–Green</h3>
+    <p><strong>Estimated usage:</strong> 30–35%</p>
+    <p><strong>HEX Colors:</strong></p>
+    <ul class="hex">
+      <li>#2EC4B6 (Turquoise)</li>
+      <li>#6EDBD5 (Aquamarine)</li>
+      <li>#2A7FFF (Mediterranean Blue)</li>
+      <li>#4FB3D8 (Cyan Blue)</li>
+      <li>#1FA2A6 (Blue-Green)</li>
+    </ul>
+  </div>
+
+  <div class="palette">
+    <h3>Palette #2 — Natural Green / Vegetal</h3>
+    <p><strong>Estimated usage:</strong> 15–20%</p>
+    <ul class="hex">
+      <li>#6B8E23 (Moss Green)</li>
+      <li>#7A8450 (Olive Green)</li>
+      <li>#3A9D7C (Jade Green)</li>
+      <li>#2F7F5F (Muted Emerald)</li>
+      <li>#6F7F5A (Green-Brown Transition)</li>
+    </ul>
+  </div>
+
+  <div class="palette">
+    <h3>Palette #3 — Earth & Mineral Structural</h3>
+    <p><strong>Estimated usage:</strong> 25–30%</p>
+    <ul class="hex">
+      <li>#C49A6C (Ochre)</li>
+      <li>#E2CDA1 (Sand)</li>
+      <li>#D8CFC4 (Limestone Beige)</li>
+      <li>#8B5E3C (Clay Brown)</li>
+      <li>#9A9A9A (Stone Gray)</li>
+    </ul>
+  </div>
+
+  <div class="palette">
+    <h3>Palette #4 — Solar Warm / Symbolic Accents</h3>
+    <p><strong>Estimated usage:</strong> 10–15%</p>
+    <ul class="hex">
+      <li>#FFD23F (Golden Yellow)</li>
+      <li>#FFB000 (Amber)</li>
+      <li>#FF8C42 (Warm Orange)</li>
+      <li>#C1121F (Crimson Red)</li>
+      <li>#8C1D18 (Deep Red)</li>
+    </ul>
+  </div>
+
+  <div class="palette">
+    <h3>Palette #5 — White, Bone & Light Neutrals</h3>
+    <p><strong>Estimated usage:</strong> 5–10%</p>
+    <ul class="hex">
+      <li>#FFFFFF (Pure White)</li>
+      <li>#F5F0E6 (Bone)</li>
+      <li>#EFE6D8 (Ivory)</li>
+      <li>#EAE3D7 (Pale Limestone)</li>
+    </ul>
+  </div>
+
+  <div class="palette">
+    <h3>Palette #6 — Polychromatic Trencadís Composite</h3>
+    <p>
+      Cross-system palette composed probabilistically from Palettes #1, #2, and #4,
+      emphasizing fragmentation, randomness, and micro-contrast.
+    </p>
+  </div>
+
+</section>
+
+<section>
+  <h2>4. Trencadís as a Chromatic System</h2>
+  <p>
+    Trencadís functions as chromatic engineering: breaking color into fragments to enhance
+    reflectivity, avoid flatness, and generate perceptual movement. Computationally, it can
+    be modeled through stochastic sampling and high-frequency color variation.
+  </p>
+</section>
+
+<section>
+  <h2>5. Color and Light as a Time-Based System</h2>
+  <p>
+    Gaudí designed color to evolve over time. Morning light emphasizes cool hues, while
+    afternoon light intensifies warm tones. Interior stained glass transforms light itself
+    into a chromatic emitter.
+  </p>
+</section>
+
+<section>
+  <h2>6. Symbolic Color Mapping</h2>
+  <table>
+    <tr><th>Color Family</th><th>Symbolic Meaning</th></tr>
+    <tr><td>Blue</td><td>Heaven, infinity</td></tr>
+    <tr><td>Green</td><td>Life, regeneration</td></tr>
+    <tr><td>Yellow</td><td>Divine wisdom</td></tr>
+    <tr><td>Red</td><td>Sacrifice, love</td></tr>
+    <tr><td>White</td><td>Purity, transcendence</td></tr>
+    <tr><td>Earth tones</td><td>Humility, material truth</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>7. Formalized Color Logic for AI Agents</h2>
+  <ul>
+    <li>Begin with earth or blue-green base palettes</li>
+    <li>Add symbolic accents sparingly</li>
+    <li>Fragment color whenever possible</li>
+    <li>Modulate color with light and time</li>
+    <li>Avoid flat uniform fills</li>
+  </ul>
+</section>
+
+<section>
+  <h2>8. Agent-Ready Pseudologic</h2>
+  <pre><code>
+Select Base Palette (Nature-based)
+Apply Material Constraint
+Fragment via Trencadís Logic
+Modulate with Light + Time
+Inject Symbolic Accents
+Output: Living Chromatic Surface
+  </code></pre>
+</section>
+
+<footer>
+  This document formalizes Antoni Gaudí’s chromatic logic for computational and AI-driven
+  creative systems, preserving organic complexity while enabling structured color generation.
+</footer>
+
+</body>
+</html>
