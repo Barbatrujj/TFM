@@ -1,0 +1,304 @@
+\chapter{Research}\label{ch:Research}
+
+\section{Introduction}
+For the practical part of the project, the focus will be on acomplishing all the objectives. The proposed approach is to first investigate and define an effective method for training the model, and only then proceed with the development of the tool itself. Since the project is intended for use by artists, a reference artist with a well-defined visual identity, particularly in terms of color palette and formal language, was selected. This choice makes it possible to clearly demonstrate how the system generates visuals that are informed by and aligned with the artistic characteristics of the chosen individual. This will allow each artist to adapt and modify it according to their own creative needs. The development process will center on a single case study. To simulate an artistic profile, the decision was made to use the color palettes of Antoni Gaudí. 
+
+\vspace{0.5cm}
+
+Gaudí was a renowned Catalan architect whose work is characterized by organic, curved forms that evoke elements of religion and nature. His architectural language combined structural innovation with strong symbolic and aesthetic intent.
+
+One of the most distinctive techniques associated with Gaudí is trencadís, a modernist method that involves covering surfaces with fragments of broken ceramic tiles. As seen in figure \ref{fig:GaudiArquitecture}, this technique allowed for the creation of vibrant, textured surfaces and complex color compositions, which have become a defining feature of his work. The use of Gaudí’s color palettes and formal principles provides a clear and recognizable visual reference, making it well suited for simulating an artist-driven visual system within the project.
+
+\begin{figure}[h]
+	\centering
+	
+	% Primera fila
+	\subfloat[Casa Batlló\label{fig:CasaBatlló}]{
+		\includegraphics[width=0.48\textwidth,height=0.30\textwidth]{gfx/Gaudi1.jpg}
+	}
+	\subfloat[Casa Batlló rooftop\label{fig:psd_2002s_driver}]{
+		\includegraphics[width=0.48\textwidth,height=0.30\textwidth]{gfx/Gaudi2.jpg}
+	}
+	
+	\vspace{0.2cm} % Espacio entre filas
+	
+	% Segunda fila
+	\subfloat[Parc Güell\label{fig:atlas_sound_driver}]{
+		\includegraphics[width=0.48\textwidth,height=0.27\textwidth]{gfx/Gaudi3.jpg}
+	}
+	\subfloat[Inside of casa Batlló\label{fig:pds_221_driver}]{
+		\includegraphics[width=0.48\textwidth]{gfx/Gaudi4.jpg}
+	}
+	
+	\caption{Images of Gaudi's Architecture}
+	\label{fig:GaudiArquitecture}
+\end{figure}
+
+\vspace{2cm}
+
+This material will serve as the foundation for training our system. By grounding the tool in the specific characteristics of his music, we aim to create a version of the project that reflects his artistic identity and demonstrates how the system can be tailored to other artists.
+
+\section{Training of the LLM}
+\label{sec:TrainingLLM}
+
+In order to properly train the system, information on several different topics will be collected to carry out the entire research process.Several approaches were explored in order to train the LLM models. While the objective was clearly defined, to integrate a trained model into TouchDesigner and enable interaction directly within the application, the specific method for achieving this integration was not initially known. As a result, different strategies were investigated and evaluated to determine the most effective way to train the model and connect it to the TouchDesigner environment.
+
+\subsection{First approach}
+\label{sub:First_aproach}
+
+The first approach involved manually creating all the information required for the LLM models. As explained in the \ref{sec:LLM} section, for a model to acquire and use information, it must pass through several distinct stages. First, a document containing the relevant and curated information must be created. Next, this data must be embedded so that the model can process and analyze it effectively. Finally, the model must be connected to the processed data, enabling it to retrieve and use the appropriate information in response to user queries.
+
+The first thing was to recollect all the information that the model has to learn. To start researching, as one of the aspects that the project wants to cover was the colour, a research of academic papers based on colour started. After several hours of analysis, approximately 60–70  papers were selected for each topic, prioritizing those that offered the most reliable and impactful insights for the tool’s development.
+
+\vspace{0.5cm}
+
+Once the papers had been selected, the next step was to construct the database. To organize the information systematically, a CSV file was created to store and classify the key details from each article. The following structure, shown in Figure \ref{fig:ExampleOfCSV} was chosen:
+
+\begin{itemize}
+	\item \textbf{Title \textsubscript}
+	
+	\item \textbf{Author \textsubscript}
+	
+	\item \textbf{Year \textsubscript}
+	
+	\item \textbf{Sumary: \textsubscript}
+	This section contains a condensed version of the paper’s abstract. Because abstracts are typically accessible for free, they provide enough information for the system to understand the essence of each study without requiring full-text access.
+	
+	\item \textbf{Keywords: \textsubscript}
+	Keywords were included to enable the system to retrieve the most relevant papers based on the prompts provided by the user. When embeddings are generated, these keywords help the system match user queries with the scientific articles that best fit the topic, ensuring accurate and efficient information retrieval.
+	
+\end{itemize}
+
+
+This structured approach ensures that the agent can navigate the database effectively and rely on well-organized, high-quality scientific data.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\linewidth]{gfx/ExampleOfCSV.png}
+	\caption{Example of a CSV with the 	Structure of the project}
+	\label{fig:ExampleOfCSV}
+\end{figure}
+
+The next step involved processing the information contained in the CSV file. To ensure that the agent could generate embeddings effectively, it was necessary to remove any characters that might interfere with processing, such as accents, apostrophes, and other special symbols. These characters can cause inconsistencies or errors during embedding generation, so cleaning the data was essential.
+
+To accomplish this, a script was created to automatically convert and sanitize the CSV files, ensuring that all entries were standardized and compatible with the agent’s requirements. This script, titled Papers\_clean.py, performs the necessary preprocessing steps and prepares the dataset for seamless integration. The full code for this script is included in the appendix \ref{sec: Clean_papers}.
+
+The next step was to create the embeddings. To do this, as we had some knowledge of Python but not of how to create embeddings, we used Cursor. Cursor is paid software similar to Microsoft Copilot, which allows you to program in an environment that has implemented artificial intelligence that allows you to read and analyze everything you are doing, as well as suggest possible improvements.
+
+Basically, this code builds and tests a semantic search system for academic papers.
+It loads a cleaned CSV file containing paper data and ensures required text fields exist.
+Each paper's title, summary, and keywords are merged into a single text string.
+A pretrained SentenceTransformer model converts these texts into numerical embeddings.
+The embeddings, original texts, and metadata are stored in a persistent ChromaDB vector database.
+Each document is assigned a unique ID and saved to disk for reuse.
+A test query in natural language is also converted into an embedding.
+The database is searched for the most semantically similar papers to that query.
+The top matching documents are retrieved based on meaning, not keywords.
+Finally, the script prints the titles, metadata, and text snippets of the best results. For watching the full code, go to the annex \ref{sec:PapersEmbedding}
+
+
+The subsequent step was to integrate the generated embeddings into TouchDesigner. However, during one of the meetings with Sabio, the possibility of working with LOPs was discussed. LOPs is a TouchDesigner-based system developed by DotSimulate that enables the integration of LLM-powered agents directly within the software.
+After conducting further research, it became evident that LOPs significantly simplified the workflow. Unlike the initial approach, it was no longer necessary to manually perform all preliminary processing steps. Instead, by providing a folder containing HTML, HTM, or TXT files, it was possible to interact with an agent that had direct access to the knowledge supplied by the user. This discovery marked a turning point in the project, as it allowed the focus to shift from low-level implementation details to the design and behavior of the AI-driven system within TouchDesigner.
+
+\subsection{LOPS}
+\label{sub:LOPS}
+
+When we started working with LOPS, it quickly became clear that it wouldn't be plain sailing. Due to incompatible versions of other software, such as Python, it took two weeks of errors just to install the tool within Touch Designer. Nevertheless, thanks to DotSimulate's helpful tutorials and his willingness to answer our questions, we managed to start working with the software.
+Once LOPS had been correctly installed, the research began and a much simpler way of training the model was discovered than that described in the \ref{sub:First_aproach} subsection. Training the LLM model involves fewer steps, and LOPS automates the process much more efficiently. However, before starting, two Gemini 2.0 API keys had to be acquired, one for each team member. Ollama, an LLM model designed for local use, also had to be installed. This model enables the creation of embeddings. Below, we will explain how to train an LLM model and connect it to an agent, enabling you to access information based on a prompt.
+
+\begin{itemize}
+	\item{\textbf{Source Docs: }} The first step is to incorporate all user-provided information into TouchDesigner. This is achieved using an operator called Source Docs. This operator enables users to reference a folder on their local computer and automatically read all documents stored in supported formats, such as .htm, .html and .py. These files collectively form the knowledge base that the agent will later use.
+	
+	When the operator is opened in TouchDesigner, the configuration interface becomes visible, as seen in Figure \ref{fig:SourceDocsDocumentFolder} . From here, users can define the folder path and manage how documents are ingested into the system. This ensures that all relevant information is correctly loaded and made available for further processing.
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{gfx/SourceDocs1.png}
+		\caption{Place to select the Folder with all the documents to be embedded by the LLM}
+		\label{fig:SourceDocsDocumentFolder}
+	\end{figure}
+	
+	
+	Once the folder has been selected, the documents must be parsed so that the system can correctly process their contents. The operator interface provides three main options for this, as shown in Figure \ref{fig:SourceDocsDocumentFolder2}.
+	
+	The first option, 'Parse All Documents' (slow), processes all the documents in the selected folder in one operation. This method is useful when working with a complete dataset, although it may take longer depending on the number and size of the files. The second option, 'Parse Single File', processes each document individually, offering greater control when testing or updating specific files. Finally, the 'Clear Table' function removes all previously parsed data. This option is necessary when a document in the folder has been modified, as the existing data must be cleared and re-parsed to accurately reflect the changes.
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{gfx/SourceDocs2.png}
+		\caption{Options Parse All Documents, Parse Single File and Clear Tables}
+		\label{fig:SourceDocsDocumentFolder2}
+	\end{figure}
+	
+	\item {\textbf{RAG index: }} When all the documents in the folder that the user wants have been parsed, the next step, as shown in Figure , is to connect the ‘RAG index’. 
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{gfx/RagIndex1.png}
+		\caption{Connection between Source Docs and RAG index}
+		\label{fig:RagIndex1}
+	\end{figure}
+	
+	This operator is responsible for processing all the documents provided by the Source Docs operator and generating the corresponding embeddings. As with the previous operator, the RAG Index includes a drop-down menu that provides access to its configuration options. One of its key functions is allowing the user to select the LLM model that will be used for embedding generation and retrieval.
+	
+	In this project, a local instance of the Llama 3 model was used, running through Ollama. Once the model is selected, the operator processes the ingested documents, creates embeddings from the parsed content, and builds the corresponding indexes that enable efficient information retrieval. These functionalities and configuration options are illustrated in Figure \ref{fig:RagIndex2}. Depending on each person's computer, this step is prone to errors. If you encounter an error at this stage, please refer to the appendix \ref{sec:problemwithRagIndexChunks}.
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{gfx/RagIndex2.png}
+		\caption{Options of the Rag index}
+		\label{fig:RagIndex2}
+	\end{figure}
+	
+	Once the index is created, the index name will appear automatically. To verify everything is correct, an image like the Figure \ref{fig:RagIndex3} should appear.
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{gfx/RagIndex3.png}
+		\caption{Index created}
+		\label{fig:RagIndex3}
+	\end{figure}
+	
+	\item {\textbf{RAG Retriever: }}Once the RAG Index has been created, the next step is to add a RAG Retriever operator. This operator must be linked to the previously generated RAG index in order to retrieve relevant information during user interactions.
+	
+	As shown in Figure \ref{fig:RagRetriever1}, this configuration is performed through the operator’s parameters. In the Search Mode section, the Custom option must be selected. After enabling this mode, the desired RAG index should be dragged into the Query Phase section. Once the RAG components are correctly connected, the final step is to click the “Query Index” button. When this action is performed, the operator searches the indexed data and retrieves the most relevant document fragments based on the information requested by the agent or the message entered in the Add Text section. These retrieved fragments are then used to provide context-aware responses, enabling the agent to answer queries accurately using the embedded knowledge base, as shown in Figure \ref{fig:multiqueryretrival}.
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\linewidth]{gfx/RagRetriever1.png}
+		\caption{Connecting the rag index into the rag retriever.}
+		\label{fig:RagRetriever1}
+	\end{figure}
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\linewidth]{gfx/MultiQueryRetrival.png}
+		\caption{Diagram of how a Multi-Query Retrieval works}
+		\label{fig:multiqueryretrival}
+	\end{figure}
+	
+	\item{\textbf{Agent: }}Finally, an agent must be added and connected to the RAG Retriever. This enables users to interact with the system directly via the agent, which responds by retrieving and using the most relevant information based on user requests and knowledge stored in indexed documents.
+	
+	To establish this connection, the agent’s parameters must be configured accordingly. As shown in Figure \ref{fig:Agentexp1}, navigate to the 'Tools' tab and locate the 'External Tools OP' section. Enable an external operator and drag the corresponding RAG Retriever into the designated field.
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\linewidth]{gfx/Agentexp1.png}
+		\caption{Adding the rag retriever into the agent.}
+		\label{fig:Agentexp1}
+	\end{figure}
+	
+	Finally, once all operators have been properly connected, the agent must be configured to define its role and expected behavior. This is done by accessing the agent’s parameters and specifying its system instructions.
+	
+	To do so, navigate to the Agent tab and click the EditSysMess button. Within this field, the user can describe the agent’s function, define its scope, and specify how it should respond to queries.
+	
+\end{itemize}
+
+\section{Tool Creation}
+
+After determining that the project could be effectively developed using LOPs, as described in the previous section, the focus shifted toward designing a workflow that would allow users to upload their own files and generate visuals based on that material. A key objective of this workflow was to preserve a certain level of autonomy within the system. This means that even when the same prompt is entered multiple times, the system is capable of producing different visual outputs, rather than repeating identical results.
+
+The underlying concept is that the system can be trained using a large dataset derived from the user’s own research into visual and auditory elements such as shapes, colors, and sounds. This dataset serves as the creative foundation from which the system operates. For the purposes of this project and to validate the workflow, a simplified approach was adopted by working with a limited set of .html files specifically focused on the work and color palettes of Gaudí.
+
+To properly structure the tool’s workflow, several key components are required. First, the entire database must be imported into TouchDesigner, allowing the model to be trained and to internalize the provided information. Next, the system must be capable of extracting relevant data from the stored content in response to a user-defined prompt. Once this information has been retrieved, the system must generate a highly detailed prompt in the form of executable code. This code is then used to drive the creation of shaders through a TOP operator known as GLSL Multi, enabling the automatic generation of visuals based on the interpreted data.
+
+This workflow, shown in Figure \ref{fig:Diagram}, establishes a flexible and scalable framework in which user-provided research material directly informs the visual output, while still allowing for variation, experimentation, and creative unpredictability within the system.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\linewidth]{gfx/Diagram.png}
+	\caption{Diagram of the system's workflow.}
+	\label{fig:Diagram}
+\end{figure}
+
+\vspace{2cm}
+
+\subsection{Orquestration}
+The most important feature of the tool is its autonomy. A series of operators will perform different functions simultaneously, so there must be a chain of command to coordinate each element. Within LOPs, there is an operator called the 'Agent Orchestrator'. This operator is responsible for managing all the agents that the user requires. As shown in Figure \ref{fig:Orquestrator1}, this operator allows you to add as many agents as required for orchestration. Simply access the Orchestrator tab, enter the number of agents you wish to control and drag them into the operator. There is also a button to activate or deactivate any agent without disconnecting it.  
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\linewidth]{gfx/Orquestrator1.png}
+	\caption{How to add Agents to the Agent Orquestrator.}
+	\label{fig:Orquestrator1}
+\end{figure}
+
+Once the agents participating in the orchestration have been added, two additional components are required: a prompt containing written instructions, and an agent responsible for coordinating the other agents' actions. As the Agent Orchestrator does not directly communicate with the remaining agents on its own, it requires a standard agent to act as a leader. Instead, the Orchestrator forwards relevant information to the Validator agent, who then distributes tasks and instructions to the other agents involved in the workflow.
+
+In parallel, the orchestration instructions are provided to the Orchestrator in textual form. In TouchDesigner, this is achieved using a DAT operator known as Text DAT, which functions similarly to a basic text editor. This operator enables users to define the orchestration process by writing the sequence of steps and commands. These instructions outline the order of operations and specify the actions that each agent is expected to perform.
+
+Once the leader agent and instruction prompt have been configured correctly, they must be connected to the Agent Orchestrator, as shown in Figure \ref{fig:Orquestrator2}.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\linewidth]{gfx/Orquestrator2.png}
+	\caption{How to add the validator agent and the Task DAT.}
+	\label{fig:Orquestrator2}
+\end{figure}
+
+This Orchestrator has additional parameters that enable you to start, stop or reset the orchestration, and select the maximum number of rounds to run, as shown in Figure \ref{fig:Orquestrator3}.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\linewidth]{gfx/Orquestrator3.png}
+	\caption{Extra options of the agent orquestrator.}
+	\label{fig:Orquestrator3}
+\end{figure}
+
+\subsection{Database Import \& semantic query}
+
+The following section addresses the topic of data import. Since the complete process, from creating user data to connecting it with the corresponding agent, has already been described in subsection \ref{sub:LOPS}, this part focuses specifically on data structuring and performance optimization.
+
+One of the primary considerations is how to structure the information effectively. Through different projects made in testing, it was observed that system performance improves as the information is more finely segmented. In practice, this means that dividing the dataset into smaller, more focused units leads to better results. Rather than relying on a single, generalized agent, it is more effective to deploy multiple agents, each dedicated to a specific task and trained to a high level of specialization.
+
+In the context of this project, experiments were conducted using data related to color and shape. Consequently, each base was supported by two specialized agents, one focusing on color related information and the other on shape related characteristics. The color data used in this project is derived from color palettes associated with Gaudí, drawing inspiration from patterns and combinations found in nature. These palettes serve as a visual reference that reflects organic aesthetics and rich chromatic variation.
+
+In contrast, the approach to shapes follows a different strategy. Rather than referencing a single artistic source, the focus is placed on the various types of shaders that can be generated, such as point-based shaders or kaleidoscopic forms. To support this approach, a dedicated database is created for each shader category, with a specialized agent assigned to each one.
+
+Each agent is assigned a specific function that defines the task it is responsible for performing within the system. In addition to connecting agents that manage different data sources, each agent includes an internal configuration section where its role can be explicitly defined. This role specification is essential for ensuring that each agent operates within its intended scope and contributes effectively to the overall workflow.
+
+The following example illustrates how to configure an agent dedicated to generating kaleidoscopic shapes based on an .html file containing visual patterns and instructions for their construction. To define this behavior, the user must access the Agent tab of the corresponding agent and click the EditSysMess button. This action opens an interface similar to the one shown in Figure \ref{fig:Editsysmess2}, where the system message can be written to clearly describe the agent’s responsibilities and expected output.
+
+It is important to ensure that the instructions assigned to the agent do not overlap with those defined in the Text DAT used by the Agent Orchestrator. While the orchestrator provides high-level coordination and task sequencing, each agent’s system message should focus solely on its specialized function.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\linewidth]{gfx/EDITMESS2.png}
+	\caption{Interface to write how the agent must beheave.}
+	\label{fig:Editsysmess2}
+\end{figure}
+
+Once the agents participating in the orchestration have been added, two additional components are required: a prompt containing written instructions, and an agent responsible for coordinating the other agents' actions. As the Agent Orchestrator does not directly communicate with the remaining agents on its own, it requires a standard agent to act as a leader. Instead, the Orchestrator forwards relevant information to the leader agent, who then distributes tasks and instructions to the other agents involved in the workflow.
+
+In parallel, the orchestration instructions are provided to the Orchestrator in textual form. In TouchDesigner, this is achieved using a DAT operator known as Text DAT, which functions similarly to a basic text editor. This operator enables users to define the orchestration process by writing the sequence of steps and commands. These instructions outline the order of operations and specify the actions that each agent is expected to perform.
+
+Once the leader agent and instruction prompt have been configured correctly, they must be connected to the Agent Orchestrator, as shown in Figure X.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\linewidth]{gfx/WorkflowExample1.png}
+	\caption{Image of te workflow between two source agents and the Orquestrators.}
+	\label{fig:Workflow1}
+\end{figure}
+
+\subsection{Prompt code Generation}
+
+Once the information provided by the agents connected to the LLM model has been collected, the workflow proceeds to the next phase. This stage focuses on generating a detailed prompt for creating a GLSL shader based on the aggregated data. To accomplish this, an additional agent was created with the specific role of consolidating the collected information and transforming it into a coherent and structured prompt.
+
+In this case, it was not necessary to import external documentation, as LOPs agents are created with a foundational understanding of how TouchDesigner operates. As a result, they already possess baseline knowledge of GLSL shader structures and syntax. The implementation therefore followed the same configuration approach used in earlier stages.
+
+First, the Text DAT associated with the Agent Orchestrator was configured to instruct the system to forward the collected information to the agent specialized in prompt generation. This agent was responsible for producing a single, precise prompt tailored for shader creation. At the same time, the agent’s internal instructions were carefully defined to ensure that it did not act independently or generate multiple prompts. This precaution was necessary to avoid conflicts or collisions between the high-level commands issued by the Agent Orchestrator and the agent’s own system-level instructions.
+
+This controlled interaction ensures a stable and predictable output, allowing the system to generate GLSL shader prompts that accurately reflect the input data. In figure there is a prompt based on the information of the sources.
+
+
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\linewidth]{gfx/Prompt.png}
+	\caption{Prompt made by the Prompt Agent in order to create the GLSL shader.}
+	\label{fig:Prompt}
+\end{figure}
+
+\subsection{GLSL shader}
+

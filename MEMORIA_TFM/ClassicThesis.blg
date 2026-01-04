@@ -18,14 +18,10 @@ Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: Chapters/Introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: Chapters/Theory.aux
-White space in argument---line 102 of file ClassicThesis.aux
- : \@input{Chapters/Practical
- :                            part.aux}
-I'm skipping whatever remains of this command
-White space in argument---line 112 of file ClassicThesis.aux
- : \@input{Chapters/Project
- :                          planning and management.aux}
-I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: Chapters/Practical_part.aux
+Reallocating 'name_of_file' (item size: 1) to 45 items.
+A level-1 auxiliary file: Chapters/Project_planning_and_management.aux
 Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: Chapters/Conclusions.aux
 Reallocating 'name_of_file' (item size: 1) to 38 items.
@@ -51,53 +47,48 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: ClassicThesis-blx.bib
 Database file #2: Bibliography.bib
-I was expecting a `,' or a `}'---line 124 of file Bibliography.bib
- :  urldate      = {2025-02-15}  
- :                               % date you accessed it
-I'm skipping whatever remains of this entry
 Database file #3: AMiede_Publications.bib
 Biblatex version: 3.20
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 20 entries,
+You've used 22 entries,
             6402 wiz_defined-function locations,
-            1314 strings with 11415 characters,
-and the built_in function-call counts, 100498 in all, are:
-= -- 6535
-> -- 2701
-< -- 673
-+ -- 3032
-- -- 1311
-* -- 6226
-:= -- 10200
+            1323 strings with 11610 characters,
+and the built_in function-call counts, 110475 in all, are:
+= -- 6940
+> -- 3403
+< -- 751
++ -- 3621
+- -- 1830
+* -- 6732
+:= -- 11311
 add.period$ -- 0
-call.type$ -- 20
-change.case$ -- 19
-chr.to.int$ -- 116
-cite$ -- 38
-duplicate$ -- 11085
-empty$ -- 9047
-format.name$ -- 1026
-if$ -- 20575
+call.type$ -- 22
+change.case$ -- 21
+chr.to.int$ -- 164
+cite$ -- 42
+duplicate$ -- 12049
+empty$ -- 9877
+format.name$ -- 1124
+if$ -- 22320
 int.to.chr$ -- 0
-int.to.str$ -- 51
+int.to.str$ -- 57
 missing$ -- 0
-newline$ -- 477
-num.names$ -- 952
-pop$ -- 6494
+newline$ -- 522
+num.names$ -- 1040
+pop$ -- 7148
 preamble$ -- 1
-purify$ -- 373
+purify$ -- 394
 quote$ -- 0
-skip$ -- 3968
+skip$ -- 4349
 stack$ -- 0
-substring$ -- 10098
-swap$ -- 2514
-text.length$ -- 549
-text.prefix$ -- 19
+substring$ -- 10710
+swap$ -- 2792
+text.length$ -- 617
+text.prefix$ -- 21
 top$ -- 1
-type$ -- 668
+type$ -- 736
 warning$ -- 0
-while$ -- 1271
+while$ -- 1379
 width$ -- 0
-write$ -- 458
-(There were 3 error messages)
+write$ -- 501

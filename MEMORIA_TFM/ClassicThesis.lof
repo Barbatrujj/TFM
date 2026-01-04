@@ -2,31 +2,44 @@
 \deactivateaddvspace 
 \babel@toc {american}{}\relax 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Similarities between visuals in concerts and Touch Designer tutorials, focused on simple geometrical shapes with audioreactivity}}{2}{figure.caption.8}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Concert with Visuals}}}{2}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Touch Designer tutorial}}}{2}{subfigure.1.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Sony Portapak camera (Maison de la Vidéo \& du Cinéma: \blx@tocontentsinit {0}\cite {portapak_mvc})}}{5}{figure.caption.9}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Sony Portapak camera (Maison de la Vidéo \& du Cinéma: \blx@tocontentsinit {0}\cite {portapak_mvc})}}{5}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2}{\ignorespaces Images of Gaudi's Architecture}}{14}{figure.caption.10}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Casa Batlló}}}{14}{subfigure.2.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Casa Batlló rooftop}}}{14}{subfigure.2.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Parc Güell}}}{14}{subfigure.2.3}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Inside of casa Batlló}}}{14}{subfigure.2.4}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Example of a CSV with the Structure of the project}}{16}{figure.caption.11}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Place to select the Folder with all the documents to be embedded by the LLM}}{19}{figure.caption.12}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Options Parse All Documents, Parse Single File and Clear Tables}}{20}{figure.caption.13}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Connection between Source Docs and RAG index}}{20}{figure.caption.14}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Options of the Rag index}}{21}{figure.caption.15}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Index created}}{22}{figure.caption.16}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Images of Gaudi's Architecture}}{14}{figure.caption.12}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Casa Batlló}}}{14}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Casa Batlló rooftop}}}{14}{subfigure.3.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Parc Güell}}}{14}{subfigure.3.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Inside of casa Batlló}}}{14}{subfigure.3.4}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Example of a CSV with the Structure of the project}}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Place to select the Folder with all the documents to be embedded by the LLM}}{19}{figure.caption.14}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Options Parse All Documents, Parse Single File and Clear Tables}}{20}{figure.caption.15}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Connection between Source Docs and RAG index}}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Options of the Rag index}}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Index created}}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Connecting the rag index into the rag retriever.}}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagram of how a Multi-Query Retrieval works}}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Adding the rag retriever into the agent.}}{24}{figure.caption.21}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagram of the system's workflow.}}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {14}{\ignorespaces How to add Agents to the Agent Orquestrator.}}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {15}{\ignorespaces How to add the validator agent and the Task DAT.}}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Extra options of the agent orquestrator.}}{27}{figure.caption.25}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Interface to write how the agent must beheave.}}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Image of te workflow between two source agents and the Orquestrators.}}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Prompt made by the Prompt Agent in order to create the GLSL shader.}}{31}{figure.caption.28}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9}{\ignorespaces Graphic of the amount of money spent on the project.}}{25}{figure.caption.17}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Graphic of the amount of money spent on the project.}}{34}{figure.caption.29}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10}{\ignorespaces Connection between the operator addMessage and an Agent in Touch Designer}}{29}{figure.caption.18}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Connection between the operator agentSession and an Agent in Touch Designer}}{29}{figure.caption.19}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Workflow for the connection of personal documentation to make the agent learn based in the LLM}}{30}{figure.caption.20}%
-\contentsline {figure}{\numberline {13}{\ignorespaces External tools connected to an agent}}{31}{figure.caption.21}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Parameters of the rag\_index operator}}{32}{figure.caption.22}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Error creating index in rag\_index}}{32}{figure.caption.23}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Structure inside of the Rag\_index.}}{33}{figure.caption.24}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Lines added to fix the error.}}{34}{figure.caption.25}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Connection between the operator addMessage and an Agent in Touch Designer}}{38}{figure.caption.30}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Connection between the operator agentSession and an Agent in Touch Designer}}{38}{figure.caption.31}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Workflow for the connection of personal documentation to make the agent learn based in the LLM}}{39}{figure.caption.32}%
+\contentsline {figure}{\numberline {24}{\ignorespaces External tools connected to an agent}}{40}{figure.caption.33}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Parameters of the rag\_index operator}}{41}{figure.caption.34}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Error creating index in rag\_index}}{41}{figure.caption.35}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Structure inside of the Rag\_index.}}{42}{figure.caption.36}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Lines added to fix the error.}}{43}{figure.caption.37}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

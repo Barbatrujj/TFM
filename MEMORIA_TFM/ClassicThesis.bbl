@@ -17,6 +17,29 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global/global}
+  \entry{anyma2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Anyma}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Official website}
+    \verb{url}
+    \verb https://www.anyma.com/
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{03}
+    \field{urlmonth}{01}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{bouchard2020interactive}{inproceedings}{}{}
     \name{author}{2}{}{%
       {{hash=BG}{%
@@ -114,9 +137,31 @@
     \verb{url}
     \verb https://derivative.ca
     \endverb
-    \field{year}{n.d.}
     \field{urlday}{15}
     \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{derivative_tutorials2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Derivative}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Tutorials}
+    \verb{url}
+    \verb https://derivative.ca/tutorials
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{07}
+    \field{urlmonth}{12}
     \field{urlyear}{2025}
   \endentry
 
