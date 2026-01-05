@@ -16,12 +16,12 @@
 	
 	
 	During the 1980s and 1990s, with the advent of digital video, new techniques for editing, production, and temporal manipulation emerged. At this point, artists such as Bill Viola began to explore new techniques using extreme video slow motion and careful compositions \cite{viola1995reasons}. Pipilotti Rist experimented with modifying images by altering saturation and distorting them to create expansive projections \cite{tribe2006newmedia}.
-	At the same time, in the field of electronic music, VJing was invented, a practice that consisted of mixing images in real time while music was playing. This concept quickly grew with the development of software such as Modul8, VDMX, and Resolume \cite{spinrad2005vjbook}.
+	At the same time, in the field of electronic music, \ac{VJ} was invented, a practice that consisted of mixing images in real time while music was playing, with people like Colo Miura \cite{cosmiclab2021interview}, who stands out using all kinds of wild analog techniques very early on using flames, water, video feedback, and \ac{VHS} to \ac{VJ} experimentally. Also performing with Boredoms \cite{redbull2015boredoms}, doing visuals while the group was playing. This concept quickly grew with the development of software such as Modul8, \ac{VDMX}, and Resolume \cite{spinrad2005vjbook}.
 	
 	\vspace{0.5cm}
-	Starting in the early 2000s, the availability of powerful computers, advanced graphics cards, and high-brightness projectors profoundly transformed visual creation processes. These tools, which were once static, have evolved into dynamic systems capable of generating images in real time, responding to external data, and integrating with sensors or interactive devices. Rather than approaching visual creation as a fixed, pre-defined product, it became possible to use environments such as TouchDesigner, Max/MSP/Jitter, and Pure Data to create a visual experience as a modulable data flow \cite{cycling2020max}.
+	Starting in the early 2000s, the availability of powerful computers, advanced graphics cards, and high-brightness projectors profoundly transformed visual creation processes. These tools, which were once static, have evolved into dynamic systems capable of generating images in real time, responding to external data, and integrating with sensors or interactive devices. Rather than approaching visual creation as a fixed, pre-defined product, it became possible to use environments such as TouchDesigner, Max/MSP/Jitter, and Pure Data was used to create a visual experience based on a modular data flow. \cite{cycling2020max}.
 	
-	Concurrently, languages such as Processing and p5.js enabled the growth of generative art, empowering algorithms, mathematical frameworks, and computational logic to dictate the structure and behavior of images \cite{pearson2011generative}. Consequently, the role of the visual artist underwent an evolution, becoming a hybrid profile that integrates design competencies with programming acumen and technical experimentation. Visual creators shifted from operating tools to becoming system architects who can manage complex information flows to produce flexible, interactive audiovisual experiences.
+	Concurrently, languages such as Processing, Open framewoks and p5.js enabled the growth of generative art, empowering algorithms, mathematical frameworks, and computational logic to dictate the structure and behavior of images \cite{pearson2011generative}. Consequently, the role of the visual artist underwent an evolution, becoming a hybrid profile that integrates design competencies with programming acumen and technical experimentation. Visual creators shifted from operating tools to becoming system architects who can manage complex information flows to produce flexible, interactive audiovisual experiences.
 	\vspace{0.5cm}
 	
 	Today, screens have expanded far beyond the traditional rectangular device, with new options including curved screens, foldable screens, and screens with various sizes and shapes. These elements can now manifest in various forms, including architectural surfaces, immersive environments, interactive installations, and high-resolution urban displays. Sensors, depth cameras, body-tracking devices, and real-time analysis systems are integrated to allow artworks to react to the presence and actions of the audience, creating multisensory experiences in which the image behaves like a living environment. As Paul \cite{paul2015digital} notes, contemporary digital art operates in a hybrid space where physical materiality and computational logic converge, thereby transforming the relationship between viewer and artwork.
@@ -33,36 +33,36 @@
 
 	TouchDesigner is a real-time visual development platform developed by Derivative that is used extensively for the creation of interactive multimedia systems, data-driven visualizations, and generative art. The architectural framework of this system is predicated on a node-based procedural workflow, a methodology that empowers creators to construct intricate systems by establishing connections between functional units designated as operators \cite{derivativeND}. This modular approach is conducive to iterative design and facilitates the utilization of TouchDesigner by both artists and technically oriented users, aligning with the broader tradition of visual programming tools in new media \cite{harrington2016designing}.
 	
-	A significant advantage of TouchDesigner is its capacity for real-time rendering and data processing. This enables the manipulation of video, 3D geometry, audio, and sensor inputs with minimal delay. The software's capacity to perform such functions has led to its central role in the creation of large-scale audiovisual installations, projection mapping, interactivity in stage design, and immersive experiences \cite{bouchard2020interactive}. Its real-time nature situates the platform within contemporary practices of live media and performance technologies, where responsiveness and dynamic interaction are essential \cite{cox2019performance}.
+	A significant advantage of TouchDesigner is its capacity for real-time rendering and data processing. This enables the manipulation of video, \ac{3D} geometry, audio, and sensor inputs with minimal delay. The software's capacity to perform such functions has led to its central role in the creation of large-scale audiovisual installations, projection mapping, interactivity in stage design, and immersive experiences \cite{bouchard2020interactive}. Its real-time nature situates the platform within contemporary practices of live media and performance technologies, where responsiveness and dynamic interaction are essential \cite{cox2019performance}.
 	
-	The TouchDesigner workflow is organized into specific categories of operator, namely TOPs, CHOPs, SOPs, DATs, and COMPs. Each operator category has been designed to process a particular data or execute a specific process. This layered structure enables creators to transition between surface-level interaction design and more profound computational logic \cite{kawaguchi2021touchdesigner}. The platform utilizes Python as its scripting environment, providing advanced control, automation, and logic-based behavior for interactive systems \cite{serrano2018python}. TouchDesigner's integration of visual programming with textual scripting positions it at the nexus of creative coding environments, such as Processing \cite{reas2014processing}, along with live coding paradigms that have been explored within performance contexts \cite{mclean2010livecoding}.
+	The TouchDesigner workflow is organized into specific categories of operator, namely \ac{TOP}s, \ac{CHOP}s, \ac{SOP}s, \ac{DAT}s, and \ac{COMP}s. Each operator category has been designed to process a particular data or execute a specific process. This layered structure enables creators to transition between surface-level interaction design and more profound computational logic \cite{kawaguchi2021touchdesigner}. The platform utilizes Python as its scripting environment, providing advanced control, automation, and logic-based behavior for interactive systems \cite{serrano2018python}. TouchDesigner's integration of visual programming with textual scripting positions it at the nexus of creative coding environments, such as Processing \cite{reas2014processing}, along with live coding paradigms that have been explored within performance contexts \cite{mclean2010livecoding}.
 	
 	\section{LOPS}
 		
-		LOPs (Language / Learning / Logic / Latent Operators) is a modular AI framework designed to deeply integrate artificial intelligence into TouchDesigner created by DotSimulate. Its tool ecosystem allows AI agents to reason, search, perceive, remember, and act directly inside node-based visual workflows. Every LOPs tool is implemented as a TouchDesigner operator and can expose its functionality to AI agents through a standardized tool interface, enabling structured, reliable AI-driven execution.
+		\ac{LOPS} is a modular AI framework designed to deeply integrate artificial intelligence into TouchDesigner created by Lyell Hintz, aka DotSimulate. Its tool ecosystem allows AI agents to reason, search, perceive, remember, and act directly inside node-based visual workflows. Every \ac{LOPS} tool is implemented as a TouchDesigner operator and can expose its functionality to \ac{AI} agents through a standardized tool interface, enabling structured, reliable \ac{AI} driven execution.
 		
-		At the center of the system is the idea that AI is not a black box, but an active participant in the network, able to inspect context, call tools, retrieve information, manipulate data, and respond in real time.
+		At the center of the system is the idea that \ac{AI} is not a black box, but an active participant in the network, able to inspect context, call tools, retrieve information, manipulate data, and respond in real time.
 		
 		\begin{itemize}
 			\item{\textbf{TextCore AI Controllers}}\\
 			\\
-			The \textbf{Agent operator} is the main intelligence hub. It manages conversations, system prompts, context windows, streaming responses, and tool execution. The Agent dynamically decides when to call tools, passes structured arguments to them, and incorporates their results into its reasoning. It supports text, image, and audio context and acts as the orchestrator for all AI workflows.
+			The \textbf{Agent operator} is the main intelligence hub. It manages conversations, system prompts, context windows, streaming responses, and tool execution. The Agent dynamically decides when to call tools, passes structured arguments to them, and incorporates their results into its reasoning. It supports text, image, and audio context and acts as the orchestrator for all \ac{AI} workflows.
 			 
-			\textbf{Gemini live} extends this functionality into real-time, multimodal interaction. It enables live voice conversations using speech-to-text and text-to-speech, supports continuous streaming input/output, and allows AI agents to call tools during spoken conversations. This makes it suitable for installations, performances, and interactive systems.
+			\textbf{Gemini live} extends this functionality into real-time, multimodal interaction. It enables live voice conversations using speech-to-text and text-to-speech, supports continuous streaming input/output, and allows \ac{AI} agents to call tools during spoken conversations. This makes it suitable for installations, performances, and interactive systems.
 			 
-			The \textbf{Role creator} tool assists in dynamically generating system prompts and AI personas. Instead of manually crafting long instructions, users can generate specialized AI roles such us tutor, analyst, creative assistant, which can then be assigned to agents.
+			The \textbf{Role creator} tool assists in dynamically generating system prompts and \ac{AI} personas. Instead of manually crafting long instructions, users can generate specialized \ac{AI} roles such us tutor, analyst, creative assistant, which can then be assigned to agents.
 			 
 			\item{\textbf{Tool Management and Context Awareness}}\\
 			\\
 		 	The \textbf{Tool Registry} automatically discovers all available tool operators in a project and makes them accessible to agents. This removes the need for manual configuration in complex networks and allows scalable multi-agent setups.
 			 
-			The \textbf{Tool Monitor} provides agents with awareness of user activity inside TouchDesigner. It tracks selected nodes, parameter changes, errors, and interaction events, allowing the AI to respond intelligently to what the user is doing in real time.
+			The \textbf{Tool Monitor} provides agents with awareness of user activity inside TouchDesigner. It tracks selected nodes, parameter changes, errors, and interaction events, allowing the \ac{AI} to respond intelligently to what the user is doing in real time.
 			 
-			The \textbf{Network Context} tool exposes structural information about the TouchDesigner network—operators, connections, and layout—so agents can reason about the project itself.
+			The \textbf{Network Context} tool exposes structural information about the TouchDesigner network—operators, connections, and layout so agents can reason about the project itself.
 			
 			\item{\textbf{Search, Web, and Data Acquisition Tools}}\\
 			\\
-			The \textbf{Search operator} enables AI-driven queries across multiple search providers and data types. Agents can autonomously perform web searches, retrieve results, and integrate them into their responses.
+			The \textbf{Search operator} enables \ac{AI} driven queries across multiple search providers and data types. Agents can autonomously perform web searches, retrieve results, and integrate them into their responses.
 	
 			
 		    \textbf{Source Webscraper} crawls websites while respecting rate limits and robots.txt, extracting clean text into tables.
@@ -71,47 +71,47 @@
 			
 			\textbf{textSource GitHub} ingests repositories, issues, documentation, and code for knowledge extraction.
 			
-			\textbf{Source Docs} parses local documents (HTML, Python, Markdown, etc.) into indexed tables.
+			\textbf{Source Docs} parses local documents (\ac{HTML}, Python, Markdown, etc.) into indexed tables.
 			
-			\textbf{Source Ops} extracts information directly from TouchDesigner networks, turning operators and parameters into searchable knowledge.
+			\textbf{Source Ops} extracts information directly from Touch Designer networks, turning operators and parameters into searchable knowledge.
 			
 			The \textbf{Save Sources} operator persists scraped or generated content as Markdown files, allowing datasets to be reused or indexed later.
 			
-			\item{\textbf{RAG and Memory Workflows}}\\
+			\item{\textbf{Retrieval Augmented Generation and Memory Workflows}}\\
 			\\
-			LOPs supports Retrieval-Augmented Generation by allowing content to be indexed and retrieved dynamically. While the indexing and retrieval operators work behind the scenes, the overall workflow enables agents to pull relevant information from large datasets instead of relying solely on their prompt context. This allows scalable knowledge bases, documentation assistants, and project-aware AI systems.
+			\ac{LOPS} supports \ac{RAG} by allowing content to be indexed and retrieved dynamically. While the indexing and retrieval operators work behind the scenes, the overall workflow enables agents to pull relevant information from large datasets instead of relying solely on their prompt context. This allows scalable knowledge bases, documentation assistants, and project-aware AI systems.
 			
 			\item{\textbf{Integration and External Tooling}}\\
 			\\
-			The \textbf{MCP Client} connects TouchDesigner to external tools using the Model Context Protocol (MCP). This allows agents inside TouchDesigner to call tools hosted outside the application, extending LOPs beyond local functionality and enabling distributed AI systems.
+			The \textbf{MCP Client} connects TouchDesigner to external tools using the \ac{MCP}. This allows agents inside TouchDesigner to call tools hosted outside the application, extending \ac{LOPS} beyond local functionality and enabling distributed \ac{AI} systems. When TouchDesigner also runs an \ac{MCP} Server, external agents can call tools exposed by Touch Designer itself, allowing direct control of parameters, operators, and systems inside Touch Designer. This makes \ac{MCP} a bidirectional bridge, enabling Touch Designer to both orchestrate external \ac{AI} tools and be orchestrated by outside agents such as Cursor, Blender, or other \ac{MCP}-enabled environments.
 			
 			\item{\textbf{Utility and Data Manipulation Tools}}\\
 			\\
-			Several tools focus on enabling AI-controlled manipulation of TouchDesigner data:
+			Several tools focus on enabling \ac{AI}-controlled manipulation of Touch Designer data:
 			
-			\textbf{Tool DAT} allows agents to read, write, and modify table data programmatically.
+			\textbf{Tool \ac{DAT}} allows agents to read, write, and modify table data programmatically.
 			
 			\textbf{Tool Parameter} lets agents change operator parameters in a structured, validated way.
 			
-			The Super Select operator enhances table manipulation with advanced filtering and fuzzy selection, making it useful for preparing data before AI processing
+			The \textbf{Super Select} operator enhances table manipulation with advanced filtering and fuzzy selection, making it useful for preparing data before \ac{AI} processing
 			
 			\item{\textbf{Environment and Dependency Management}}\\
 			\\
-			The Python Manager automatically manages Python virtual environments and dependencies required by LOPs operators. This ensures stability and reduces setup friction, allowing complex AI pipelines to run reliably inside TouchDesigner
+			The Python Manager automatically manages Python virtual environments and dependencies required by \ac{LOPS} operators. This ensures stability and reduces setup friction, allowing complex \ac{AI} pipelines to run reliably inside Touch Designer
 			 
 		\end{itemize}
 		
-		All of this information, along with usage examples, installation tutorials, recommendations, and additional technical details, is available in the official LOPs documentation \cite{dotdocs2025}.
+		All of this information, along with usage examples, installation tutorials, recommendations, and additional technical details, is available in the official \ac{LOPS} documentation \cite{dotdocs2025}.
 		
 	\section{Large Lenguage models (LLM)}
 	\label{sec:LLM}
-		A large language model (LLM) is an artificial intelligence system designed to communicate with humans. These systems can understand, generate, and reason with human language. Essentially, it reads inserted text and predicts what text will come next based on it. By repeating this process, the system produces coherent language. These systems essentially seek to mimic human reasoning by learning statistical patterns from large amounts of text.
+		A \ac{LLM} is an artificial intelligence system designed to communicate with humans. These systems can understand, generate, and reason with human language. Essentially, it reads inserted text and predicts what text will come next based on it. By repeating this process, the system produces coherent language. These systems essentially seek to mimic human reasoning by learning statistical patterns from large amounts of text.
 		
 		These models perform a task called next token prediction. For instance, when the phrase "The capital of France is" is entered into the system, the model predicts "Paris." This interaction creates a token, which can be a word, part of a word, a punctuation mark, and so on. After performing these processes repeatedly, the system acquires more complex behaviors, such as writing essays, answering questions, translating, and writing code.
 		Before the text can be processed by the model, it must first be converted into tokens. Each syllable or word is converted into a token and assigned a numerical identifier. Approximately 30,000-100,000 tokens are needed to translate a text. This mapping of tokens can be imagined as large matrices containing lists of numbers. The more similar the words are, the more similar their vectors will be. This process is called "embedding." 
 		With each interaction, the model uses a process called "self-attention," which involves looking at all previous tokens to decide which ones matter most for predicting the next one. In this way, weights are assigned to previous tokens based on their relevance. Rather than using just one attention mechanism, these models use many in parallel, each responsible for a specific topic. This approach achieves better understanding and greater linguistic richness. After applying these weights to each token, each token goes through a neural network to introduce nonlinearity and abstraction.  This enables the model to learn more complex concepts. 
 		
-		These models are designed to be trained using large amounts of data, such as books, articles, web pages, and repositories. Artists using the tool developed in this project can use it to train the model with all their research, color patterns, shapes, and any relevant files. LLMs learn by masking text and predicting missing or future tokens while minimizing prediction errors. After pre-training, models are refined using examples of specific commands, human feedback, or counterfactual datasets. Once the model has been trained and refined, it can generate text based on a user-generated prompt. As the user types, the prompt is converted into tokens that pass through the model. The probabilities of the next token are then calculated and the token selected using a sampling strategy.
+		These models are designed to be trained using large amounts of data, such as books, articles, web pages, and repositories. Artists using the tool developed in this project can use it to train the model with all their research, color patterns, shapes, and any relevant files. \ac{LLM}s learn by masking text and predicting missing or future tokens while minimizing prediction errors. After pre-training, models are refined using examples of specific commands, human feedback, or counterfactual datasets. Once the model has been trained and refined, it can generate text based on a user-generated prompt. As the user types, the prompt is converted into tokens that pass through the model. The probabilities of the next token are then calculated and the token selected using a sampling strategy.
 		
 		One of the characteristics of these models is that they do not think like humans or act logically. They learn patterns and imitate logical steps based on their training, making them very powerful tools for solving multi-step problems or generating analogies. However, they will fail if asked to do something outside their training parameters. This can result in the generation of false but plausible information, as well as a false sense of security due to invented sources. As they have no consciousness or grounded experience, they can only remember what they have previously seen and are incapable of retaining memory. In other words, they cannot retain past information in order to hold a conversation with the user on their own. 
 		

@@ -26,27 +26,27 @@
 \section{How to introduce your information docs to the agent}
 \label{sec:How_introduce_own_information_agent}
 
-	The agents within LOPs have a limited ability to operate independently, but the real strength of the system lies in its capacity to train an LLM model using custom documents. To achieve this, the following steps must be followed, as shown in the figure \ref{fig: SourceDocs}:
+	The agents within \ac{LOPS} have a limited ability to operate independently, but the real strength of the system lies in its capacity to train an \ac{LLM} model using custom documents. To achieve this, the following steps must be followed, as shown in the figure \ref{fig: SourceDocs}:
 	
 	\begin{figure} [H]
 		\centering
 		\includegraphics[width=1\linewidth]{gfx/SourceDocs.jpeg}
-		\caption{Workflow for the connection of personal documentation to make the agent learn based in the LLM} 
+		\caption{Workflow for the connection of personal documentation to make the agent learn based in the \ac{LLM}} 
 		\label{fig: SourceDocs}
 	\end{figure}
 	
 	
 	
 	\begin{itemize}
-		\item{\textbf{Create a source\_docs operator}}: This operator can receive files in PDF, TXT, Markdown, Notes, or code formats. Essentially, it serves as the raw knowledge base from which the agent will learn.
+		\item{\textbf{Create a source\_docs operator}}: This operator can receive files in \ac{PDF}, \ac{TXT}, Markdown, Notes, or code formats. Essentially, it serves as the raw knowledge base from which the agent will learn.
 		
-		\item{\textbf{Add a rag\_index operator}}: 	LLM models cannot directly search through text; instead, they rely on metadata to retrieve information. The rag\_index processes the provided documents by splitting the text into chunks, generating embeddings for each chunk, and constructing a vector database. This database allows the system to efficiently access the relevant portions of the documentation. The operator then stores the metadata associated with these embeddings.
+		\item{\textbf{Add a \ac{RAG} index operator}}: \ac{LLM} models cannot directly search through text; instead, they rely on metadata to retrieve information. The rag\_index processes the provided documents by splitting the text into chunks, generating embeddings for each chunk, and constructing a vector database. This database allows the system to efficiently access the relevant portions of the documentation. The operator then stores the metadata associated with these embeddings.
 		
-		\item{\textbf{Use a RAG retriever operator}}:This component is responsible for receiving the agent’s query and returning the most relevant information. It takes in the agent’s question, instructions, and conversation history, and from this input, it retrieves the 3–5 most relevant text fragments from the documents provided via source\_docs. These fragments are then automatically injected into the agent’s prompt, enabling it to respond accurately and contextually.
+		\item{\textbf{Use a \ac{RAG} retriever operator}}:This component is responsible for receiving the agent’s query and returning the most relevant information. It takes in the agent’s question, instructions, and conversation history, and from this input, it retrieves the 3–5 most relevant text fragments from the documents provided via source\_docs. These fragments are then automatically injected into the agent’s prompt, enabling it to respond accurately and contextually.
 		
 	\end{itemize}
 	
-	This workflow ensures that the agent can use custom knowledge effectively, grounding its responses in the documentation provided during training. As seen in figure \ref{fig: AgentConnections}, all these external tools have to be connected to the agent.
+	This workflow ensures that the agent can use custom knowledge effectively, grounding its responses in the documentation provided during training. As seen in Figure \ref{fig: AgentConnections}, all these external tools have to be connected to the agent.
 	
 	\begin{figure} [H]
 		\centering
@@ -55,14 +55,14 @@
 		\label{fig: AgentConnections}
 	\end{figure}
 
-\section{Problem with RAG Index chunks}
+\section{Problem with \ac{RAG} Index chunks}
 \label{sec:problemwithRagIndexChunks}
-	One of the problems encountered during the assembly of this project has been the size of the chunks used by the LOPS RAG index.  The previous section \ref{sec:How_introduce_own_information_agent} discussed how to make an agent learn from its own documents. In this case, the problem occurs within the Rag\_index operator. Once the Source\_docs has been configured, Rag\_index is connected to it. This operator has the interface shown in the figure \ref{fig: Rag_index_setup}. When you click the “create index” button, a relatively common error may occur. The indexing process begins normally, but after a few moments, an error message suddenly appears on the screen, as shown in the figure \ref{fig: Rag_Index_error} .
+	One of the problems encountered during the assembly of this project has been the size of the chunks used by the \ac{LOPS} \ac{RAG} index.  The previous section \ref{sec:How_introduce_own_information_agent} discussed how to make an agent learn from its own documents. In this case, the problem occurs within the \ac{RAG}\_index operator. Once the Source\_docs has been configured, \ac{RAG}\_index is connected to it. This operator has the interface shown in the figure \ref{fig: Rag_index_setup}. When you click the “create index” button, a relatively common error may occur. The indexing process begins normally, but after a few moments, an error message suddenly appears on the screen, as shown in the figure \ref{fig: Rag_Index_error} .
 	
 	\begin{figure} [H]
 		\centering
 		\includegraphics[width=1\linewidth]{gfx/RagIndexsetup.png}
-		\caption{Parameters of the rag\_index operator} 
+		\caption{Parameters of the \ac{RAG}\_index operator} 
 		\label{fig: Rag_index_setup}
 	\end{figure}
 	
@@ -70,12 +70,12 @@
 		\begin{figure} [H]
 		\centering
 		\includegraphics[width=1\linewidth]{gfx/EmbeddingError1.jpeg}
-		\caption{Error creating index in rag\_index} 
+		\caption{Error creating index in \ac{RAG}\_index} 
 		\label{fig: Rag_Index_error}
 	\end{figure}
 	
 	
-	This error message suggests a problem related to TCP ports, but in reality, it is caused by chunks that are too large for the system to process. Chunks are units of information divided into manageable fragments, commonly used in computing to handle large files efficiently. They play a key role in how data is organized, segmented, and processed. In this case, oversized chunks can overload the system, causing the indexing process to fail.
+	This error message suggests a problem related to \ac{TCP} ports, but in reality, it is caused by chunks that are too large for the system to process. Chunks are units of information divided into manageable fragments, commonly used in computing to handle large files efficiently. They play a key role in how data is organized, segmented, and processed. In this case, oversized chunks can overload the system, causing the indexing process to fail.
 	
 	\vspace{0.5cm}
 	
@@ -84,12 +84,12 @@
 	\begin{itemize}
 		\item{\textbf{Reduce the chunk size}}: This is the simplest approach, although it does not guarantee success in every case. In the chunk\_size field, you can decrease the size of each chunk so that the system can handle them more easily. A practical starting value is 256, which often resolves the issue by making the chunks small enough for the indexer to process without errors.
 		
-		\item{\textbf{Modify the IndexCreatorEXT operator inside the Rag\_index operator}}: This approach provides more control over the indexing process. As seen in Figure \ref{fig: Rag_index_structure}, rag\_index operator begins with the documents\_table node, which stores the raw documents received by the system. This data then passes to stats\_table and index\_info\_table, which record metadata such as the number of chunks, their average size, and the index ID. The in1 node receives the documents coming from the external source\_docs, while IndexCreatorEXT oversees the entire indexing operation by calling Ollama to generate the embeddings. After that, a switch operator determines which view should be displayed, and finally, disp outputs the result of the processed index.
+		\item{\textbf{Modify the IndexCreatorEXT operator inside the Rag\_index operator}}: This approach provides more control over the indexing process. As seen in Figure \ref{fig: Rag_index_structure}, \ac{RAG}\_index operator begins with the documents\_table node, which stores the raw documents received by the system. This data then passes to stats\_table and index\_info\_table, which record metadata such as the number of chunks, their average size, and the index \ac{ID}. The in1 node receives the documents coming from the external source\_docs, while IndexCreatorEXT oversees the entire indexing operation by calling Ollama to generate the embeddings. After that, a switch operator determines which view should be displayed, and finally, disp outputs the result of the processed index.
 		
 		\begin{figure} [H]
 			\centering
 			\includegraphics[width=1\linewidth]{gfx/StructureIndexCreatorTEX.png}
-			\caption{Structure inside of the Rag\_index.} 
+			\caption{Structure inside of the \ac{RAG}\_index.} 
 			\label{fig: Rag_index_structure}
 		\end{figure}
 		
@@ -112,7 +112,7 @@
 			\caption{Lines added to fix the error.} 
 			\label{fig: Code_index_creator}
 		\end{figure}
-		These settings reduce the number of elements the computer processes at once by lowering both the batch size and the chunk size. As a result, the system becomes much less likely to overload during indexing, helping prevent the error and allowing the RAG index to be created successfully.
+		These settings reduce the number of elements the computer processes at once by lowering both the batch size and the chunk size. As a result, the system becomes much less likely to overload during indexing, helping prevent the error and allowing the \ac{RAG} index to be created successfully.
 		
 	\end{itemize}
 	

@@ -7,31 +7,31 @@
 \contentsline {section}{\numberline {1.2}Hypothesis and objectives}{2}{section.1.2}%
 \contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Theorethical Fundations}}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Visual history}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Touch Designer}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}LOPS}{7}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Large Lenguage models (LLM)}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.2}Touch Designer}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}LOPS}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Large Lenguage models (LLM)}{11}{section.2.4}%
 \contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Research}}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Training of the LLM}{14}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}First approach}{15}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}LOPS}{17}{subsection.3.2.2}%
 \contentsline {section}{\numberline {3.3}Tool Creation}{24}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Orquestration}{26}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Orquestration}{25}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Database Import \& semantic query}{27}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Prompt code Generation}{30}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}GLSL shader}{31}{subsection.3.3.4}%
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Project planning and Economic study}}{32}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Project planning and management}{32}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Economic study of the work perfomed}{34}{section.4.2}%
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Conclusions}}{36}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\textbf {Conclusions}}{36}{section.5.1}%
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Tips and Guides for the Setup}}{37}{appendix.A}%
-\contentsline {section}{\numberline {A.1}How to connect an agent with memory}{37}{section.A.1}%
-\contentsline {section}{\numberline {A.2}How to introduce your information docs to the agent}{39}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Problem with RAG Index chunks}{40}{section.A.3}%
-\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Codes used for the project}}{44}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Papers\_clean.py}{44}{section.B.1}%
-\contentsline {section}{\numberline {B.2}PapersEmbedding.py}{44}{section.B.2}%
+\contentsline {subsection}{\numberline {3.3.4}\ac {GLSL} shader}{31}{subsection.3.3.4}%
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Project planning and Economic study}}{36}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Project planning and management}{36}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Economic study of the work perfomed}{38}{section.4.2}%
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Conclusions}}{40}{chapter.5}%
+\contentsline {section}{\numberline {5.1}\textbf {Conclusions}}{40}{section.5.1}%
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Tips and Guides for the Setup}}{41}{appendix.A}%
+\contentsline {section}{\numberline {A.1}How to connect an agent with memory}{41}{section.A.1}%
+\contentsline {section}{\numberline {A.2}How to introduce your information docs to the agent}{43}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Problem with \ac {RAG} Index chunks}{44}{section.A.3}%
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Codes used for the project}}{49}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Papers\_clean.py}{49}{section.B.1}%
+\contentsline {section}{\numberline {B.2}PapersEmbedding.py}{49}{section.B.2}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{47}{dummy.5}%
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{52}{dummy.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
