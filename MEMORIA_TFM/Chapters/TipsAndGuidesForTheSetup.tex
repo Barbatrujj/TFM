@@ -55,7 +55,7 @@
 		\label{fig: AgentConnections}
 	\end{figure}
 
-\section{Problem with \ac{RAG} Index chunks}
+\section{Problem with RAG Index chunks}
 \label{sec:problemwithRagIndexChunks}
 	One of the problems encountered during the assembly of this project has been the size of the chunks used by the \ac{LOPS} \ac{RAG} index.  The previous section \ref{sec:How_introduce_own_information_agent} discussed how to make an agent learn from its own documents. In this case, the problem occurs within the \ac{RAG}\_index operator. Once the Source\_docs has been configured, \ac{RAG}\_index is connected to it. This operator has the interface shown in the figure \ref{fig: Rag_index_setup}. When you click the “create index” button, a relatively common error may occur. The indexing process begins normally, but after a few moments, an error message suddenly appears on the screen, as shown in the figure \ref{fig: Rag_Index_error} .
 	

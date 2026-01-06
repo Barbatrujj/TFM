@@ -285,7 +285,7 @@
 				\label{fig:Prompt}
 			\end{figure}
 		
-		\subsection{\ac{GLSL} shader}
+		\subsection{GLSL shader}
 			The final step in this workflow consists of generating the shader. Once the Prompt agent produces a textual description of the desired visuals, this prompt is passed through the Agent Orchestrator to the final agent, referred to as Agent\_shader. As illustrated in Figure \ref{fig:AgentPrompt}, this agent is designed to operate as an expert in the generation of \ac{GLSL} shaders based on the received prompt.
 			
 			Each time Agent\_shader is activated, its task is twofold: first, to translate the prompt into executable \ac{GLSL} shader code, and second, to generate a corresponding \ac{GLSL} \ac{TOP} Multi. This approach allows multiple visual variations to be stored within a single file, enabling flexible manipulation or selection of visuals during performance or further processing stages.
