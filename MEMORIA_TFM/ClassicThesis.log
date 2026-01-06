@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  6 JAN 2026 14:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  6 JAN 2026 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1655,6 +1655,12 @@ Overfull \hbox (42.11183pt too wide) in paragraph at lines 32--32
 t []  
  []
 
+
+Overfull \hbox (22.80687pt too wide) in paragraph at lines 34--34
+ [][] []\T1/pplj/m/n/13 How to change pa-ram-e-ters talk-ing with the agent [] 
+ 
+ []
+
 )
 \tf@toc=\write5
 \openout5 = `ClassicThesis.toc'.
@@ -1724,18 +1730,34 @@ although it is yet undefined on input line 34.
 [7
 
 ]
-Overfull \hbox (2.11333pt too wide) in paragraph at lines 40--40
+Overfull \hbox (1.97314pt too wide) in paragraph at lines 36--36
+ [][] []\T1/pplj/m/n/13 Other vi-su-als gen-er-ated by the sys-tem. []  
+ []
+
+
+Overfull \hbox (1.97314pt too wide) in paragraph at lines 37--37
+ [][] []\T1/pplj/m/n/13 Other vi-su-als gen-er-ated by the sys-tem. []  
+ []
+
+
+Overfull \hbox (2.11333pt too wide) in paragraph at lines 42--42
  [][] []\T1/pplj/m/n/13 Unknown er-ror ralated with the API of Gem- 
  []
 
 
-Overfull \hbox (2.72519pt too wide) in paragraph at lines 44--44
+Overfull \hbox (2.72519pt too wide) in paragraph at lines 46--46
  [][] []\T1/pplj/m/n/13 Workflow for the con-nec-tion of per-sonal doc- 
  []
 
 
-Overfull \hbox (3.61113pt too wide) in paragraph at lines 46--46
+Overfull \hbox (3.61113pt too wide) in paragraph at lines 48--48
  [][] []\T1/pplj/m/n/13 Parameters of the [][]_index op-er-a-tor []  
+ []
+
+
+Overfull \hbox (42.80612pt too wide) in paragraph at lines 52--52
+ [][] []\T1/pplj/m/n/13 Agent with dif-fer-ent ex-ter-nal tools con-nected. [] 
+ 
  []
 
 )
@@ -1767,12 +1789,12 @@ chapter 1.
 
 
 ]
-<gfx/CaribouExample.png, id=321, 611.886pt x 361.95226pt>
+<gfx/CaribouExample.png, id=331, 611.886pt x 361.95226pt>
 File: gfx/CaribouExample.png Graphic file (type png)
 <use gfx/CaribouExample.png>
 Package pdftex.def Info: gfx/CaribouExample.png  used on input line 17.
 (pdftex.def)             Requested size: 177.54509pt x 110.96689pt.
-<gfx/CaribouExample2.png, id=323, 807.61725pt x 436.63126pt>
+<gfx/CaribouExample2.png, id=333, 807.61725pt x 436.63126pt>
 File: gfx/CaribouExample2.png Graphic file (type png)
 <use gfx/CaribouExample2.png>
 Package pdftex.def Info: gfx/CaribouExample2.png  used on input line 20.
@@ -1794,7 +1816,7 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 
  (Chapters/Theory.tex
 chapter 2.
-<gfx/Portapack.jpg, id=348, 293.898pt x 293.898pt>
+<gfx/Portapack.jpg, id=358, 293.898pt x 293.898pt>
 File: gfx/Portapack.jpg Graphic file (type jpg)
 <use gfx/Portapack.jpg>
 Package pdftex.def Info: gfx/Portapack.jpg  used on input line 10.
@@ -1929,22 +1951,22 @@ s
 
  (Chapters/Practical_part.tex
 chapter 3.
-<gfx/Gaudi1.jpg, id=466, 1027.84pt x 770.88pt>
+<gfx/Gaudi1.jpg, id=476, 1027.84pt x 770.88pt>
 File: gfx/Gaudi1.jpg Graphic file (type jpg)
 <use gfx/Gaudi1.jpg>
 Package pdftex.def Info: gfx/Gaudi1.jpg  used on input line 16.
 (pdftex.def)             Requested size: 177.53784pt x 110.95723pt.
-<gfx/Gaudi2.jpg, id=467, 1027.84pt x 822.07124pt>
+<gfx/Gaudi2.jpg, id=477, 1027.84pt x 822.07124pt>
 File: gfx/Gaudi2.jpg Graphic file (type jpg)
 <use gfx/Gaudi2.jpg>
 Package pdftex.def Info: gfx/Gaudi2.jpg  used on input line 19.
 (pdftex.def)             Requested size: 177.53784pt x 110.96228pt.
-<gfx/Gaudi3.jpg, id=468, 564.60938pt x 293.59688pt>
+<gfx/Gaudi3.jpg, id=478, 564.60938pt x 293.59688pt>
 File: gfx/Gaudi3.jpg Graphic file (type jpg)
 <use gfx/Gaudi3.jpg>
 Package pdftex.def Info: gfx/Gaudi3.jpg  used on input line 26.
 (pdftex.def)             Requested size: 177.54274pt x 99.87088pt.
-<gfx/Gaudi4.jpg, id=469, 203.5605pt x 114.4275pt>
+<gfx/Gaudi4.jpg, id=479, 203.5605pt x 114.4275pt>
 File: gfx/Gaudi4.jpg Graphic file (type jpg)
 <use gfx/Gaudi4.jpg>
 Package pdftex.def Info: gfx/Gaudi4.jpg  used on input line 29.
@@ -1970,7 +1992,7 @@ Overfull \hbox (5.51836pt too wide) in paragraph at lines 63--65
 
 
 [15]
-<gfx/ExampleOfCSV.png, id=492, 1032.85875pt x 567.3195pt>
+<gfx/ExampleOfCSV.png, id=502, 1032.85875pt x 567.3195pt>
 File: gfx/ExampleOfCSV.png Graphic file (type png)
 <use gfx/ExampleOfCSV.png>
 Package pdftex.def Info: gfx/ExampleOfCSV.png  used on input line 73.
@@ -2003,7 +2025,7 @@ rate all user-provided
 
 
 [17]
-<gfx/SourceDocs1.png, id=524, 323.40825pt x 380.622pt>
+<gfx/SourceDocs1.png, id=534, 323.40825pt x 380.622pt>
 File: gfx/SourceDocs1.png Graphic file (type png)
 <use gfx/SourceDocs1.png>
 Package pdftex.def Info: gfx/SourceDocs1.png  used on input line 109.
@@ -2011,12 +2033,12 @@ Package pdftex.def Info: gfx/SourceDocs1.png  used on input line 109.
 
 
 [18 <./gfx/SourceDocs1.png>]
-<gfx/SourceDocs2.png, id=533, 323.40825pt x 380.622pt>
+<gfx/SourceDocs2.png, id=543, 323.40825pt x 380.622pt>
 File: gfx/SourceDocs2.png Graphic file (type png)
 <use gfx/SourceDocs2.png>
 Package pdftex.def Info: gfx/SourceDocs2.png  used on input line 121.
 (pdftex.def)             Requested size: 258.91895pt x 304.7245pt.
-<gfx/RagIndex1.png, id=536, 473.97075pt x 253.54726pt>
+<gfx/RagIndex1.png, id=546, 473.97075pt x 253.54726pt>
 File: gfx/RagIndex1.png Graphic file (type png)
 <use gfx/RagIndex1.png>
 Package pdftex.def Info: gfx/RagIndex1.png  used on input line 130.
@@ -2024,7 +2046,7 @@ Package pdftex.def Info: gfx/RagIndex1.png  used on input line 130.
 
 
 [19 <./gfx/SourceDocs2.png>]
-<gfx/RagIndex2.png, id=548, 326.4195pt x 446.8695pt>
+<gfx/RagIndex2.png, id=558, 326.4195pt x 446.8695pt>
 File: gfx/RagIndex2.png Graphic file (type png)
 <use gfx/RagIndex2.png>
 Package pdftex.def Info: gfx/RagIndex2.png  used on input line 141.
@@ -2032,7 +2054,7 @@ Package pdftex.def Info: gfx/RagIndex2.png  used on input line 141.
 
 
 [20 <./gfx/RagIndex1.png>]
-<gfx/RagIndex3.png, id=557, 329.43076pt x 446.8695pt>
+<gfx/RagIndex3.png, id=567, 329.43076pt x 446.8695pt>
 File: gfx/RagIndex3.png Graphic file (type png)
 <use gfx/RagIndex3.png>
 Package pdftex.def Info: gfx/RagIndex3.png  used on input line 150.
@@ -2048,19 +2070,19 @@ Overfull \hbox (17.91501pt too wide) in paragraph at lines 157--158
 
 
 [22 <./gfx/RagIndex3.png>]
-<gfx/RagRetriever1.png, id=576, 867.24pt x 373.395pt>
+<gfx/RagRetriever1.png, id=586, 867.24pt x 373.395pt>
 File: gfx/RagRetriever1.png Graphic file (type png)
 <use gfx/RagRetriever1.png>
 Package pdftex.def Info: gfx/RagRetriever1.png  used on input line 161.
 (pdftex.def)             Requested size: 369.88583pt x 159.25768pt.
-<gfx/MultiQueryRetrival.png, id=581, 808.82175pt x 287.27325pt>
+<gfx/MultiQueryRetrival.png, id=591, 808.82175pt x 287.27325pt>
 File: gfx/MultiQueryRetrival.png Graphic file (type png)
 <use gfx/MultiQueryRetrival.png>
 Package pdftex.def Info: gfx/MultiQueryRetrival.png  used on input line 168.
 (pdftex.def)             Requested size: 369.88583pt x 131.37143pt.
 Package acronym Info: Label `acro:OP' newly defined as it shall be overridden
 although it is yet undefined on input line 175.
-<gfx/Agentexp1.png, id=586, 1036.47224pt x 401.70074pt>
+<gfx/Agentexp1.png, id=596, 1036.47224pt x 401.70074pt>
 File: gfx/Agentexp1.png Graphic file (type png)
 <use gfx/Agentexp1.png>
 Package pdftex.def Info: gfx/Agentexp1.png  used on input line 179.
@@ -2076,7 +2098,7 @@ Mess
 
 
 [24 <./gfx/Agentexp1.png>]
-<gfx/Diagram.png, id=605, 481.8pt x 240.29774pt>
+<gfx/Diagram.png, id=615, 481.8pt x 240.29774pt>
 File: gfx/Diagram.png Graphic file (type png)
 <use gfx/Diagram.png>
 Package pdftex.def Info: gfx/Diagram.png  used on input line 202.
@@ -2084,7 +2106,7 @@ Package pdftex.def Info: gfx/Diagram.png  used on input line 202.
 
 
 [25 <./gfx/Diagram.png>]
-<gfx/Orquestrator1.png, id=612, 990.70125pt x 510.10574pt>
+<gfx/Orquestrator1.png, id=622, 990.70125pt x 510.10574pt>
 File: gfx/Orquestrator1.png Graphic file (type png)
 <use gfx/Orquestrator1.png>
 Package pdftex.def Info: gfx/Orquestrator1.png  used on input line 214.
@@ -2095,7 +2117,7 @@ Overfull \hbox (11.12434pt too wide) in paragraph at lines 221--222
 s achieved
  []
 
-<gfx/Orquestrator2.png, id=616, 1023.825pt x 498.06075pt>
+<gfx/Orquestrator2.png, id=626, 1023.825pt x 498.06075pt>
 File: gfx/Orquestrator2.png Graphic file (type png)
 <use gfx/Orquestrator2.png>
 Package pdftex.def Info: gfx/Orquestrator2.png  used on input line 227.
@@ -2108,7 +2130,7 @@ Overfull \hbox (1.40279pt too wide) in paragraph at lines 232--233
 ble you
  []
 
-<gfx/Orquestrator3.png, id=625, 323.40825pt x 136.71075pt>
+<gfx/Orquestrator3.png, id=635, 323.40825pt x 136.71075pt>
 File: gfx/Orquestrator3.png Graphic file (type png)
 <use gfx/Orquestrator3.png>
 Package pdftex.def Info: gfx/Orquestrator3.png  used on input line 236.
@@ -2121,7 +2143,7 @@ Overfull \hbox (0.73978pt too wide) in paragraph at lines 251--252
  agent
  []
 
-<gfx/EDITMESS2.png, id=635, 301.72725pt x 126.4725pt>
+<gfx/EDITMESS2.png, id=645, 301.72725pt x 126.4725pt>
 File: gfx/EDITMESS2.png Graphic file (type png)
 <use gfx/EDITMESS2.png>
 Package pdftex.def Info: gfx/EDITMESS2.png  used on input line 255.
@@ -2134,7 +2156,7 @@ Overfull \hbox (11.12434pt too wide) in paragraph at lines 262--263
 s achieved
  []
 
-<gfx/WorkflowExample1.png, id=644, 1115.96925pt x 510.10574pt>
+<gfx/WorkflowExample1.png, id=654, 1115.96925pt x 510.10574pt>
 File: gfx/WorkflowExample1.png Graphic file (type png)
 <use gfx/WorkflowExample1.png>
 Package pdftex.def Info: gfx/WorkflowExample1.png  used on input line 266.
@@ -2144,7 +2166,7 @@ Package pdftex.def Info: gfx/WorkflowExample1.png  used on input line 266.
 [29 <./gfx/EDITMESS2.png>]
 
 [30 <./gfx/WorkflowExample1.png>]
-<gfx/Prompt.png, id=661, 238.491pt x 286.06876pt>
+<gfx/Prompt.png, id=671, 238.491pt x 286.06876pt>
 File: gfx/Prompt.png Graphic file (type png)
 <use gfx/Prompt.png>
 Package pdftex.def Info: gfx/Prompt.png  used on input line 283.
@@ -2152,12 +2174,12 @@ Package pdftex.def Info: gfx/Prompt.png  used on input line 283.
 
 
 [31 <./gfx/Prompt.png>]
-<gfx/AgentPrompt1.png, id=674, 567.3195pt x 254.75175pt>
+<gfx/AgentPrompt1.png, id=684, 567.3195pt x 254.75175pt>
 File: gfx/AgentPrompt1.png Graphic file (type png)
 <use gfx/AgentPrompt1.png>
 Package pdftex.def Info: gfx/AgentPrompt1.png  used on input line 295.
 (pdftex.def)             Requested size: 369.88583pt x 166.09589pt.
-<gfx/AgentPrompt2.png, id=676, 687.7695pt x 422.17725pt>
+<gfx/AgentPrompt2.png, id=686, 687.7695pt x 422.17725pt>
 File: gfx/AgentPrompt2.png Graphic file (type png)
 <use gfx/AgentPrompt2.png>
 Package pdftex.def Info: gfx/AgentPrompt2.png  used on input line 304.
@@ -2165,7 +2187,7 @@ Package pdftex.def Info: gfx/AgentPrompt2.png  used on input line 304.
 
 
 [32 <./gfx/AgentPrompt1.png>]
-<gfx/AgentPrompt3.png, id=690, 642.60075pt x 263.7855pt>
+<gfx/AgentPrompt3.png, id=700, 642.60075pt x 263.7855pt>
 File: gfx/AgentPrompt3.png Graphic file (type png)
 <use gfx/AgentPrompt3.png>
 Package pdftex.def Info: gfx/AgentPrompt3.png  used on input line 315.
@@ -2184,24 +2206,41 @@ Overfull \hbox (24.80785pt too wide) in paragraph at lines 322--323
 t_prompt
  []
 
-<gfx/Patterns1.png, id=700, 805.8105pt x 340.27126pt>
+<gfx/Patterns1.png, id=712, 805.8105pt x 340.27126pt>
 File: gfx/Patterns1.png Graphic file (type png)
 <use gfx/Patterns1.png>
-Package pdftex.def Info: gfx/Patterns1.png  used on input line 326.
+Package pdftex.def Info: gfx/Patterns1.png  used on input line 327.
 (pdftex.def)             Requested size: 369.88583pt x 156.19437pt.
-<gfx/Patterns2.png, id=701, 792.561pt x 218.0145pt>
+
+
+[34 <./gfx/AgentPrompt3.png>]
+<gfx/Patterns2.png, id=719, 792.561pt x 218.0145pt>
 File: gfx/Patterns2.png Graphic file (type png)
 <use gfx/Patterns2.png>
-Package pdftex.def Info: gfx/Patterns2.png  used on input line 333.
+Package pdftex.def Info: gfx/Patterns2.png  used on input line 334.
 (pdftex.def)             Requested size: 369.88583pt x 101.74826pt.
 
 
-[34 <./gfx/AgentPrompt3.png> <./gfx/Patterns1.png>])
+[35 <./gfx/Patterns1.png> <./gfx/Patterns2.png>]
+<gfx/FinalVisuals.jpeg, id=726, 1189.44376pt x 411.5375pt>
+File: gfx/FinalVisuals.jpeg Graphic file (type jpg)
+<use gfx/FinalVisuals.jpeg>
+Package pdftex.def Info: gfx/FinalVisuals.jpeg  used on input line 343.
+(pdftex.def)             Requested size: 369.88583pt x 127.97719pt.
+<gfx/FinalVIsuals2.jpeg, id=727, 553.31718pt x 511.15968pt>
+File: gfx/FinalVIsuals2.jpeg Graphic file (type jpg)
+<use gfx/FinalVIsuals2.jpeg>
+Package pdftex.def Info: gfx/FinalVIsuals2.jpeg  used on input line 350.
+(pdftex.def)             Requested size: 369.88583pt x 341.70303pt.
+)
 
-[35 <./gfx/Patterns2.png>]
+[36
+
+ <./gfx/FinalVisuals.jpeg> <./gfx/FinalVIsuals2.jpeg>]
 \openout2 = `Chapters/Project_planning_and_management.aux'.
 
- (Chapters/Project_planning_and_management.tex
+
+(Chapters/Project_planning_and_management.tex
 chapter 4.
 
 Overfull \hbox (3.6959pt too wide) in paragraph at lines 4--5
@@ -2222,7 +2261,7 @@ Overfull \hbox (8.72307pt too wide) in paragraph at lines 16--17
 
 
 
-[36
+[37
 
 
 
@@ -2246,17 +2285,17 @@ ained
 
 
 
-[37]
-<gfx/graficoDinero.png, id=731, 362.007pt x 217.248pt>
+[38]
+<gfx/graficoDinero.png, id=749, 362.007pt x 217.248pt>
 File: gfx/graficoDinero.png Graphic file (type png)
 <use gfx/graficoDinero.png>
 Package pdftex.def Info: gfx/graficoDinero.png  used on input line 49.
 (pdftex.def)             Requested size: 369.88583pt x 221.97787pt.
 
 
-[38 <./gfx/graficoDinero.png>])
+[39 <./gfx/graficoDinero.png>])
 
-[39]
+[40]
 \openout2 = `Chapters/Conclusions.aux'.
 
  (Chapters/Conclusions.tex
@@ -2269,21 +2308,21 @@ igned
 
 
 
-[40
+[41
 
 
 
 ]
-<gfx/ErrorApi.png, id=760, 426.09187pt x 232.61906pt>
+<gfx/ErrorApi.png, id=778, 426.09187pt x 232.61906pt>
 File: gfx/ErrorApi.png Graphic file (type png)
 <use gfx/ErrorApi.png>
 Package pdftex.def Info: gfx/ErrorApi.png  used on input line 17.
 (pdftex.def)             Requested size: 258.91895pt x 141.36143pt.
 
 
-[41])
+[42])
 
-[42 <./gfx/ErrorApi.png>]
+[43 <./gfx/ErrorApi.png>]
 \openout2 = `Chapters/TipsAndGuidesForTheSetup.aux'.
 
  (Chapters/TipsAndGuidesForTheSetup.tex
@@ -2294,19 +2333,19 @@ Overfull \hbox (7.53093pt too wide) in paragraph at lines 8--9
 ould
  []
 
-<gfx/Agent1.jpeg, id=772, 456.95718pt x 326.72063pt>
+<gfx/Agent1.jpeg, id=790, 456.95718pt x 326.72063pt>
 File: gfx/Agent1.jpeg Graphic file (type jpg)
 <use gfx/Agent1.jpeg>
 Package pdftex.def Info: gfx/Agent1.jpeg  used on input line 14.
 (pdftex.def)             Requested size: 369.88583pt x 264.47275pt.
 
 
-[43
+[44
 
 
 
 ]
-<gfx/Agent3.jpeg, id=777, 1204.5pt x 600.74437pt>
+<gfx/Agent3.jpeg, id=795, 1204.5pt x 600.74437pt>
 File: gfx/Agent3.jpeg Graphic file (type jpg)
 <use gfx/Agent3.jpeg>
 Package pdftex.def Info: gfx/Agent3.jpeg  used on input line 21.
@@ -2318,8 +2357,8 @@ Overfull \hbox (0.36632pt too wide) in paragraph at lines 26--26
 
 
 
-[44 <./gfx/Agent1.jpeg> <./gfx/Agent3.jpeg>]
-<gfx/SourceDocs.jpeg, id=785, 1204.5pt x 520.19344pt>
+[45 <./gfx/Agent1.jpeg> <./gfx/Agent3.jpeg>]
+<gfx/SourceDocs.jpeg, id=803, 1204.5pt x 520.19344pt>
 File: gfx/SourceDocs.jpeg Graphic file (type jpg)
 <use gfx/SourceDocs.jpeg>
 Package pdftex.def Info: gfx/SourceDocs.jpeg  used on input line 33.
@@ -2342,32 +2381,27 @@ Overfull \hbox (2.82204pt too wide) in paragraph at lines 43--44
 
 
 
-
-Overfull \hbox (16.61333pt too wide) has occurred while \output is active
- []|[]|
- []
-
-[45 <./gfx/SourceDocs.jpeg>]
+[46 <./gfx/SourceDocs.jpeg>]
 Overfull \hbox (0.50575pt too wide) in paragraph at lines 49--50
 []\T1/pplj/m/n/13 This work-flow en-sures that the agent can use cus-tom knowl-
 
  []
 
-<gfx/ConnectionsOfTheAgent.jpeg, id=798, 1204.5pt x 676.77844pt>
+<gfx/ConnectionsOfTheAgent.jpeg, id=817, 1204.5pt x 676.77844pt>
 File: gfx/ConnectionsOfTheAgent.jpeg Graphic file (type jpg)
 <use gfx/ConnectionsOfTheAgent.jpeg>
 Package pdftex.def Info: gfx/ConnectionsOfTheAgent.jpeg  used on input line 53.
 
 (pdftex.def)             Requested size: 369.88583pt x 207.82672pt.
-<gfx/RagIndexsetup.png, id=806, 819.66225pt x 447.47176pt>
+<gfx/RagIndexsetup.png, id=825, 819.66225pt x 447.47176pt>
 File: gfx/RagIndexsetup.png Graphic file (type png)
 <use gfx/RagIndexsetup.png>
 Package pdftex.def Info: gfx/RagIndexsetup.png  used on input line 64.
 (pdftex.def)             Requested size: 369.88583pt x 201.92714pt.
 
 
-[46 <./gfx/ConnectionsOfTheAgent.jpeg>]
-<gfx/EmbeddingError1.jpeg, id=814, 1606.0pt x 903.375pt>
+[47 <./gfx/ConnectionsOfTheAgent.jpeg>]
+<gfx/EmbeddingError1.jpeg, id=832, 1606.0pt x 903.375pt>
 File: gfx/EmbeddingError1.jpeg Graphic file (type jpg)
 <use gfx/EmbeddingError1.jpeg>
 Package pdftex.def Info: gfx/EmbeddingError1.jpeg  used on input line 72.
@@ -2388,7 +2422,7 @@ d by chunks
 
 
 
-[47 <./gfx/RagIndexsetup.png> <./gfx/EmbeddingError1.jpeg>]
+[48 <./gfx/RagIndexsetup.png> <./gfx/EmbeddingError1.jpeg>]
 Overfull \hbox (9.50223pt too wide) in paragraph at lines 87--88
 []\T1/pplj/b/n/13 Modify the In-dex-Cre-atorEXT op-er-a-tor in-side the Rag_ind
 ex
@@ -2400,7 +2434,7 @@ Overfull \hbox (10.466pt too wide) in paragraph at lines 87--88
 
  []
 
-<gfx/StructureIndexCreatorTEX.png, id=826, 672.71326pt x 501.072pt>
+<gfx/StructureIndexCreatorTEX.png, id=844, 672.71326pt x 501.072pt>
 File: gfx/StructureIndexCreatorTEX.png Graphic file (type png)
 <use gfx/StructureIndexCreatorTEX.png>
 Package pdftex.def Info: gfx/StructureIndexCreatorTEX.png  used on input line 9
@@ -2408,17 +2442,43 @@ Package pdftex.def Info: gfx/StructureIndexCreatorTEX.png  used on input line 9
 (pdftex.def)             Requested size: 369.88583pt x 275.51399pt.
 
 
-[48]
-<gfx/CodeIndexCreator.png, id=834, 829.29825pt x 305.34074pt>
+[49]
+<gfx/CodeIndexCreator.png, id=852, 829.29825pt x 305.34074pt>
 File: gfx/CodeIndexCreator.png Graphic file (type png)
 <use gfx/CodeIndexCreator.png>
 Package pdftex.def Info: gfx/CodeIndexCreator.png  used on input line 111.
 (pdftex.def)             Requested size: 369.88583pt x 136.19069pt.
 
 
-[49 <./gfx/StructureIndexCreatorTEX.png>])
+[50 <./gfx/StructureIndexCreatorTEX.png>]
+Overfull \hbox (19.37233pt too wide) in paragraph at lines 119--119
+|[]\T1/pplj/m/sc/13/80ls how to change pa-ram-e-ters talk-ing with the agent| 
+ []
 
-[50 <./gfx/CodeIndexCreator.png>]
+<gfx/ExternalTools1.jpeg, id=861, 1204.5pt x 676.77844pt>
+File: gfx/ExternalTools1.jpeg Graphic file (type jpg)
+<use gfx/ExternalTools1.jpeg>
+Package pdftex.def Info: gfx/ExternalTools1.jpeg  used on input line 126.
+(pdftex.def)             Requested size: 369.88583pt x 207.82672pt.
+
+
+[51 <./gfx/CodeIndexCreator.png>]
+<gfx/ExternalTools2.jpeg, id=868, 1204.5pt x 677.53125pt>
+File: gfx/ExternalTools2.jpeg Graphic file (type jpg)
+<use gfx/ExternalTools2.jpeg>
+Package pdftex.def Info: gfx/ExternalTools2.jpeg  used on input line 135.
+(pdftex.def)             Requested size: 369.88583pt x 208.05789pt.
+
+
+[52 <./gfx/ExternalTools1.jpeg> <./gfx/ExternalTools2.jpeg>]
+Overfull \hbox (0.67577pt too wide) in paragraph at lines 142--143
+[]\T1/pplj/m/n/13 The ex-pan-sion of this mech-a-nism, in ad-di-tion with the t
+rain-
+ []
+
+)
+
+[53]
 \openout2 = `Chapters/CodesUsedForTheProject.aux'.
 
  (Chapters/CodesUsedForTheProject.tex
@@ -2440,15 +2500,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-[51
+[54
 
 
 
 ]
 
-[52])
+[55])
 
-[53]
+[56]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (FrontBackmatter/Bibliography.tex)
@@ -2489,13 +2549,13 @@ https :
 
 
 
-[54
+[57
 
 
 
 ]
 
-[55] (ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
+[58] (ClassicThesis.aux (FrontBackmatter/Titlepage.aux)
 (FrontBackmatter/Abstract.aux) (FrontBackmatter/Acknowledgments.aux)
 (FrontBackmatter/Contents.aux) (Chapters/Introduction.aux) (Chapters/Theory.aux
 ) (Chapters/Practical_part.aux) (Chapters/Project_planning_and_management.aux)
@@ -2716,6 +2776,8 @@ gfx/AgentPrompt2.png
 gfx/AgentPrompt3.png
 gfx/Patterns1.png
 gfx/Patterns2.png
+gfx/FinalVisuals.jpeg
+gfx/FinalVIsuals2.jpeg
 Chapters/Project_planning_and_management.tex
 gfx/graficoDinero.png
 Chapters/Conclusions.tex
@@ -2729,6 +2791,8 @@ gfx/RagIndexsetup.png
 gfx/EmbeddingError1.jpeg
 gfx/StructureIndexCreatorTEX.png
 gfx/CodeIndexCreator.png
+gfx/ExternalTools1.jpeg
+gfx/ExternalTools2.jpeg
 Chapters/CodesUsedForTheProject.tex
 lstlang1.sty    2024/05/25 1.10b listings language file
    t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
@@ -2742,10 +2806,10 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34020 strings out of 473903
- 657144 string characters out of 5726579
+ 34071 strings out of 473903
+ 658339 string characters out of 5726579
  2101908 words of memory out of 5000000
- 55976 multiletter control sequences out of 15000+600000
+ 56019 multiletter control sequences out of 15000+600000
  644301 words of font info for 146 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,23n,130p,10938b,3307s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2759,9 +2823,9 @@ ype1/bera/fvmr8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/palatino/uplb8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/palatino/uplr8a.pfb><C:/Users/hecto/AppData/Local/Programs/MiKTeX/fonts/
 type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (64 pages, 5546900 bytes).
+Output written on ClassicThesis.pdf (67 pages, 6354153 bytes).
 PDF statistics:
- 1181 PDF objects out of 1200 (max. 8388607)
- 298 named destinations out of 1000 (max. 500000)
- 25591 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1216 PDF objects out of 1440 (max. 8388607)
+ 306 named destinations out of 1000 (max. 500000)
+ 25619 words of extra memory for PDF output out of 29859 (max. 10000000)
 

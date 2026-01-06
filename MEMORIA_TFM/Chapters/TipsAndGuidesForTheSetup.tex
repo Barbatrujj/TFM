@@ -116,5 +116,28 @@
 		
 	\end{itemize}
 	
-
+\section{How to change parameters talking with the agent}
+	One of the functionalities that can be implemented through the use of an agent is the ability to modify parameters of other operators within the project. When a user wishes for an agent to control or adjust parameters in an existing setup, this can be achieved by assigning external tools to the agent.
+	
+	As shown in Figure \ref{fig: externaltools1}, an agent supports the inclusion of external operators. By navigating to the Tools tab, a new external operator can be added and linked by dragging the desired operator into the corresponding field. Once connected, the agent gains visibility and control over that operator, allowing it to modify parameters dynamically based on user input or internal logic. One of the external operators in question is a 'Tool Parameter', to which a base is connected. It is proposed that the user's project could be stored in this base, thereby enabling the user to exercise control over specific parameters through the tool parameter and the agent.
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\linewidth]{gfx/ExternalTools1.jpeg}
+		\caption{Agent with different external tools connected.} 
+		\label{fig: externaltools1}
+	\end{figure}
+	
+	Once the Tool Parameter operator has been connected to the base, and the agent has been linked to the Tool Parameter, the next step is to configure the parameter controls. To do so, the Tool Parameter interface must be accessed and configured according to the steps illustrated in Figure \ref{fig: externaltools2}. Within the Settings tab of the Tool Parameter operator, custom parameters can be defined to control any parameter of a target operator. In the example shown, a Noise operator has been added as the target, and the parameter selected for manipulation is the gain of the harmonics.
+	
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\linewidth]{gfx/ExternalTools2.jpeg}
+		\caption{How to add a custom parameter in the Tools Parameter.} 
+		\label{fig: externaltools2}
+	\end{figure}
+	
+	Upon first consideration, this section may appear somewhat superfluous, as users are already able to manually adjust specific parameters within their projects. However, it is at the level of large-scale implementation that the approach's true value becomes apparent. While this functionality has not yet been fully realised, the long-term objective is to introduce a wide range of modifiable parameters that reference different elements of the user's project. This would enable the system to access and manipulate a significantly broader set of controls.
+	
+	The expansion of this mechanism, in addition with the training of the system with multiple specialised agents, for example, agents focused on emotional expression or specific musical genres, would enable autonomous parameter modification. In such a scenario, a user could simply describe the desired visual outcome through a textual prompt, and the agent would possess sufficient contextual knowledge to identify and adjust the relevant parameters accordingly.
 	
